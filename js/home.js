@@ -137,9 +137,6 @@ function initplay(){
 	}
 }
 
-$('.swiper-container').hide();
-	$('.swiperVideo').show();
-	initplay();
 	
 //首页第一屏点击播放视频
 $('.nowPlaybtn').click(function(){
