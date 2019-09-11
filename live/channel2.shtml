@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>NEWS-LATEST-CCTVPLUS</title>
+<link rel="stylesheet" type="text/css" href="../video.js/video-js.min.css"/>
+<script src="../video.js/video.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="../style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href='../style/style_live.css' type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="../video.js/video_style.css"/>
+<script src='../js/jquery-1.11.3.min.js' type="text/javascript"></script>
+<script src="../js/index.js?123" type="text/javascript"></script>
+<script type="text/javascript" src="../js/json2.js"></script>
+<script type="text/javascript" src="../js/jquery.ba-hashchange-min.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+    	<div class="sub_nav_con">
+	    	<ul class="sub_nav">
+	       	    <li ><a href="preview.shtml">Planned Coverage</a></li>
+	            <li><a href="channel1.shtml">Channel 1</a></li>
+	            <li class="cur"><a href="channel2.shtml">Channel 2</a></li>
+				<li><a href="history.shtml">History</a></li>
+	        </ul>
+	      	<div class="nav_search_box">
+	        	<input id="subsearch_val" type="text"  value="Search"/>
+	        	<div class="subsearch_btn" id="subsearch_btn"></div>
+	        </div>
+	        <div class="clear"></div>
+	    </div>
+    </div>
+    <div class="home_flash_box">
+		<div>
+			<h4>Flash:</h4>
+			<p>Chinese vice premier arrives in Washington for 11th round of China-U.S. trade consultations</p>
+			<span></span>
+		</div>
+	</div>
+	<div class="live_point">
+    	Please upgrade to the latest browser.
+    </div>
+    <div class="lastest_page_channel">
+    	<div id="Live_NEW_L">
+    		<div id="Live_L" class="vedio-wp" style="position: relative;">	
+    			<div id="imgWp" style="display: none;"></div>
+    		</div>
+    		<div style="text-align:justify;font-size:.14rem;color:#e80034;font-weight:bold;margin-top:.3rem;">
+			   	Please Note: This is a view-only player. Streamed content cannot be used without prior consent.
+				<span style="display: inline-block /* Opera */; padding-left: 100%;"></span>
+		   </div>
+    	</div>
+        <div id="Live_NEW_R">
+        	<div class="Live_content">
+        		<!--<p class="fileID">
+               		<span class="fileID_one">ID:</span>
+               		<span class="fileID_two"> 291296</span>
+               	</p>
+               	<p class="Location">
+               		<span class="fileID_one">Duration:</span>
+               		<span class="fileID_two">1'06</span>
+               	</p>
+               	<p class="Location">
+               		<span class="fileID_one">Location:</span>
+               		<span class="fileID_two">East China Sea</span>
+               	</p>
+               	<p>
+               		<span class="fileID_one">Restrictions:</span>
+               		<span class="fileID_two"> No access Chinese mainland</span>
+               	</p>
+               	<p class="Detail">Detail:</p>
+               	<p class="Detail_con">As the U.S. presidential election approaches, some people are concerned that Donald Trump’s policies will escalate the growing racial tensions in the country, especially after he was officially declared the Republican Party's presidential nominee on Tuesday.
+During the week's Republican National Convention (RNC) in Cleveland, anti-Trump protesters have demonstrated against immigration proposals made by the real estate mogul.</p>-->
+        	</div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="hide_pd">
+		<div class='oversize'>
+			<p class='letter'>No more than 300 letters</p>
+			<p class='shure'>OK</p>
+		</div>
+	</div>
+</div>
+
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+<script src="../js/channel.js" type="text/javascript"></script>
+<script type="text/javascript">
+//	var net_name = 'Channel 2';
+//	var light_num = 2;
+//	var light_num_li = 2;		
+	var change = 'channel2';
+
+	$('.rmp-hd rmp-module rmp-color-bg').addClass('new_class');
+			
+
+</script>
+</body>
+</html>

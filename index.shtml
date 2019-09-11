@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>HOME-CCTVPLUS</title>
+<link rel="stylesheet" type="text/css" href="/video.js/video-js.min.css"/>
+<link rel="stylesheet" type="text/css" href="/style/lib/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="/style/lib/animate.css" />
+<link rel="stylesheet" type="text/css" href="/style/lib/jquery.mCustomScrollbar.css" />
+<link href="/style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href="/style/style_news.css?123" type="text/css" rel="stylesheet" />
+<![if !IE]>
+	<link rel="stylesheet" type="text/css" href="video.js/video_style.css"/>
+<![endif]>
+<style>
+	.player-dimensions.vjs-fluid{
+	  padding-top: 46% !important;
+	}
+</style>
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" href="video.js/video_style_ie.css"/>
+<![endif]-->
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/lib/jquery.mCustomScrollbar.concat.min.js" type="text/javascript" ></script>
+<script src="/js/lib/swiper.js" type="text/javascript"></script>
+<script src="/js/lib/swiper.animate1.0.3.min.js" type="text/javascript" ></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead_home.shtml"-->
+
+<!--新增首页-->
+<!--第一屏-->
+<div class="page_body">
+	<div class="home_swiper">
+		<div class="swiper-container">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		      <div class="slide-inner  divBox">
+		      	<div class="swiperImg"><img src="http://img.news.cctvplus.com/2019/0903/8120717_1567493010025_a.jpg" alt="" width="100%" height="100%"/></div>
+		      	<div class="swiperlogo"></div>
+		      	<span class="nowPlaybtn"></span>
+		      	<div class="swiper_play"><img src="./style/img/play_icon.png" alt=""/></div>
+		      	<div class="swiper_c"><img src="./style/img/c_icon.png" alt="" width="100%"/></div>
+				<div class="swiper_txt">
+					<p>Oracle closes China’s R&D centre and axes nearly 1,000 employees: Report</p>
+					<div class="swiper_time">
+						<span style="margin-right:.5rem;">May 9 / 2019 -- 23:39   Beijing , China   ID: 8110589</span>
+						<span><img src="./style/img/facebook_icon.png" alt="" /></span>
+						<span><img src="./style/img/twiter_icon.png" alt="" /></span>
+						<span><img src="./style/img/youtube_icon.png" alt="" /></span>
+						<span><img src="./style/img/ling_icon.png" alt="" /></span>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		    <div class="swiper-slide">
+		      <div class="slide-inner">
+		      	<div class="swiperImg"><img src="http://img.news.cctvplus.com/2019/0903/8120701_1567493430022_a.jpg" alt="" width="100%" height="100%"/></div>
+		      	<div class="swiperlogo"></div>
+		      	<span class="nowPlaybtn"></span>
+		      	<div class="swiper_play"><img src="./style/img/play_icon.png" alt=""/></div>
+		      	<div class="swiper_c"><img src="/style/img/c_icon.png" alt="" width="100%"/></div>
+				<div class="swiper_txt">
+					<p>Oracle closes China’s R&D centre and axes nearly 1,000 employees: Report</p>
+					<div class="swiper_time">
+						<span style="margin-right:.5rem;">May 9 / 2019 -- 23:39   Beijing , China   ID: 8110589</span>
+						<span><img src="./style/img/facebook_icon.png" alt="" /></span>
+						<span><img src="./style/img/twiter_icon.png" alt="" /></span>
+						<span><img src="./style/img/youtube_icon.png" alt="" /></span>
+						<span><img src="./style/img/ling_icon.png" alt="" /></span>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		    <div class="swiper-slide">
+		      <div class="slide-inner">
+		      	<div class="swiperImg"><img src="http://img.news.cctvplus.com/2019/0903/8120688_1567491435019_a.jpg" alt="" width="100%" height="100%"/></div>
+		      	<div class="swiperlogo"></div>
+		      	<span class="nowPlaybtn"></span>
+		      	<div class="swiper_play"><img src="/style/img/play_icon.png" alt=""/></div>
+		      	<div class="swiper_c"><img src="/style/img/c_icon.png" alt="" width="100%"/></div>
+				<div class="swiper_txt">
+					<p>Oracle closes China’s R&D centre and axes nearly 1,000 employees: Report</p>
+					<div class="swiper_time">
+						<span style="margin-right:.5rem;">May 9 / 2019 -- 23:39   Beijing , China   ID: 8110589</span>
+						<span><img src="./style/img/facebook_icon.png" alt="" /></span>
+						<span><img src="./style/img/twiter_icon.png" alt="" /></span>
+						<span><img src="./style/img/youtube_icon.png" alt="" /></span>
+						<span><img src="./style/img/ling_icon.png" alt="" /></span>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		    <div class="swiper-slide">
+		      <div class="slide-inner">
+		      	<div class="swiperImg"><img src="http://img.news.cctvplus.com/2019/0903/8120697_1567491000030_a.jpg" alt="" width="100%" height="100%"/></div>
+		      	<div class="swiperlogo"></div>
+		      	<span class="nowPlaybtn"></span>
+		      	<div class="swiper_play"><img src="/style/img/play_icon.png" alt=""/></div>
+		      	<div class="swiper_c"><img src="/style/img/c_icon.png" alt="" width="100%"/></div>
+				<div class="swiper_txt">
+					<p>Oracle closes China’s R&D centre and axes nearly 1,000 employees: Report</p>
+					<div class="swiper_time">
+						<span style="margin-right:.5rem;">May 9 / 2019 -- 23:39   Beijing , China   ID: 8110589</span>
+						<span><img src="./style/img/facebook_icon.png" alt="" /></span>
+						<span><img src="./style/img/twiter_icon.png" alt="" /></span>
+						<span><img src="./style/img/youtube_icon.png" alt="" /></span>
+						<span><img src="./style/img/ling_icon.png" alt="" /></span>
+					</div>
+				</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="swiper-pagination news-slider__pagination"></div>
+		</div>
+		
+		<div class="swiperVideo">
+			<div class="swiperVbox" id="swiperV">
+				
+			</div>
+			<div class="swiper_txt1">
+				<p>Oracle closes China’s R&D centre and axes nearly 1,000 employees: Report</p>
+				<div class="swiper_time1">
+					<span style="margin-right:.5rem;">May 9 / 2019 -- 23:39   Beijing , China   ID: 8110589</span>
+					<span><img src="./style/img/facebook_icon.png" alt="" /></span>
+					<span><img src="./style/img/twiter_icon.png" alt="" /></span>
+					<span><img src="./style/img/youtube_icon.png" alt="" /></span>
+					<span><img src="./style/img/ling_icon.png" alt="" /></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--上拉-->
+	<div class="home_flash">			
+		<div class="flash_con">
+			<p >文字内容文字内容文字内容文字内容</p>
+		</div>
+		<div class="flash_home_title">
+			<p class="flash_test animated"><span>Flash:</span>Chinese vice premier arrives in Washington for 11th round of Ch</p>
+			<div class="flash_btn animated">
+				<!--<span class="isup on"></span>-->
+				<!--<span class="isdown"></span>-->
+			</div>	
+		</div>
+	</div>
+	<div class="home_sector">
+		<div class="user_pic" id="user_pic">
+			<div class="sector_box">
+				<p class="sector_title">Oracle closes China’s R&D centre and axes nearly 1,000 employees: Report</p>		
+				<p class="sector_time">May 9 / 2019 -- 23:39   Beijing , China   ID: 8110589</p>
+			</div>
+			<div class="sector_name">LATEST NEWS</div>
+			<div class="sector_language">
+				<p class="language_tit">Language</p>
+				<ul style="display:none;">
+					<li></li>
+				</ul>
+			</div>
+			<div class="curtaim_mak"></div>
+			<img src='http://img.news.cctvplus.com/2019/0905/8120873_1567645905014_a.jpg' id='curtain'></img>
+			<div class='xuanzhuan'>
+				<ul id="user_call">
+					<li class="user_pic1">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120887_1567652295012_a.jpg" alt="1"/></a>
+					</li>
+					<li class="user_pic2">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120880_1567650975018_a.jpg" alt="2"/></a>
+					</li>
+					<li class="user_pic3">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120878_1567652460133_a.jpg" alt="3"/></a>
+					</li>
+					<li class="user_pic4">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120875_1567648395015_a.jpg" alt="4"/></a>
+					</li>
+					<li class="user_pic5">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120874_1567652775021_a.jpg" alt="5"/></a>
+					</li>
+					<li class="user_pic6">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120873_1567645905014_a.jpg" alt="6"/></a>
+					</li>
+					<li class="user_pic7">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120887_1567652295012_a.jpg" alt="7"/></a>
+					</li>
+					<li class="user_pic8">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120880_1567650975018_a.jpg" alt="8"/></a>
+					</li>
+					<li class="user_pic9">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120878_1567652460133_a.jpg" alt="9"/></a>
+					</li>
+					<li class="user_pic10">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120875_1567648395015_a.jpg" alt="10"/></a>
+					</li>
+					<li class="user_pic11">
+						<div class="imgmask"></div>
+						<a href="#"> <img src="http://img.news.cctvplus.com/2019/0905/8120874_1567652775021_a.jpg" alt="11"/></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--左右滚动条-->
+	
+	<div class="home_roll">
+		<div class="rollbox">
+		<div class="md_hd">CMG Opinion</div>
+		<div class="md_bd">
+			<div class="com_box com_box01">
+				<div class="com_date">08/01</div>
+				<ul>
+					<li>
+						<div class="com_time">09:08</div>
+						<div class="com_cont animated ">
+							<div>
+								<img src="http://img.news.cctvplus.com/2019/0803/53f43eccba9c47d4ae918dd15b787385.png">
+							</div>
+						</div>
+						<p class="com_text animated ">Chinese FM spokesman on DPRK's live-fire  drill</p>	
+					</li>
+					<li>
+						<div class="com_time">09:08</div>
+						<div class="com_cont animated">
+							<div>
+								<img src="http://img.news.cctvplus.com/2019/0714/9e0b78cda0e84563ac6e6702a5648637.png">
+							</div>
+							</div>
+						<p class="com_text animated">Asian food festival to open in  southwest  China city of Chengd</p>	
+					</li>
+					<li>
+						<div class="com_time">09:08</div>
+						<div class="com_cont animated">
+							<div>
+								<img src="http://img.news.cctvplus.com/2019/0815/b674465272af44718e3921592676f835.png">
+							</div>
+						</div>
+						<p class="com_text animated">Harbor seal cubs released into sea in  northeast China</p>	
+					</li>
+				</ul>
+			</div>
+			<div class="com_box com_box02">
+				<div class="com_date">07/31</div>
+				<ul>
+					<li>
+						<div class="com_time">09:08</div>
+						<div class="com_cont ">
+							<div>
+								<img class="animated" src="http://img.news.cctvplus.com/2019/0728/8c7abb7e13124032bcaf2a3037b1f7e3.png">
+							</div>
+						</div>
+						<p class="com_text ">China's iron ore futures close higher Friday</p>	
+					</li>
+					<li>
+						<div class="com_time">09:08</div>
+						<div class="com_cont animated">
+							<div>
+							<img class="animated" src="http://img.news.cctvplus.com/2019/0408/c3de750e44324290b9aa954f9d1e00cf.jpg">
+							</div>
+						</div>
+						<p class="com_text">Asian food festival to open in  southwest  China city of Chengd</p>	
+					</li>
+					<li>
+						<div class="com_time">09:08</div>
+						<div class="com_cont animated">
+							<div>
+								<img class="animated" src="http://img.news.cctvplus.com/2019/0728/676dfde8fb5247af89bbe3ddaded9aeb.png">
+							</div>
+						</div>
+						<p class="com_text">Asian food festival to open in  southwest  China city of Chengd</p>	
+					</li>
+				</ul>
+			</div>
+			<div class="com_station" ></div>
+		</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="home_three">
+		<div class="three_title">View All</div>
+		<div class="three_dime">
+			<div class="three_box">
+				<div class="dimension_one">
+					<div class="dimension_box">
+						<div class="dim_container_one">
+							<div class="dim_wrapper swiper-wrapper">
+								<div class="dimension_item swiper-slide swiper-no-swiping">
+									<img src="http://img.news.cctvplus.com/2019/0728/d90e192ba21f4ae8a5c2848335eba937_a.png" />
+									<div class="dimension_mask"></div>
+									<div class="dimension_tit">
+										<p>China-Asian Civilizations Exhibition China-Asian Civilizations Exhibition</p>
+									</div>
+								</div>
+								<div class="dimension_item swiper-slide swiper-no-swiping">
+									<img src="http://img.news.cctvplus.com/2019/0728/d90e192ba21f4ae8a5c2848335eba937_a.png" />
+									<div class="dimension_mask"></div>
+									<div class="dimension_tit">
+										<p>China-Asian Civilizations Exhibition China-Asian Civilizations Exhibition</p>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+					</div>
+				</div>
+				<div class="dimension_two">
+					<div class="dimension_box">
+						<div class="dim_container_two">
+							<div class="swiper-wrapper">
+								<div class="dimension_item swiper-slide  swiper-no-swiping">
+									<img src="http://img.news.cctvplus.com/2019/0727/437296a8e27d4628a487c20a53f948db_l.png" />
+									<div class="dimension_mask"></div>
+									<div class="dimension_tit">
+										<p>China-Asian Civilizations Exhibition China-Asian Civilizations Exhibition</p>
+									</div>
+								</div>
+								<div class="dimension_item swiper-slide  swiper-no-swiping">
+									<img src="http://img.news.cctvplus.com/2019/0727/437296a8e27d4628a487c20a53f948db_l.png" />
+									<div class="dimension_mask"></div>
+									<div class="dimension_tit">
+										<p>China-Asian Civilizations Exhibition China-Asian Civilizations Exhibition</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dimension_three">
+					<div class="dimension_box">
+						<div class="dim_container_three">
+							<div class="swiper-wrapper">
+								<div class="dimension_item  swiper-slide  swiper-no-swiping">
+									<img src="http://img.news.cctvplus.com/2017/0513/b60070db9fad40f9abe374f7ea2d587b_l.jpg" />
+									<div class="dimension_mask"></div>
+									<div class="dimension_tit">
+										<p>China-Asian Civilizations Exhibition China-Asian Civilizations Exhibition</p>
+									</div>
+								</div>
+								<div class="dimension_item  swiper-slide  swiper-no-swiping">
+									<img src="http://img.news.cctvplus.com/2017/0513/b60070db9fad40f9abe374f7ea2d587b_l.jpg" />
+									<div class="dimension_mask"></div>
+									<div class="dimension_tit">
+										<p>China-Asian Civilizations Exhibition China-Asian Civilizations Exhibition</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="dimension_four">
+					<div class="dimension_box">
+						<div class="dim_container_four">
+							<div class="swiper-wrapper">
+								<div class="dimension_item swiper-slide  swiper-no-swiping">
+									<img src="http://img.news.cctvplus.com/2019/0728/6abfc84644c64d3ab2e9675a9d0a2f0f_l.png" />
+									<div class="dimension_mask"></div>
+									<div class="dimension_tit">
+										<p>China-Asian Civilizations Exhibition China-Asian Civilizations Exhibition</p>
+									</div>
+								</div>
+								<div class="dimension_item swiper-slide  swiper-no-swiping">
+									<img src="http://img.news.cctvplus.com/2019/0728/6abfc84644c64d3ab2e9675a9d0a2f0f_l.png" />
+									<div class="dimension_mask"></div>
+									<div class="dimension_tit">
+										<p>China-Asian Civilizations Exhibition China-Asian Civilizations Exhibition</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+				<div class="dimension_archive">ARCHIVE</div>
+				<div class="dimension_topics">Topics</div>
+				<div class="dimension_view">View All </div>
+				<div class="three_pagination">
+					<span class="three_pag_bullet"></span>
+					<span class="three_pag_bullet   three-pag-bullet-active"></span>
+				</div>	
+		</div>
+	</div>
+	</div>
+</div>
+
+<!--<div class="home_bottom">
+	<div class="home_bott_box">
+		<ul>
+			<li>
+				<p class="bottom_f"><a>NEWS</a></p>
+				<p class="bottom_c"><a>Top Stories</a></p>
+				<p class="bottom_c"><a>Latest</a></p>
+				<p class="bottom_c"><a>Advisories</a></p>
+				<p class="bottom_c"><a>Topics</a></p>
+				<p class="bottom_c"><a>Multimedia</a></p>
+				<p class="bottom_c"><a>Economic Watch</a></p>
+			</li>
+			<li>
+				<p class="bottom_f"><a>ARCHIVE</a></p>
+				<p class="bottom_c"><a>All Archive</a></p>
+				<p class="bottom_c"><a>All Collections</a></p>
+			</li>
+			<li>
+				<p class="bottom_f"><a>EXCHANGE</a></p>
+				<p class="bottom_c"><a>Africa Link Union</a></p>
+				<p class="bottom_c"><a>Today</a></p>
+				<p class="bottom_c"><a>ALL EXCHANGE</a></p>
+			</li>
+			<li>
+				<p class="bottom_f bottom_l"><a>ABOUT US / CONTACT US </a></p>
+			</li>
+		</ul>
+		<div class="bottom_p">
+			<img src="img/logo.png"/>
+			<p>CCTV Newscontent Co, Ltd. All rights reserved 2019   |   Terms & Conditions</p>
+			<p>Powered by CE ULtimate</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>-->
+
+<!--新增首页-->
+
+<!--#include virtual="/publicTopAndBottom/staticBotton_home.shtml"-->
+<script src="/js/index.js?123" type="text/javascript"></script>
+<script src="/video.js/video.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/home.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+var net_name = 'HOME';
+var light_num = 0;
+
+
+</script>
+</body>
+</html>

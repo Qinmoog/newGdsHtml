@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>NEWS-MULTIMEDIA-CCTVPLUS</title>
+<link href="/style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href="/style/style_news.css" type="text/css" rel="stylesheet" />
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+    	<ul class="sub_nav">
+    		<li><a href="flash.shtml">Flash</a></li>
+            <li><a href="topstories.shtml">Top Stories</a></li>
+            <li><a href="latest.shtml">Latest</a></li>
+            <li><a href="economicWatch.shtml">Economic Watch</a></li>
+            <li><a href="topics.shtml">Topics</a></li>
+			<li class="cur"><a href="multimedia.shtml">Multimedia</a></li><input type='hidden' id='channel_code' value='c8'/>
+            <li><a href="advisoriesAll.shtml">Advisories</a></li>
+        </ul>
+        <div class="nav_search_box">
+        	<div class="custom_sel_box" id="subsearch_sel_box">
+                <div class="custom_sel_text">MULTIMEDIA</div>
+                <span class="custom_sel_icon"></span>
+                <ul class="custom_sel_list">
+                    <li class="option" ord_id="ord11111">NEWS</li>
+                    <li class="option" ord_id="ord22222">ARCHIVE</li>
+                    <li class="option" ord_id="ord33333">EXCHANGE</li>
+					<li class="option" ord_id="ord44444">MULTIMEDIA</li>
+                </ul>
+                <input type="hidden" class="custom_sel_val" id="custom_sel_val" value="" />
+            </div>
+            <div class="subsearch_val_box">
+            	<input id="subsearch_val" type="text"  value="Search" onFocus="null_val();" onBlur="is_null();"/>
+            	<span class="clear_btn" onclick="$('#subsearch_val').val('');"></span>
+            </div>
+        	<div class="subsearch_btn" id="subsearch_btn"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="allcollections_page" id="search_list_box"></div>
+</div>
+
+<div class="page_topbar_nav_s">
+	<div class="custom_sel_box_s">
+		<div class="custom_sel_text_s" ord_id="ord44444">MULTIMEDIA</div>
+		<span class="custom_sel_icon_s"></span>
+		<ul class="custom_sel_list_s">
+			<li ord_id="ord11111">NEWS</li>
+			<li ord_id="ord22222">ARCHIVE</li>
+			<li ord_id="ord33333">EXCHANGE</li>
+			<li ord_id="ord44444">MULTIMEDIA</li>
+		</ul>
+	</div>
+	<div class="subsearch_val_box_s">
+		<input type="text" value="Search" id="subsearch_val_s"/>
+	</div>
+	<div class="subsearch_val_box_btn" id="subsearch_val_box_btn"></div>
+	<div class="clear"></div>
+</div>
+
+<div class="page_body_s pd">
+	<p class="md_01_title pad">Multimedia</p>
+	<div class="archive_sch_page_s">
+		<div class="video_big_list" id="search_list_big">
+		
+		</div>
+		<ul class="video_small_list" id="search_list_small">
+			
+		</ul>
+		<div class="fresh_box">
+			<span class="loadMore_btn">More</span>
+		</div>
+	</div>
+</div>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+<script src="/js/common.js?v=new Date()" type="text/javascript"></script>
+<script src="/js/FontSize.js?v=new Date()" type="text/javascript"></script>
+<script src="/js/news_multiMedia.js?v=new Date()" type="text/javascript"></script>
+<script type="text/javascript">
+	var net_name = 'Multimedia';
+	var light_num = 1;
+	var light_num_li = 5;	
+
+</script>
+</body>
+</html>

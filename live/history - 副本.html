@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>NEWS-LATEST-CCTVPLUS</title>
+<link href="../style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href='../style/style_live.css' type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="../style/download.css" />
+<script src='../js/jquery-1.11.3.min.js' type="text/javascript"></script>
+<script src="../js/index.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/json2.js"></script>
+<script type="text/javascript" src="../js/jquery.ba-hashchange-min.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+<script src="../js/jquery.colorbox-min.js" type="text/javascript"></script>
+<script src="../js/icheck.min.js" type="text/javascript"></script>
+<script src="../js/timeZoneTime.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/layer/layer.js"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<!--留言板-->
+<div class="mes-wp" id="mesWp" style="display: none;">
+	<!--nav-->
+	<div class="top-bar">
+		<div class="top-content">
+			<div class="top-logo"></div>
+			<span class="top-info">CCTV Newscontent</span>
+			<span class="top-live" id="topLive">LIVE</span>
+		</div>
+	</div>
+	<!--输入框-->
+	<div class="mes-main clearfix">
+		<div class="main-title">Message Board</div>
+		<div class="main-txta">
+			<textarea name="" rows="" cols="" class="txta" id="txtA"></textarea>
+		</div>
+		<div class="main-btn" id="mainBtn">
+			<div>Post Message</div>
+		</div>
+	</div>
+	<!--显示留言区域-->
+	<div class="mes-main clearfix" id="messageArea"> 
+	</div>
+</div>
+<div id="smallmodel">
+	<!--表单第一页-->
+	<div class="first-page">
+		<p id="Model_title">Subscription information<span class="closeBtn"><img src="../images/Grey.png"/></span></p>
+		<p id="liuyan_con">Contact</p>
+		<div class="tips-wp">
+			<div class="tips">
+				<div id="Name">Name</div>
+				<div class="Red_error_name">
+					<img src="../style/img/img_2015090104.png" />
+					<span>please enter a message</span>
+				</div>
+				<input type="text" class="Name_input" id="name" />
+			</div>
+			<div class="tips">
+				<div id="Name">Telephone number</div>
+				<div class="Red_error_tel">
+					<img src="../style/img/img_2015090104.png" />
+					<span>please enter a message</span>
+				</div>
+				<input type="text" class="Name_input" id="tel" /><br />
+			</div>
+			<div class="tips">
+				<div id="Name">E-mail</div>
+				<div class="Red_error_email">
+					<img src="../style/img/img_2015090104.png" />
+					<span>please enter a message</span>
+				</div>
+				<input type="text" class="Name_input" id="email" /><br />
+			</div>
+			<div class="tips">
+				<div id="Name">Name of organization</div>
+				<div class="Red_error_ora">
+					<img src="../style/img/img_2015090104.png" />
+					<span>please enter a message</span>
+				</div>
+				<input type="text" class="Name_input" id="organization" />
+			</div>
+			<div class="next-img-wp">
+				<div class="next-wp">
+					<span class="next-btn">next</span>
+					<img src="../images/next-btn.png" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--表单第二页-->
+	<div class="next-page">
+		<p id="Model_title">Subscription information<span class="closeBtn"><img src="../images/Grey.png"/></span></p>
+		<div class="tips-wp">
+			<p class="title_two">Video attributes</p>
+			<div class="add-wp">
+				<!--<div id="add">-->
+				<div class="showUL" style="width: 474px;height: 240px;border: 1px dashed;border-color: #ccc;margin-top:20px;">
+					<div style="position: relative;margin-bottom:20px">
+						<span style="width:140px;display: inline-block;margin:20px 0 10px 20px;">URL-1</span>
+						<textarea class="web"></textarea>
+						<span style="font-size: 10px;position:absolute;left:20px;color:#a09e9e;">eg:rtmp://10.6.0.188:1935/livc/my</span>
+						<div class="Red_error_web"><img src="../style/img/img_2015090104.png" /><span>a olute or self-relative</span></div>
+					</div>
+					<div class="FF" style="float: left;">
+						<p class="Audio">Audio solution</p>
+						<div id="Choose" class="Choose" style="position: relative;top:2px;left:22px;overflow:hidden;width:202px;">
+							<div class="Red_error_audio"><img src="../style/img/img_2015090104.png" /><span>Select at least one </span></div>
+							<div id="select">
+								<!--<span class="neir">International sound</span>-->
+								<span class="neir"></span>
+								<span class="pic"><img src=""/></span>
+							</div>
+							<ul class="option1" style="height:120px;overflow-y:auto;">
+							</ul>
+						</div>
+					</div>
+					<div class="FF" style="float: left;margin-left: 39px;">
+						<p class="Audio">Resolution</p>
+						<div class="XUAN Choose" style="position: relative;top:2px;left:22px">
+							<div class="Red_error_ul"><img src="../style/img/img_2015090104.png" /><span>Select at least one </span></div>
+							<div id="Fselect">
+								<!--<span class="Neir">Resolving</span>-->
+								<span class="Neir"></span>
+								<span class="pic"><img src=""/></span>
+							</div>
+							<ul class="OPTION" style="position: absolute;background:#fff;">
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--</div>-->
+			</div>
+			<div class="bottom-page2-wp">
+				<!--<img src="../images/Plus_add.png"/>-->
+				<div id="ADD" class="fixed-wp">
+					<div class="add-btn-wp">
+						<span>Add more</span>
+					</div>
+				</div>
+				<div class="bottom-btn-wp">
+					<div class="prev-wp">
+						<img src="../images/prev-btn.png" alt="" />
+						<span class="prev-btn">prev</span>
+					</div>
+					<div class="next-wp">
+						<span class="last-btn">next</span>
+						<img src="../images/next-btn.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--表单第三页-->
+	<div class="last-page">
+		<p id="Model_title">Subscription information<span class="closeBtn"><img src="../images/Grey.png"/></span></p>
+		<div class="tips-wp">
+			<p class="title_two">Leave a Message</p>
+			<div class="Red_error_write">
+				<img src="../style/img/img_2015090104.png" />
+				<span>please enter a message</span>
+			</div>
+			<div id="write">
+				<textarea style="font-size: 16px;" placeholder="Need to fill in the IP port and other information received live." rows="" cols=""></textarea>
+			</div>
+			<div id="footer">
+				<div class="prev-wp">
+					<img src="../images/prev-btn.png" alt="" />
+					<span class="next-btn">prev</span>
+				</div>
+				<span class="Submit">Submit</span>
+			</div>
+		</div>
+	</div>
+	<!--表单结束-->
+</div>
+
+<div class="page_body">
+	<div class="sub_nav_box">
+		<ul class="sub_nav">
+			<li>
+				<a href="preview.shtml">Planned Coverage</a>
+			</li>
+			<li>
+				<a href="channel1.shtml">Channel 1</a>
+			</li>
+			<li>
+				<a href="channel2.shtml">Channel 2</a>
+			</li>
+			<li  class="cur">
+				<a href="history.html">History</a>
+			</li>
+		</ul>
+		<div class="nav_search_box">
+			<div class="custom_sel_box" id="subsearch_sel_box">
+				<div class="custom_sel_text">NEWS</div>
+				<span class="custom_sel_icon"></span>
+				<ul class="custom_sel_list">
+					<li class="option" ord_id="ord11111">NEWS</li>
+					<li class="option" ord_id="ord22222">ARCHIVE</li>
+					<li class="option" ord_id="ord33333">EXCHANGE</li>
+				</ul>
+				<input type="hidden" class="custom_sel_val" id="custom_sel_val" value="" />
+			</div>
+			<div class="subsearch_val_box">
+				<input id="subsearch_val" type="text" value="Search" />
+				<span class="clear_btn" onclick="$('#subsearch_val').val('');"></span>
+			</div>
+			<div class="subsearch_btn" id="subsearch_btn"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="lastest_page add-lastest-page" style="padding:30px 25px;">
+		<div class="f_l_fix">
+			<!--<div class="search_key_box" id="search_key_box">
+	    	<div class="search_key_tit" id="search_key_tit">ARCHIVE</div><span class="close_btn" id="search_key_close_btn"></span>
+	   </div>-->
+			<div class="search_item_left opened">
+				<div class="ser_htit">
+					Date<span class="icon_btn"></span>
+				</div>
+				<div class="ser_bd" id="Date_data_box">
+					<ul id="DAY">
+						<li><input type="radio" class="data_item" name="Date_radio" value="0" id="Date_1" /><label for="Date_1" class="lab">All</label></li>
+						<li><input type="radio" class="data_item" name="Date_radio" value="1" id="Date_2" /><label for="Date_2" class="lab">Last 24 Hours</label></li>
+						<li><input type="radio" class="data_item" name="Date_radio" value="2" id="Date_3" /><label for="Date_3" class="lab">Last 3 days</label></li>
+						<li><input type="radio" class="data_item" name="Date_radio" value="3" id="Date_4" /><label for="Date_4" class="lab">Last 7 days</label></li>
+						<li><input type="radio" class="data_item" name="Date_radio" value="4" id="Date_5" /><label for="Date_5" class="lab">Last 30 days</label></li>
+						<li class="Select"><input type="radio" class="data_select" name="Date_radio" value="5" id="Date_6" /><label for="Date_6" class="lab">Select</label></li>
+					</ul>
+					<div class="vspace"></div>
+					<div class="date_box">
+						<div class="in_box clearfix">
+							<span class="label">From</span><input type="text" class="time_input Wdate" onclick="WdatePicker({minDate:'1970-01-01',maxDate:'mindate',lang:'en',onpicked:function(dp){change_time_check();}});" id="startTime_val" />
+						</div>
+						<div class="in_box clearfix">
+							<span class="label">To</span><input type="text" class="time_input Wdate" onclick="WdatePicker({minDate:($('#startTime_val').val()==$('#startTime_val').attr('default'))?'1970-01-01':'#F{$dp.$D(\'startTime_val\')}',maxDate:'mindate',lang:'en',onpicked:function(dp){change_time_check()}});" id="endTime_val" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='search_item_left opened' style="display: none;">
+				<div class="ser_htit">
+					Status<span class="icon_btn"></span>
+				</div>
+				<div class='ser_bd' id='Status_data_box'>
+					<ul ID='STATUS'>
+						<li><input type="radio" class="status_item" name="Status_radio" value="All" id="Status_1" /><label for="Status_1" class="lab">All</label></li>
+						<li><input type="radio" class="status_item" name="Status_radio" value="Live in" id="Status_2" /><label for="Status_2" class="lab">Live</label></li>
+						<li><input type="radio" class="status_item" name="Status_radio" value="Scheduled" id="Status_3" /><label for="Status_3" class="lab">Scheduled</label></li>
+						<li><input type="radio" class="status_item" name="Status_radio" value="Ended" id="Status_4" /><label for="Status_4" class="lab">Completed</label></li>
+						<li><input type="radio" class="status_item" name="Status_radio" value="Cancelled" id="Status_5" /><label for="Status_4" class="lab">Cancelled</label></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content_fix">
+			<div class="live_l" style="width:70%">
+				<table width="100%" style="border-collapse:collapse;">
+					<thead class="live_head_box">
+						<tr height="60">
+							<td align="left" style="padding-left:20px;font-weight:bold;">Slug</td>
+							<td align="center" width="25%" style="font-weight:bold;">Start Time</td>
+							<td align="center" width="25%" style="font-weight:bold;">End Time</td>
+							<td align="center" width="20%" style="font-weight:bold;">Status</td>
+						</tr>
+					</thead>
+					<tbody class="live_load_box">
+						<tr height="60">
+							<td colspan="4" style="border-top:1px solid #EFEFEF;border-bottom:1px solid #EFEFEF;border-right:1px solid #EFEFEF;border-left:1px solid #EFEFEF;"></td>
+						</tr>
+					</tbody>
+					<tbody class="live_list_box"></tbody>
+				</table>
+				<div style="height: 34px;" class="vspace"></div>
+				<div class="custom_page_box" id="search_list_pagebox">
+					<div class="cus_page_btns">
+						<!--<a class="prev" href="">Prev</a>
+						<a class="prev_btn" href=""></a>
+						<a href="">1</a>
+						<a href="">2</a>
+						<a href="">3</a>
+						<a href="">4</a>
+						<a href="">5</a>
+						<a href="">...</a>
+						<a href="">66</a>
+						<a class="next_btn" href=""></a>
+						<a class="next" href="">Next</a>-->
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="live_r" style="width:29%">
+				<div class="live_r_tit">
+					<p>
+						<span></span>
+						<a id="messageBtn">Message</a>
+					</p>
+				</div>
+				<div class="live_r_detail">
+					<div class="datail_success_box">
+						<!--<h1 class="title">China-Ailing Giant Panda</h1>
+			               	<div style="margin-bottom:10px;"><span id="btn">Subscribe</span></div>
+			               	<div class="detail_Box">
+			               		<div class="detail_l">-->
+						<!--<p>
+					               		<span class="fileID_one">File ID:</span>
+					               		<span class="fileID_two"> 291296</span>
+					               </p>
+					               	<p>
+					               		<span class="fileID_one">Location:</span>
+					               		<span class="fileID_two">Xisha Islands, S China</span>
+					               	</p>
+					               	<p>
+					               		<span class="fileID_one">Restrictions:</span>
+					               		<span class="fileID_two">cctv</span>
+					               	</p>
+				               	</div>
+				               	<div class="detail_r">
+				               		<p class="r_channel">
+					               		<span class="fileID_one">Channel:</span>
+					               		<span class="fileID_two">1</span>
+					               	</p>
+					               	<p class="r_time">
+					               		<span class="fileID_one">Time:</span>
+					               		<span class="fileID_two"> 2017-2-30 9：00</span>
+					               	</p>
+					               	<p class="r_status">
+					               		<span class="fileID_one">Status:</span>
+					               		<span class="fileID_two">Live in</span>
+					               	</p>
+				               	</div>
+			               	</div>
+	           				<div style="height: 30px;"></div>
+			               	<p class="Detail">Event:</p>
+			               	<p class="Detail_con">As the U.S. presidential election approaches, some people are concerned that Donald Trump’s policies will escalate the growing racial tensions in the country, especially after he was officially declared the Republican Party's presidential nominee on Tuesday.
+			During the week's Republican National Convention (RNC) in Cleveland, anti-Trump protesters have demonstrated against immigration proposals made by the real estate mogul.</p>-->
+					</div>
+					<div class="datail_error_box"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+<script type="text/javascript">
+	var net_name = 'History';
+	var light_num = 2;
+	var light_num_li = 3;		
+</script>
+
+<!--add wjj 2016-02-03 begin-->
+<div style="display:none;">
+	<div class="creat_order_win" id="creat_order_win">
+		<div class="order_win_box">
+			<div class="radio_b">
+				<input type="radio" name="ordertype_win" checked="checked" id="add_to_order_win" />
+				<label style="padding-right:22px;" for="add_to_order_win">Add to exsiting order</label>
+				<input type="radio" name="ordertype_win" id="cre_new_order_win" />
+				<label for="cre_new_order_win">Create new order</label>
+				<div class="clear"></div>
+			</div>
+			<div class="clearfix">
+				<div class="custom_sel_box" id="order_sel_box">
+					<div class="custom_sel_text" id="order_sel_text">please check one order</div>
+					<span class="custom_sel_icon"></span>
+					<ul class="custom_sel_list"></ul>
+					<input type="hidden" class="custom_sel_val" name="" id="orderID" value="" />
+				</div>
+				<div class="form_elemt_box" id="neworder_val_box" style="display:none;"><input class="textinp" type="text" id="neworder_val" name="neworder_val" value="" /></div>
+				<div class="bug_btn_win" id="addArchive"></div>
+			</div>
+		</div>
+		<div class="order_win_info clearfix">data error</div>
+		<div id="order_win_msg" class="order_win_msg"></div>
+	</div>
+</div>
+<script src="../js/history.js?v=new Date()" type="text/javascript"></script>
+</body>
+</html>

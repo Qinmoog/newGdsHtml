@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"   content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>ARCHIVE-DETAIL-BUY-CCTVPLUS</title>
+<!---->
+		<meta property='og:title'  content='China-HK Unrest/Ending Chaos' />
+		<meta property='og:description'   content='No hesitation for stopping violence, ending chaos in Hong Kong: spokesman' />
+		<meta property='og:image'  content='http://img.news.cctvplus.com/2019/0903/8120750_1567502556288_l.jpg' />
+<!--<link href="/style/style_news.css" type="text/css" rel="stylesheet" />-->
+<link rel="stylesheet" type="text/css" href="/video.js/video-js.min.css"/>
+<link href="/style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href="/style/style_news.css" type="text/css" rel="stylesheet" />
+<![if !IE]>
+	<link rel="stylesheet" type="text/css" href="/video.js/video_style.css"/>
+<![endif]>
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/video.js/video.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+<!-- <script type="text/javascript" src="/js/ckplayer/ckplayer1.js"></script> -->
+<script src="/js/Details/archiveDetails.js?123" type="text/javascript"></script>
+<script src="/js/rmp.min.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+	<div class="detail_page">
+    	<div class="f_l">
+        	<div class="video_box" id="video_box"></div>
+            <div class="video_desc">
+            	<div class="item" id="detail_infotab_cont2_1" style="display:block;">
+                    <p>China-HK Unrest/Ending Chaos</p>
+                  	  <h1>No hesitation for stopping violence, ending chaos in Hong Kong: spokesman</h1>
+                </div>
+            </div>
+            <div class="vspace" style="height:26px;"></div>
+            <div class="video_shotlist">
+            	<ul id="detail_infotab">
+            			<li class="item cur" midd="887915" dcidd="8120750" hashash='language=1'>English</li>
+                </ul>
+                <div class="items">
+                	<div class="item" id="detail_infotab_cont_1" style="display:block;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="f_r">
+        	<div class="info_box" style="padding-top:23px;">
+        	<input type="hidden" id="dcid" value="8120750">
+                <div class="order_box">
+                	<div class="radio_b">
+                    	<input type="radio" name="ordertype" checked="checked" id="add_to_order"/>
+                        <label style="padding-right:22px;padding-left: 25px;" for="add_to_order">Add to exsiting order</label>
+                        <input type="radio" name="ordertype" id="cre_new_order" />
+                        <label style="padding-left: 25px;" for="cre_new_order">Create new order</label>
+                    	<div class="clear"></div>
+                    </div>
+                    <div class="custom_sel_box" id="order_sel_box">
+                    	<div class="custom_sel_text">please check one order</div>
+                        <span class="custom_sel_icon"></span>
+                        <ul class="custom_sel_list">
+                        </ul>
+                        <input type="hidden" class="custom_sel_val" name="" value=""  id="orderID"/>
+                    </div>
+                    <div class="form_elemt_box" id="neworder_val_box" style="display:none;"><input class="textinp" type="text" id="neworder_val" name="neworder_val" value="" /></div>      
+                    <div class="vspace" style="height:15px;"></div>
+                    <div class="colbtn" id="addArchive" style="width: 65%;float:left;">Order</div>
+                    <div class="colbtn" style="width: 25%;float:right;"><a href="https://secure.cctvplus.com/userOrder/uorderList.do" target="_blank" style="color:white;">cart</a></div>
+                </div>
+                <div class="vspace" style=" height:15px;"></div>
+                
+                <!--add wjj 2016-03-16 -->
+                <div id="download_box_" class="download_box" style="width: 120px; display: block;height:40px;text-align:center;padding:1px 0 3px 0;">
+					<ul style="padding:0;">
+						<li>
+							<a class="d_item_t" target="_blank" href="#"  id="preview_dl">
+								<span class="d_btn" style="width:31px;"></span>
+									Preview
+							</a>
+						</li>
+					</ul>
+				</div>
+                
+                
+	                <div class="info_item" id="detail_infotab_cont3_1" style="display:block;">
+		                <ul class="info_list">
+		                	<li><span class="lab">ID : 8120750</span></li>
+		                    <li><span class="lab"></span>Published : 2019-09-03 17:32 </li>
+		                    <li><span class="lab">Last Modified : 2019-09-03 17:41:50 </span></li>
+		                    <li><span class="lab">Location : Beijing,China</span></li>
+		                    <li><span class="lab">Category : crime, law and justice</span></li>
+		                    <li><span class="lab">Duration : 2'34</span></li>
+		                    <li><span class="lab">Audio Language : Chinese/Nats</span></li>
+		                    <li><span class="lab">Source : China Central Television (CCTV)</span></li>
+		                    <li><span class="lab">Restrictions : No access Chinese mainland</span></li>
+		                    <li><span class="lab">Version : 1</span></li>
+		                </ul>
+		                <div class="vspace"></div>
+                    	<!-- <div class="sharebtns" id="sharebtns_box">
+	                   		<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/archive/20190903/8120750.shtml#!language=1&t=China-HK Unrest/Ending Chaos');" class='btn01'></a>
+	                        <a href="javascript:;" onclick="_twitter('http://twitter.com/home/?status=Currentlyreading?&u=http://www.cctvplus.com/archive/20190903/8120750.shtml#!language=1=&tChina-HK Unrest/Ending Chaos');" rel='nofollow' class='btn02'></a>
+	                        <a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/archive/20190903/8120750.shtml#!language=1&title=China-HK Unrest/Ending Chaos');" class='btn03'></a>
+                    	</div> -->
+                    	<input type="hidden" id="detailBuyPath" value="http://www.cctvplus.com/archive/20190903/8120750.shtml#!language=1"/>
+                   		<input type="hidden" id="pubTitle" value="China-HK Unrest/Ending Chaos"/>
+                    	<!--#include virtual="/publicTopAndBottom/share.shtml"-->
+	                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<div class="page_body_s">
+	<div class="detail_01">
+		<div class="detail_data_box">
+			<div class="video_box_s" id="video_box_s"></div>
+			<div class="video_desc">
+		            	<div class="item" id="detail_Info_Tab_cout1_1" style="display:block;">
+		                    <p>China-HK Unrest/Ending Chaos</p>
+		                    <h1>No hesitation for stopping violence, ending chaos in Hong Kong: spokesman</h1>
+		                    <input type="hidden" id="videoPath" value="http://cd-pv.news.cctvplus.com/2019/0903/8120750_Preview_3242.mp4">
+		                </div>
+				
+			</div>
+			<div class="detail_info_box_01">
+						<div class="info_item" id="detail_Info_Tab_cout2_1" style="display:block;">
+							<p>Dateline : Aug 25, 2019/Sept 3, 2019</p>
+							<p>Location : Beijing,China</p>
+							<p>Duration : 2'34</p>
+						</div>
+			</div>
+			<div class="video_shotlist">
+				 
+				<ul id="detail_Info_Tab">
+	            			<li class="item cur" midd="887915" dcidd="8120750" hashash='language=1'>English</li>
+				</ul>
+				
+				
+				<div class="detail_Info_items">
+		                	<div class="item" id="detail_Info_Tab_cout3_1" style="display:block;">
+		                    </div>
+					
+                   
+				</div>
+			</div>
+			<div class="detail_info_box_01">
+               		<div class="info_item" id="detail_Info_Tab_cout4_1" style="display:block;"> 	
+						<p>ID : 8120750</p>
+						<p>Published : 2019-09-03 17:32 </p>
+						<p>Last Modified : 2019-09-03 17:41:50 </p>
+						<p>Source : China Central Television (CCTV)</p>
+						<p>Restrictions : No access Chinese mainland</p>
+					</div>
+					<input type="hidden" id="detailBuyPath_s" value="http://www.cctvplus.com/archive/20190903/8120750.shtml#!language=1"/>
+                   	<input type="hidden" id="pubTitle_s" value="China-HK Unrest/Ending Chaos"/>
+				
+			</div>
+			<div class="detail_link_box" id="detail_link_box_s">
+				<a href="javascript:;" onclick="_facebook_s();" class="link_fb"></a>
+				<a href="javascript:;" onclick="_twitter_s();" class="link_tw"></a>
+				<a href="javascript:;" onclick="_linkedin_s();" class="link_in"></a>
+			</div>
+		</div>
+	</div>
+	<p class="md_01_title" style="padding:0 15px 15px 15px">More</p>
+	<div class="md_01_s" style="padding:0 15px;">
+		<div class="video_list_box_s top_list_box">
+			<ul>
+				<!--<li class="item_li" mid="660471" dcid="8085176"><a>
+					<dl>
+						<dt><img src="http://img.news.cctvplus.com/2018/0718/8085710_1531889220228_s.jpg" /></dt>
+						<dd>
+							<p>UAE-Xi's Visit/Expectation</p>
+						</dd>
+					</dl>
+				</a></li>
+				<li class="item_li" mid="662289" dcid="8085712">
+					<dl>
+						<dt><img src="http://img.news.cctvplus.com/2018/0718/8085712_1531890000137_s.jpg" /></dt>
+						<dd>
+							<p>China-Typhoon Son-Tinh/Trucks</p>
+						</dd>
+					</dl>
+				</li>
+				<li class="item_li" mid="660471" dcid="8085176">
+					<dl>
+						<dt><img src="http://img.news.cctvplus.com/2018/0718/8085710_1531889220228_s.jpg" /></dt>
+						<dd>
+							<p>UAE-Xi's Visit/Expectation</p>
+						</dd>
+					</dl>
+				</li>
+				<li class="item_li" mid="662289" dcid="8085712">
+					<dl>
+						<dt><img src="http://img.news.cctvplus.com/2018/0718/8085712_1531890000137_s.jpg" /></dt>
+						<dd>
+							<p>China-Typhoon Son-Tinh/Trucks</p>
+						</dd>
+					</dl>
+				</li>-->
+			</ul>
+		</div>
+	</div>
+	<br/><br/>
+</div>
+
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+
+<script src="/js/common.js?v=new Date()" type="text/javascript"></script>
+<script src="/js/FontSize.js?v=new Date()" type="text/javascript"></script>
+<script type="text/javascript">
+	var net_name = 'HOME';
+	var light_num = 0;	
+	
+	var pc_flag = false;
+	var phone_flag = false;
+	var pc_pause = false;
+	var phone_pause = false;
+
+$(function(){
+	var screenWidth=$(window).width();  //获取当前屏幕宽度
+	//init_p('http://cd-pv.news.cctvplus.com/2019/0903/8120750_Preview_3242.mp4');
+	
+	
+
+function init_p(uu_){ 
+		pc_flag = true;
+		$('#video_box').append('<video id="player" class="video-js vjs-big-play-centered vjs-fluid"></video>');
+		
+	    var player = createVideo(uu_, "player");
+	    var myplay = videojs('player');
+		myplay.src(uu_);
+		myplay.load(uu_);		
+
+
+	
+			function createVideo(src, id) {
+			  return videojs(id, {
+		//		  	poster: img,
+			    controls: true,
+			    preload: true,
+			    width:1000,
+			    height:600,
+			    sources:[src]
+			  });
+			}		
+		
+			
+		//	var bitrates = {
+		//			mp4: [
+		//				uu_				
+		//			  ]
+		//
+		//		};
+		//		var settings = {
+		//		    licenseKey: 'Kl8leXk3OWdjODAyeWVpP3JvbTVkYXNpczMwZGIwQSVfKg==',
+		//		    bitrates: bitrates,
+		//		    delayToFade: 3000,
+		//		    width:'100%',
+		//		    height:'100%',
+		////		    width: 820,
+		////		    height: 460,
+		//		    preload: 'auto',
+		//			skin: 's4',
+		//			skinBackgroundColor: 'rgba(0, 0, 0, 0.45)',
+		//			skinButtonColor: 'FFFFFF',
+		//			skinAccentColor: '000000'
+		//		};
+		//	
+		//	$('#video_box').html('');
+		//	
+		//	var elementID = 'video_box';
+		//	var rmp = new RadiantMP(elementID);	
+		//	rmp.init(settings);
+		////	$('#ckplayer_a1').remove();
+		
+		}	
+		
+		
+				
+		function init_video(uu_){  //小屏
+			
+				phone_flag = true;
+				$('#video_box_s').append('<video webkit-playsinline="true" playsinline="true" id="player1" class="video-js vjs-big-play-centered vjs-fluid"></video>');
+				
+			    var player1 = createVideo(uu_, "player1");
+			    var myplay1 = videojs('player1');
+				myplay1.src(uu_);
+				myplay1.load(uu_);		
+						
+			function createVideo(src, id) {
+			  return videojs(id, {
+		//		  	poster: img,
+			    controls: true,
+			    preload: true,
+			    width:1000,
+			    height:600,
+			    sources:[src]
+			  });
+			}			
+			
+			
+		//	var video_content = $('#video_box_s'),
+		//		vid_f_bod_ = $('.detail_data_box'),
+		//		window_width = $(window).width();
+		//	var hh = Math.ceil(vid_f_bod_.width()/16*9),
+		//		ww = vid_f_bod_.width();
+		//	
+		//	$('#video_box_s').html('');
+		//	var bitrates = {
+		//		mp4: [
+		//			u
+		//		  ]
+		//	};
+		//	var settings = {
+		//	    licenseKey: 'Kl8leXk3OWdjODAyeWVpP3JvbTVkYXNpczMwZGIwQSVfKg==',
+		//	    bitrates: bitrates,
+		//	    delayToFade: 3000,
+		////		width:'100%',
+		////		height:auto,
+		////		height:'100%',
+		////		width: 661,
+		////		height: 372,
+		//		width: ww,
+		//		height:hh,
+		//	    preload: 'auto',
+		//		skin: 's4',
+		//		skinBackgroundColor: 'rgba(0, 0, 0, 0.45)',
+		//		skinButtonColor: 'FFFFFF',
+		//		skinAccentColor: '000000'
+		//	};
+		//	var elementID = 'video_box_s';
+		//	var rmp = new RadiantMP(elementID);
+		//	var rmpContainer = document.getElementById(elementID);
+		//	
+		//	rmp.init(settings);
+		}
+				
+		
+	
+		
+	
+	
+	
+function getMainWidth() {	
+					if( $(window).width() <=1280 ){//窄屏
+					if (phone_flag) {
+				
+						if(pc_flag && !pc_pause) {
+							pc_pause = true;
+							phone_pause = false;
+							videojs("player").pause(); 
+							videojs("player1").play(); 
+						}
+						
+						return 0;
+					}	
+						
+						init_video('http://cd-pv.news.cctvplus.com/2019/0903/8120750_Preview_3242.mp4');
+					}else{ //大屏
+						var CDPATH = 'http://cd-pv.news.cctvplus.com/2019/0903/8120750_Preview_3242.mp4';
+						var CDPATH1 = CDPATH.replace("cd-pv.news.cctvplus.com","cd-pv-dl.news.cctvplus.com");//cd-pv.news.cctvplus.com
+						$("#preview_dl").attr('href',CDPATH1);
+						
+						if (pc_flag) {
+							if(phone_flag && !phone_pause) {
+								pc_pause = false;
+								phone_pause = true;
+								videojs("player1").pause(); 
+								videojs("player").play(); 	
+							}
+								
+							return 0;
+						}																		
+						init_p('http://cd-pv.news.cctvplus.com/2019/0903/8120750_Preview_3242.mp4');
+
+					}
+					
+	
+	
+	}
+
+	getMainWidth();
+	
+	$(window).on('resize',function(){
+		getMainWidth();
+	});	
+	
+	
+		var videoEl = document.querySelector('video');
+		$(document).keydown(function (e) {
+			var e = e || window.event;
+			var code = e.keyCode;
+			 switch (code) {
+			 	case 32:
+			 	if (videoEl.paused) {
+			 		videoEl.play();
+			 	} else {
+			 		videoEl.pause();
+			 	}
+			 	e.preventDefault();
+			 	break;
+			 	default:
+			 	break;
+			 }
+	         
+    	})			
+	
+	
+	
+	
+	
+}); 
+
+</script>
+
+
+</body>
+</html>

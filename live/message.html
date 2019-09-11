@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href='../style/style_news_06.css' type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="mes-wp" id="mesWp">
+			<!--nav-->
+			<div class="top-bar">
+				<div class="top-content">
+					<div class="top-logo"></div>
+					<span class="top-info"></span>
+					<span class="top-live" id="topLive">Message Board</span>
+				</div>
+			</div>
+			
+			<!--输入框-->
+			<div class="mes-main clearfix">
+				<div class="main-title">LIVE</div>
+				<div class="main-txta">
+					<textarea name="" rows="" cols="" class="txta" id="txtA" placeholder="Type your comment here..."></textarea>
+				</div>
+				<div class="main-btn" id="mainBtn">
+					<div>Post</div>
+				</div>
+							
+			</div>
+			
+		<!--显示留言区域-->
+		<div class="mes-main clearfix" id="messageArea">
+			 
+			
+			  <div class="leave-mes">
+				<div class="mes-line"></div>
+				<div class="mes-info">
+					<div class="info-top clearfix"> 
+						<span class="info-name">China Central Television</span>
+						<div class="info-content">
+							<span class="info-place">CCTV</span>
+							<span class="info-time">(0242 GMT)</span>
+						</div>
+					</div>
+					<div class="info-detail mes-info">Hello AP,do you haveHello AP,do you haveHello AP,do you haveHello AP,do you haveHello AP,do you haveHello AP,do you have?</div>
+				</div>
+				
+				<div class="back-mes leave-mes">
+					<div class="mes-line"></div>
+					<div class="mes-info">
+						<div class="info-top clearfix"> 
+							<span class="info-name">China Central Television</span>
+							<div class="info-content">
+								<span class="info-place">CCTV</span>
+								<span class="info-time">(0242 GMT)</span>
+							</div>
+						</div>
+						<div class="info-detail mes-info mes-red">Hel?</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="leave-mes">
+				<div class="mes-line"></div>
+				<div class="mes-info">
+					<div class="info-top clearfix"> 
+						<span class="info-name">China Central Television</span>
+						<div class="info-content">
+							<span class="info-place">CCTV</span>
+							<span class="info-time">(0242 GMT)</span>
+						</div>
+					</div>
+					<div class="info-detail mes-info">Hello AP,do you haveHello AP,do you haveHello AP,do you haveHello AP,do you haveHello AP,do you haveHello AP,do you have?</div>
+				</div>
+				
+				<div class="back-mes leave-mes">
+					<div class="mes-line"></div>
+					<div class="mes-info">
+						<div class="info-top clearfix"> 
+							<span class="info-name">China Central Television</span>
+							<div class="info-content">
+								<span class="info-place">CCTV</span>
+								<span class="info-time">(0242 GMT)</span>
+							</div>
+						</div>
+						<div class="info-detail mes-info mes-red">Hel?</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		</div>
+		
+		<script src='../js/jquery-1.11.3.min.js' type="text/javascript"></script>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/layer/layer.js"></script>
+		<script>
+			var user = cookie_val_;
+						
+			
+			function getVal(strName,strHref){
+				var strHref = strHref || window.location.href ;
+				var intPos = strHref.indexOf('?');
+				if(intPos ===-1){return '';}
+				var strRight = strHref.substr(intPos + 1);
+				var arrTmp = strRight.split('&');
+				for(var i = 0; i < arrTmp.length; i ++ ){
+					var arrTemp = arrTmp[i].split('=');
+					if(arrTemp[0].toUpperCase() == strName.toUpperCase()){ 
+						return arrTemp[1];
+					}
+				}
+				return '';
+			}
+			
+			//获取视频留言
+			function getMessage(){				
+				var url = 'https://secure.cctvplus.com/review/getCommentListByVideoId.do';
+				
+				$.ajax({
+					type : 'get',
+					url : url,
+					data : {
+						DCID : '10001'
+					},
+					success : function(data){
+						var arr = [];
+						data = JSON.parse(data);
+						$.each(data, function(i,obj){
+							if( !obj.BEREPLYER && !obj.BEREPLYORGAN && !obj.BEREPLYTIME && !obj.BEREPLY){
+								
+							}else{
+								arr.push(
+									'<div class="leave-mes">',
+										'<div class="mes-line"></div>',
+										'<div class="mes-info">',
+											'<div class="info-top clearfix">',
+												'<span class="info-name">',obj.BEREPLYORGAN,'</span>',
+												'<div class="info-content">',
+													'<span class="info-place">',obj.BEREPLYER,'</span>',
+													'<span class="info-time">(',obj.BEREPLYTIME,')</span>',
+												'</div>',
+											'</div>',
+											'<div class="info-detail mes-info">',obj.BEREPLY,'</div>',
+										'</div>'									
+								);
+								
+							}
+							
+							
+							if( !obj.MESSAGEORGAN && !obj.MESSAGEER && !obj.MESSAGETIME && !obj.MESSAGE){
+								
+							}
+							else{
+								
+								arr.push(
+									'<div class="back-mes leave-mes">',
+											'<div class="mes-line"></div>',
+											'<div class="mes-info">',
+												'<div class="info-top clearfix">',
+													'<span class="info-name">China Central Television</span>',
+													'<div class="info-content">',
+														'<span class="info-place">',obj.MESSAGEER,'</span>',
+														'<span class="info-time">(',obj.MESSAGETIME,')</span>',
+													'</div>',
+												'</div>',
+												'<div class="info-detail mes-info mes-red">',obj.MESSAGE,'</div>',
+											'</div>',
+										'</div>',
+										
+										
+									'</div>'
+								);
+							}
+							
+						});
+						
+						$('#messageArea').html(arr.join(''));
+						
+					}
+				});
+			}
+			$('#messageArea').html('Loading...');
+			getMessage();
+			
+			
+			//提交留言
+			$('#mainBtn').on('click',function(){				
+//				var url = 'http://172.20.1.9:8890/review/addComment.do',
+				var url = 'https://secure.cctvplus.com/review/addComment.do',
+				param = {
+					USERNAME : user,
+					DCID : '10001',					
+					COMMENTARY : $("#txtA").val()
+				};
+				$('#txtA').val('');
+			    if (user == 'George') {
+						login_bar_fun();
+						$(".colorbox").css({
+							display: "block"
+						});
+				}else{
+					$.ajax({
+						url : url,
+						data : param,
+						type : 'post',
+						success : function(data){
+							data = JSON.parse(data);
+							if( data[0].msg == 'success' ){									
+								getMessage();
+								layer.msg('Message successfully');
+							}else{
+								layer.msg('Message is empty');
+							}
+							
+						},
+						error :　function(){
+							layer.msg('Message failed');
+						}
+					});
+				}
+				
+			});
+		</script>
+	</body>
+</html>

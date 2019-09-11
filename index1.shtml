@@ -1,0 +1,1438 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>HOME-CCTVPLUS</title>
+<link rel="stylesheet" type="text/css" href="/video.js/video-js.min.css"/>
+<!--<link href="/style/style_news.css?123" type="text/css" rel="stylesheet" />-->
+<link href="/style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href="/style/style_news.css?123" type="text/css" rel="stylesheet" />
+<![if !IE]>
+	<link rel="stylesheet" type="text/css" href="video.js/video_style.css"/>
+<![endif]>
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" href="video.js/video_style_ie.css"/>
+<![endif]-->
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+
+
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .banner {
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+    }
+    .banner .slide {
+        position: absolute;
+    }
+    .banner .slide .pic {       
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        float: left;
+        font-size: 16px;
+        color: #fff;
+    }   
+    .banner .slide .pic a{
+        font-size: 16px;
+        color: #fff;
+    }
+    .banner .slide .pic_ {
+        height: 65px;
+        text-align: center;
+        float: left;
+        font-size: 16px;
+        color: #333333;
+    }
+	.span_box {
+		display: table;
+	}
+	.words_span {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+	}
+    </style>
+
+
+
+
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+	 <div class="sub_nav_box" >
+    	<div class="sub_nav" style="padding-left: 10px;width: 60%;">
+	    	<div class="banner" style="width: 100%;height: 50px;">
+				 <div class="slide" style="height: 50px;position: absolute;">
+       
+				 </div>
+	       </div>
+	    </div>
+       <div class="nav_search_box">
+        	<div class="custom_sel_box" id="subsearch_sel_box">
+                <div class="custom_sel_text">NEWS</div>
+                <span class="custom_sel_icon"></span>
+                <ul class="custom_sel_list">
+                    <li class="option" ord_id="ord11111">NEWS</li>
+                    <li class="option" ord_id="ord22222">ARCHIVE</li>
+                    <li class="option" ord_id="ord33333">EXCHANGE</li>
+                </ul>
+                <input type="hidden" class="custom_sel_val" id="custom_sel_val" name="" value="ord11111" />
+            </div>
+            <div class="subsearch_val_box">
+            	<input id="subsearch_val" type="text"  value="Search" onFocus="null_val();" onBlur="is_null();"/>
+ 		<span class="clear_btn" onclick="$('#subsearch_val').val('');"></span>
+            </div>
+        	<div class="subsearch_btn" id="subsearch_btn"></div>
+        </div>
+        <!--<div class="clear"></div>-->
+    </div>	
+	
+
+<div class="index_meg_box">
+	<div id="index_meg_box_over" class="overflow_box">
+    <div class="cont_box clearfix">
+    <ul class="clearfix">
+    </ul>
+    </div>
+    </div>
+</div>
+	<div class="md_01">
+    	<div class="infos_box">
+        	<div class="video_box" id="player_box_2015"></div>
+            <div class="info_box" id="player_box_info">
+            	                <div class="item_c" id="lunbo_listv_cont_1" style="display:block;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120744.shtml#!language=1" target='_blank' ><h3>Rampant violence, lenient rules pose greatest danger to Hong Kong: spokesman</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 3, 2019</p>
+                    	<p class="desc" style="bottom:110px;">China;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120744<input type="hidden" value="8120744" id="dcid"><input type="hidden" value="887895" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120744.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120744.shtml#!language=1&t=China-HK Situation/Violence');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=China-HK Situation/Violence&url=http://www.cctvplus.com/news/20190903/8120744.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120744.shtml#!language=1&title=China-HK Situation/Violence');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_2" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120749.shtml#!language=1" target='_blank' ><h3>Bottom line of "one country, two systems" principle brooks no challenge: spokesman</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 3/1/Aug 31, 2019</p>
+                    	<p class="desc" style="bottom:110px;">China;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120749<input type="hidden" value="8120749" id="dcid"><input type="hidden" value="887911" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120749.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120749.shtml#!language=1&t=China-HK Situation/One Country, Two Systems');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=China-HK Situation/One Country, Two Systems&url=http://www.cctvplus.com/news/20190903/8120749.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120749.shtml#!language=1&title=China-HK Situation/One Country, Two Systems');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_3" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120720.shtml#!language=1" target='_blank' ><h3>Further reform of China's capital markets to boost high-quality development</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 2, 2019/File</p>
+                    	<p class="desc" style="bottom:110px;">China;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120720<input type="hidden" value="8120720" id="dcid"><input type="hidden" value="887805" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120720.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120720.shtml#!language=1&t=Commentary: Financial Reform/China');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=Commentary: Financial Reform/China&url=http://www.cctvplus.com/news/20190903/8120720.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120720.shtml#!language=1&title=Commentary: Financial Reform/China');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_4" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120715.shtml#!language=1" target='_blank' ><h3>HKSAR chief executive confident of leading HK out of dilemma</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 3, 2019/File</p>
+                    	<p class="desc" style="bottom:110px;">Hong Kong,China;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120715<input type="hidden" value="8120715" id="dcid"><input type="hidden" value="887793" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120715.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120715.shtml#!language=1&t=China-HK Riots/Chief Executive');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=China-HK Riots/Chief Executive&url=http://www.cctvplus.com/news/20190903/8120715.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120715.shtml#!language=1&title=China-HK Riots/Chief Executive');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_5" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120717.shtml#!language=1" target='_blank' ><h3>HK faces retail sales slowdown, risk of recession: expert</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 3/2, 2019/Recent/File</p>
+                    	<p class="desc" style="bottom:110px;">United Kingdom;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120717<input type="hidden" value="8120717" id="dcid"><input type="hidden" value="887797" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120717.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120717.shtml#!language=1&t=UK/China-HK Economy Slowdown');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=UK/China-HK Economy Slowdown&url=http://www.cctvplus.com/news/20190903/8120717.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120717.shtml#!language=1&title=UK/China-HK Economy Slowdown');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_6" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120706.shtml#!language=1" target='_blank' ><h3>U.S. tariffs to inflict as much damage on America as on China: ambassador</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 3, 2019/File</p>
+                    	<p class="desc" style="bottom:110px;">United Kingdom;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120706<input type="hidden" value="8120706" id="dcid"><input type="hidden" value="887767" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120706.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120706.shtml#!language=1&t=UK-China-US Tariffs/Ambassador');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=UK-China-US Tariffs/Ambassador&url=http://www.cctvplus.com/news/20190903/8120706.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120706.shtml#!language=1&title=UK-China-US Tariffs/Ambassador');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_7" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120708.shtml#!language=1" target='_blank' ><h3>No trafficking of fentanyl-related substances found since May: narcotic control commission</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 3, 2019/File</p>
+                    	<p class="desc" style="bottom:110px;">Beijing,China;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120708<input type="hidden" value="8120708" id="dcid"><input type="hidden" value="887773" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120708.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120708.shtml#!language=1&t=China-US/Fentanyl-Related Substances');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=China-US/Fentanyl-Related Substances&url=http://www.cctvplus.com/news/20190903/8120708.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120708.shtml#!language=1&title=China-US/Fentanyl-Related Substances');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_8" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120683.shtml#!language=1" target='_blank' ><h3>Chinese gov't will safeguard HK's security, stability: Russian expert</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Aug 8/30/31, 2019/File</p>
+                    	<p class="desc" style="bottom:110px;">Moscow,Russia</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120683<input type="hidden" value="8120683" id="dcid"><input type="hidden" value="887711" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120683.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120683.shtml#!language=1&t=Russia/China-HK Riots/External Powers');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=Russia/China-HK Riots/External Powers&url=http://www.cctvplus.com/news/20190903/8120683.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120683.shtml#!language=1&title=Russia/China-HK Riots/External Powers');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_9" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120709.shtml#!language=1" target='_blank' ><h3>US provoking trade dispute a huge mistake: expert</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 2, 2019/File</p>
+                    	<p class="desc" style="bottom:110px;">Saudi Arabia;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120709<input type="hidden" value="8120709" id="dcid"><input type="hidden" value="887775" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120709.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120709.shtml#!language=1&t=Saudi Arabia-Trade Tension/Expert');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=Saudi Arabia-Trade Tension/Expert&url=http://www.cctvplus.com/news/20190903/8120709.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120709.shtml#!language=1&title=Saudi Arabia-Trade Tension/Expert');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_10" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120686.shtml#!language=1" target='_blank' ><h3>Chinese, DPRK  foreign ministers hold talks on relations</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 2, 2019</p>
+                    	<p class="desc" style="bottom:110px;">Democratic People's Republic of Korea;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120686<input type="hidden" value="8120686" id="dcid"><input type="hidden" value="887717" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120686.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120686.shtml#!language=1&t=DPRK-Chinese Foreign Minister');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=DPRK-Chinese Foreign Minister&url=http://www.cctvplus.com/news/20190903/8120686.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120686.shtml#!language=1&title=DPRK-Chinese Foreign Minister');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_11" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120690.shtml#!language=1" target='_blank' ><h3>China's logistics prosperity index in Aug dips slightly to 50.9 percent</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 2, 2019/File</p>
+                    	<p class="desc" style="bottom:110px;">China;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120690<input type="hidden" value="8120690" id="dcid"><input type="hidden" value="887725" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120690.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120690.shtml#!language=1&t=China-Logistics Index/Aug');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=China-Logistics Index/Aug&url=http://www.cctvplus.com/news/20190903/8120690.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120690.shtml#!language=1&title=China-Logistics Index/Aug');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_12" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120692.shtml#!language=1" target='_blank' ><h3>China’s banking, insurance industries see reliable performances from January-July</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 2, 2019/File</p>
+                    	<p class="desc" style="bottom:110px;">China;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120692<input type="hidden" value="8120692" id="dcid"><input type="hidden" value="887729" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120692.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120692.shtml#!language=1&t=China-Banking/Insurance Industries');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=China-Banking/Insurance Industries&url=http://www.cctvplus.com/news/20190903/8120692.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120692.shtml#!language=1&title=China-Banking/Insurance Industries');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_13" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120700.shtml#!language=1" target='_blank' ><h3>Greece starts decongesting refugee camp on Lesvos island</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 2, 2019</p>
+                    	<p class="desc" style="bottom:110px;">Greece;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120700<input type="hidden" value="8120700" id="dcid"><input type="hidden" value="887747" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120700.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120700.shtml#!language=1&t=Greece-Refugee Transfer');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=Greece-Refugee Transfer&url=http://www.cctvplus.com/news/20190903/8120700.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120700.shtml#!language=1&title=Greece-Refugee Transfer');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_14" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120693.shtml#!language=1" target='_blank' ><h3>Saudi-led coalition airstrikes target Yemeni weapons cache: spokesman</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Sept 1/2, 2019</p>
+                    	<p class="desc" style="bottom:110px;">Saudi Arabia;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120693<input type="hidden" value="8120693" id="dcid"><input type="hidden" value="887731" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120693.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120693.shtml#!language=1&t=Saudi Arabia/Yemen-Airstrike/Response');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=Saudi Arabia/Yemen-Airstrike/Response&url=http://www.cctvplus.com/news/20190903/8120693.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120693.shtml#!language=1&title=Saudi Arabia/Yemen-Airstrike/Response');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+                <div class="item_c" id="lunbo_listv_cont_15" style="display:none;">
+                    <div class="item_c_">
+                    	<a style='text-decoration:none' onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120682.shtml#!language=1" target='_blank' ><h3>IMF deputy head calls for negotiated solution to US-China trade dispute</h3></a>
+	                </div>
+                    <div class="item_d">
+                    	<p class="desc" style="bottom:140px;">Recent/File </p>
+                    	<p class="desc" style="bottom:110px;">United States;</p>
+                    	<p class="desc" style="bottom:80px;">ID:8120682<input type="hidden" value="8120682" id="dcid"><input type="hidden" value="887709" id="mid"/></p>
+	                    <p class="more_btn_box"><a onclick='alink_detail(this)' href="http://www.cctvplus.com/news/20190903/8120682.shtml#!language=1" target='_blank'  class="more_btn"></a></p>
+                    	<div class="sharebtns">
+                   			<a href="javascript:;" onclick="_facebook('http://www.facebook.com/share.php?u=http://www.cctvplus.com/news/20190903/8120682.shtml#!language=1&t=USA-Trade Dispute/IMF');" class='btn01'></a>
+                        	<a href="javascript:;" onclick="_twitter('http://twitter.com/share?&text=USA-Trade Dispute/IMF&url=http://www.cctvplus.com/news/20190903/8120682.shtml#!language=1');" rel='nofollow' class='btn02'></a>
+                        	<a href="javascript:;" onclick="_linkedin('http://www.linkedin.com/shareArticle?mini=true&url=http://www.cctvplus.com/news/20190903/8120682.shtml#!language=1&title=USA-Trade Dispute/IMF');" class='btn03'></a>
+                   		 </div>
+	                </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="video_list_box" id="video_list_box">
+        	<div class="overflow_box">
+            	<ul id="lunbo_listv">
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120744_Preview_7940.mp4" bigimg="http://img.news.cctvplus.com/2019/0903/8120744_1567502070017_a.jpg" class="item cur">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120744_1567502070017_a.jpg" height="115" width="205" />
+                        <h3>China-HK Situation/Violence</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120749_Preview_2694.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120749_1567502299143_a.jpg" height="115" width="205" />
+                        <h3>China-HK Situation/One Country, Two Systems</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120720_Preview_5760.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120720_1567501316427_a.jpg" height="115" width="205" />
+                        <h3>Commentary: Financial Reform/China</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120715_Preview_1077.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120715_1567502963215_a.jpg" height="115" width="205" />
+                        <h3>China-HK Riots/Chief Executive</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120717_Preview_9379.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120717_1567502730014_a.jpg" height="115" width="205" />
+                        <h3>UK/China-HK Economy Slowdown</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120706_Preview_1510.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120706_1567501530016_a.jpg" height="115" width="205" />
+                        <h3>UK-China-US Tariffs/Ambassador</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120708_Preview_5723.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120708_1567502685025_a.jpg" height="115" width="205" />
+                        <h3>China-US/Fentanyl-Related Substances</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120683_Preview_1453.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120683_1567489080027_a.jpg" height="115" width="205" />
+                        <h3>Russia/China-HK Riots/External Powers</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120709_Preview_4432.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120709_1567491870016_a.jpg" height="115" width="205" />
+                        <h3>Saudi Arabia-Trade Tension/Expert</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120686_Preview_6434.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120686_1567497840361_a.jpg" height="115" width="205" />
+                        <h3>DPRK-Chinese Foreign Minister</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120690_Preview_6833.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120690_1567480710016_a.jpg" height="115" width="205" />
+                        <h3>China-Logistics Index/Aug</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120692_Preview_9829.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120692_1567501281761_a.jpg" height="115" width="205" />
+                        <h3>China-Banking/Insurance Industries</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120700_Preview_5760.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120700_1567489365017_a.jpg" height="115" width="205" />
+                        <h3>Greece-Refugee Transfer</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120693_Preview_2621.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120693_1567499880023_a.jpg" height="115" width="205" />
+                        <h3>Saudi Arabia/Yemen-Airstrike/Response</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                	<li play_pram="http://pv.news.cctvplus.com/2019/0903/8120682_Preview_9320.mp4" bigimg="" class="item">
+                    	<img src="http://img.news.cctvplus.com/2019/0903/8120682_1567502895021_a.jpg" height="115" width="205" />
+                        <h3>USA-Trade Dispute/IMF</h3>
+                        <div class="bgbox"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="prev_btn" onselectstart="return false;"></div>
+            <div class="next_btn" onselectstart="return false;"></div>
+        </div>
+    </div>
+    <div class="md_02">
+    	<div class="column_wrapper">
+        	<div class="md_hd">
+            	<span class="htitle icon01">HOT TOPICS</span>
+                 <a href="/news/topics.shtml" class="more_btn">VIEW ALL</a>
+                <div class="clear"></div>
+            </div>
+            <div class="md_bd">
+	            <ul class="ul_box01">
+	            	<li>
+	                    <a href="/news/topicDetails.shtml?!tid=939"><img src="http://img.news.cctvplus.com/2019/0803/53f43eccba9c47d4ae918dd15b787385.png" height="166" width="295" /></a>
+	                    <h3><a style="text-decoration:none" href="/news/topicDetails.shtml?!tid=939">China Poverty Reduction</a></h3>
+	                    <!-- <p class="date"><a href="/news/topicDetails.shtml?!tid=939">2017-06-26</a></p> -->
+	                    <p class="desc"><a href="/news/topicDetails.shtml?!tid=939">U.S. mainstream media organization premieres documentary on China's poverty reduction</a></p>
+	                </li>
+	            	<li>
+	                    <a href="/news/topicDetails.shtml?!tid=1099"><img src="http://img.news.cctvplus.com/2019/0714/9e0b78cda0e84563ac6e6702a5648637.png" height="166" width="295" /></a>
+	                    <h3><a style="text-decoration:none" href="/news/topicDetails.shtml?!tid=1099">The 70th anniversary of the founding of the People's Republic of China</a></h3>
+	                    <!-- <p class="date"><a href="/news/topicDetails.shtml?!tid=1,099">2019-07-14</a></p> -->
+	                    <p class="desc"><a href="/news/topicDetails.shtml?!tid=1099">China unveils logo for 70th Anniversary celebration</a></p>
+	                </li>
+	            	<li>
+	                    <a href="/news/topicDetails.shtml?!tid=991"><img src="http://img.news.cctvplus.com/2019/0815/b674465272af44718e3921592676f835.png" height="166" width="295" /></a>
+	                    <h3><a style="text-decoration:none" href="/news/topicDetails.shtml?!tid=991">China-US Trade</a></h3>
+	                    <!-- <p class="date"><a href="/news/topicDetails.shtml?!tid=991">2018-03-24</a></p> -->
+	                    <p class="desc"><a href="/news/topicDetails.shtml?!tid=991">German expert denounces US unilateralism</a></p>
+	                </li>
+	            	<li>
+	                    <a href="/news/topicDetails.shtml?!tid=661"><img src="http://img.news.cctvplus.com/2019/0728/8c7abb7e13124032bcaf2a3037b1f7e3.png" height="166" width="295" /></a>
+	                    <h3><a style="text-decoration:none" href="/news/topicDetails.shtml?!tid=661">Chinese Economy</a></h3>
+	                    <!-- <p class="date"><a href="/news/topicDetails.shtml?!tid=661">2015-12-15</a></p> -->
+	                    <p class="desc"><a href="/news/topicDetails.shtml?!tid=661">Beijing stepping up efforts to boost evening economy</a></p>
+	                </li>
+	               </ul>
+            </div>
+        </div>    	
+    </div>
+    <div class="md_02" style=" background:#fff url(style/img/img_2015082910.png) repeat-x;">
+    	<div class="column_wrapper" style=" background:#fff url(style/img/img_2015082910.png) repeat-x;">
+        	<div class="md_hd">
+            	<span class="htitle icon02">ARCHIVE</span>
+                <a href="/archive/allCollections.shtml" class="more_btn" style="background-color:#D8D8D8;">VIEW ALL</a>
+                <div class="clear"></div>
+            </div>
+           <div class="md_bd" style="padding:0 0 120px 16px;">
+            	<ul class="ul_box02">
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=461"><img src="http://img.news.cctvplus.com/2019/0728/d90e192ba21f4ae8a5c2848335eba937_a.png" width="604" height="340" /></a>
+                        <h4>Update on Syria</h4>
+                    </li>
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=469"><img src="http://img.news.cctvplus.com/2019/0727/2de485eb43b849b2a958cbe06f5ab325_a.png" width="604" height="340" /></a>
+                        <h4>Yemen Situation</h4>
+                    </li>
+                </ul>
+                <div class="vspace" style="height:20px;"></div>
+                <ul class="ul_box03">
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=473"><img src="http://img.news.cctvplus.com/2019/0727/437296a8e27d4628a487c20a53f948db_l.png" width="292" height="164" /></a>
+                        <h4>Stories on Pandas</h4>
+                    </li>
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=501"><img src="http://img.news.cctvplus.com/2019/0728/6abfc84644c64d3ab2e9675a9d0a2f0f_l.png" width="292" height="164" /></a>
+                        <h4>Iraq Situation</h4>
+                    </li>
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=517"><img src="http://img.news.cctvplus.com/2017/0513/b60070db9fad40f9abe374f7ea2d587b_l.jpg" width="292" height="164" /></a>
+                        <h4>Update on Ukraine</h4>
+                    </li>
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=545"><img src="http://img.news.cctvplus.com/2015/1110/78965bea1b994af7b688c61e2751ecb6_l.jpg" width="292" height="164" /></a>
+                        <h4>Grassroots Stories</h4>
+                    </li>
+                </ul>
+          		</div>
+        </div>    	
+    </div>
+</div>
+
+<div class="page_topbar_nav_s">
+	<div class="custom_sel_box_s">
+		<div class="custom_sel_text_s" ord_id="ord11111">News</div>
+		<span class="custom_sel_icon_s"></span>
+		<ul class="custom_sel_list_s">
+			<li ord_id="ord11111">NEWS</li>
+			<li ord_id="ord22222">ARCHIVE</li>
+			<li ord_id="ord33333">EXCHANGE</li>
+		</ul>
+	</div>
+	<div class="subsearch_val_box_s">
+		<input type="text" value="" placeholder="Search" id="subsearch_val_s"/>
+	</div>
+	<div class="subsearch_val_box_btn" id="subsearch_val_box_btn"></div>
+	<div class="clear"></div>
+</div>
+<div class="page_body_s">
+	<div style="background-color: #E9E9E9;">
+		<div class="sub_nav" style="padding-left: 0px;padding: 0px 15px;">
+	    	<div class="banner" style="width: 100%;height: 65px;">
+	
+				 <div class="slide"> 
+				 	
+                    <!--<div class="pic_ span_box bg_box"><span class="words_span">Low temperatures hit Russia in summer</span></div>
+                    <div class="pic_ span_box bg_box"><span class="words_span">Scholars denounce US practice of bullying, intimidation around world Scholars denounce US practice o</span></div>
+                    <div class="pic_ span_box bg_box"><span class="words_span">Beijing 2022 signs Cultural Investment Holdings as official sponsor</span></div>
+                    <div class="pic_ span_box bg_box"><span class="words_span">Air sports festival kicks off in northwest China mountain town</span></div>
+                    <div class="pic_ span_box bg_box"><span class="words_span">Low temperatures hit Russia in summer</span></div>	
+	                <div class="pic_ span_box bg_box"><span class="words_span">Scholars denounce US practice of bullying, intimidation around world Scholars denounce US practice o</span></div>-->
+				
+				 </div>
+	       </div>
+	    </div>
+	</div>  	
+	
+	<p class="md_01_title">HOME</p>
+	<div class="archive_sch_page_s">
+		<div class="video_list_s">
+			<ul>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120744_Preview_7940.mp4" bigimg="http://img.news.cctvplus.com/2019/0903/8120744_1567502070017_a.jpg" class="item cur">
+                	<a href="http://www.cctvplus.com/news/20190903/8120744.shtml#!language=1">
+                    <dl>
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120744_1567502070017_a.jpg" /></dt>
+                    	<dd><p>China-HK Situation/Violence</p></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120749_Preview_2694.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120749.shtml#!language=1">
+                    <dl>
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120749_1567502299143_a.jpg" /></dt>
+                    	<dd><p>China-HK Situation/One Country, Two Systems</p></dd>
+                    </dl>
+                    </a>
+                </li>
+			</ul>
+		</div>
+		<div class="video_list_box_s">
+			<ul>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120720_Preview_5760.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120720.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120720_1567501316427_a.jpg" /></dt>
+                    	<dd><p>Commentary: Financial Reform/China</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120715_Preview_1077.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120715.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120715_1567502963215_a.jpg" /></dt>
+                    	<dd><p>China-HK Riots/Chief Executive</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120717_Preview_9379.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120717.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120717_1567502730014_a.jpg" /></dt>
+                    	<dd><p>UK/China-HK Economy Slowdown</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120706_Preview_1510.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120706.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120706_1567501530016_a.jpg" /></dt>
+                    	<dd><p>UK-China-US Tariffs/Ambassador</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120708_Preview_5723.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120708.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120708_1567502685025_a.jpg" /></dt>
+                    	<dd><p>China-US/Fentanyl-Related Substances</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120683_Preview_1453.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120683.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120683_1567489080027_a.jpg" /></dt>
+                    	<dd><p>Russia/China-HK Riots/External Powers</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120709_Preview_4432.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120709.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120709_1567491870016_a.jpg" /></dt>
+                    	<dd><p>Saudi Arabia-Trade Tension/Expert</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120686_Preview_6434.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120686.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120686_1567497840361_a.jpg" /></dt>
+                    	<dd><p>DPRK-Chinese Foreign Minister</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120690_Preview_6833.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120690.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120690_1567480710016_a.jpg" /></dt>
+                    	<dd><p>China-Logistics Index/Aug</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120692_Preview_9829.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120692.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120692_1567501281761_a.jpg" /></dt>
+                    	<dd><p>China-Banking/Insurance Industries</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120700_Preview_5760.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120700.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120700_1567489365017_a.jpg" /></dt>
+                    	<dd><p>Greece-Refugee Transfer</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120693_Preview_2621.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120693.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120693_1567499880023_a.jpg" /></dt>
+                    	<dd><p>Saudi Arabia/Yemen-Airstrike/Response</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+                <li play_pram="http://pv.news.cctvplus.com/2019/0903/8120682_Preview_9320.mp4" bigimg="" class="item">
+                	<a href="http://www.cctvplus.com/news/20190903/8120682.shtml#!language=1">
+                    <dl style="position: relative;">
+                    	<dt><img src="http://img.news.cctvplus.com/2019/0903/8120682_1567502895021_a.jpg" /></dt>
+                    	<dd><p>USA-Trade Dispute/IMF</p></dd>
+                    	<dd style="font-size: 14px;color: #666666;position: absolute;bottom: 0;right: 0;"></dd>
+                    </dl>
+                    </a>
+                </li>
+			</ul>
+		</div>
+	</div>
+	<div class="md_02_s">
+		<div class="column_wrapper_s">
+			<div class="md_02_hd">
+				<span class="htitle_s icon_01">HOT TOPICS</span>
+				<a href="/news/topics.shtml" class="title_more_btn">VIEW ALL</a>
+                <div class="clear"></div>
+			</div>
+			<div class="md_02_bd">
+	            <ul>
+	            	<li class="ul_item">
+	                    <a href="/news/topicDetails.shtml?!tid=939">
+	                    	<dl>
+	                    		<dt><img src="http://img.news.cctvplus.com/2019/0803/53f43eccba9c47d4ae918dd15b787385.png" /></dt>
+	                    		<dd>
+	                    			<p class="md_02_dd_01">China Poverty Reduction</p>
+	                    			<p class="md_02_dd_02">U.S. mainstream media organization premieres documentary on China's poverty reduction</p>
+	                    		</dd>
+	                    	</dl>
+	                	</a>
+	            	</li>
+	            	<li class="ul_item">
+	                    <a href="/news/topicDetails.shtml?!tid=1099">
+	                    	<dl>
+	                    		<dt><img src="http://img.news.cctvplus.com/2019/0714/9e0b78cda0e84563ac6e6702a5648637.png" /></dt>
+	                    		<dd>
+	                    			<p class="md_02_dd_01">The 70th anniversary of the founding of the People's Republic of China</p>
+	                    			<p class="md_02_dd_02">China unveils logo for 70th Anniversary celebration</p>
+	                    		</dd>
+	                    	</dl>
+	                	</a>
+	            	</li>
+	            	<li class="ul_item">
+	                    <a href="/news/topicDetails.shtml?!tid=991">
+	                    	<dl>
+	                    		<dt><img src="http://img.news.cctvplus.com/2019/0815/b674465272af44718e3921592676f835.png" /></dt>
+	                    		<dd>
+	                    			<p class="md_02_dd_01">China-US Trade</p>
+	                    			<p class="md_02_dd_02">German expert denounces US unilateralism</p>
+	                    		</dd>
+	                    	</dl>
+	                	</a>
+	            	</li>
+	            	<li class="ul_item">
+	                    <a href="/news/topicDetails.shtml?!tid=661">
+	                    	<dl>
+	                    		<dt><img src="http://img.news.cctvplus.com/2019/0728/8c7abb7e13124032bcaf2a3037b1f7e3.png" /></dt>
+	                    		<dd>
+	                    			<p class="md_02_dd_01">Chinese Economy</p>
+	                    			<p class="md_02_dd_02">Beijing stepping up efforts to boost evening economy</p>
+	                    		</dd>
+	                    	</dl>
+	                	</a>
+	            	</li>
+	               </ul>
+			</div>
+		</div>
+	</div>
+	<div class="md_02_s">
+		<div class="column_wrapper_s">
+			<div class="md_02_hd">
+				<span class="htitle_s icon_02">ARCHIVE</span>
+				<a href="/archive/allCollections.shtml" class="title_more_btn">VIEW ALL</a>
+                <div class="clear"></div>
+			</div>
+			<div class="md_02_bd_s">
+				<ul class="md_ul_01">
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=461"><img src="http://img.news.cctvplus.com/2019/0728/d90e192ba21f4ae8a5c2848335eba937_a.png" /></a>
+                        <p>Update on Syria<p>
+                    </li>
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=469"><img src="http://img.news.cctvplus.com/2019/0727/2de485eb43b849b2a958cbe06f5ab325_a.png" /></a>
+                        <p>Yemen Situation<p>
+                    </li>
+				</ul>
+                <ul class="md_ul_02">
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=473"><img src="http://img.news.cctvplus.com/2019/0727/437296a8e27d4628a487c20a53f948db_l.png" /></a>
+                        <p><span>Stories on Pandas</span></p>
+                    </li>
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=501"><img src="http://img.news.cctvplus.com/2019/0728/6abfc84644c64d3ab2e9675a9d0a2f0f_l.png" /></a>
+                        <p><span>Iraq Situation</span></p>
+                    </li>
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=517"><img src="http://img.news.cctvplus.com/2017/0513/b60070db9fad40f9abe374f7ea2d587b_l.jpg" /></a>
+                        <p><span>Update on Ukraine</span></p>
+                    </li>
+                	<li>
+                    	<a href="/archive/collections2.shtml#!tid=545"><img src="http://img.news.cctvplus.com/2015/1110/78965bea1b994af7b688c61e2751ecb6_l.jpg" /></a>
+                        <p><span>Grassroots Stories</span></p>
+                    </li>
+                </ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+<!-- 老版本的浏览器 -->
+<!-- <script type="text/javascript" src="ckplayer/ckplayer1.js"></script> -->
+<script src="/js/rmp.min.js" type="text/javascript"></script>
+<script src="/js/common.js?v=new Date()" type="text/javascript"></script>
+<script src="/js/FontSize.js?v=new Date()" type="text/javascript"></script>
+<script src="/video.js/video.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var net_name = 'HOME';
+var light_num = 0;
+
+var index_1_ = 0;
+var tbox_ = $('#video_list_box'), tbox_w = tbox_.width(),player_box_ = $('#player_box_2015');
+var over_box_ = tbox_.find('.overflow_box');
+var scroll_box_ = $('#lunbo_listv'), items_ = scroll_box_.find('li.item'), item_len_ = items_.length;
+var item_w_ = items_.eq(0).outerWidth(true);
+var conts_ = $('div[id^="lunbo_listv_cont_"]');
+var player_info_ =$('#player_box_info');
+var W;
+var H;
+var self_de;
+
+var videoURL;
+var imgURL;
+var vid_w;
+
+$(window).resize(function(){
+	var show_num = 5;
+	var w_ = $(window).width();	
+	var pb_w_ = player_box_.width();
+	var	w_pop = ((w_>=1920)?1920:(w_<=1280?1280:w_))-180;
+		show_num = Math.floor((w_pop+11)/item_w_);
+		over_box_.width(show_num*item_w_-11);		
+		vid_w = player_box_.width();
+		player_box_.height(Math.floor(vid_w/16*9));
+		if (vid_w > 860) {
+			player_info_.width(Math.floor((w_-vid_w-80)));
+		} else {
+			player_info_.width(420);
+		}
+		player_info_.height(Math.floor(pb_w_/16*9));
+		
+		player_info_.css({"height":Math.floor(pb_w_/16*9)+"px"});
+		$(".item_c_").css({"height":$(".info_box").height() - 150+"px"});
+//		$(".item_d").css({"top":player_info_.width() - 420+"px"});
+		if(w_>=1880){
+			conts_.find('h3').css('font-size','50px');
+			conts_.find('p.desc').css('font-size','24px');
+			if( w_ > 1400 ){//大屏
+				if( navigator.userAgent.indexOf('Trident')>-1 || navigator.userAgent.indexOf('Edge')>-1 ){
+					$(".item_c").css({"overflow":"hidden"});
+				}
+			}
+		}else if(w_>= 1440){
+			conts_.find('h3').css('font-size','42px'); 
+			conts_.find('p.desc').css('font-size','20px');
+			$(".item_c").css({"overflow":"hidden"});
+		}else{
+			conts_.find('h3').css('font-size','32px'); 
+			conts_.find('p.desc').css('font-size','20px');
+		}
+		
+		$(".item_c").each(function(){
+			if( $(this).css("display") != "none" ){
+				self_de = $(this).find("a").height();
+//				$(this).find("h3").css({"height":$(".item_c").height() - $(".item_d").height()+"px"});
+				$(this).find("h3").css({"height":$(".info_box").height() - 150+"px"});
+				$(this).find("h3").css({'display':'table-cell'});
+				$(this).find("h3").css({'vertical-align':'middle'});
+			}
+		})		
+		
+		
+});
+
+function Srcoll_indfun(){		
+	var show_num = 5;
+	function init(){
+		player_box_.width('60%');
+		var w_ = $(window).width();				
+//		var pb_w_ = (w_<=1400)? 860 : (w_>=1900)?1138: 860;
+		vid_w = player_box_.width();
+		
+//		player_box_.width(Math.floor(pb_w_));
+//		player_box_.height(Math.floor(vid_w/16*9));
+		player_info_.height(Math.floor(vid_w/16*9));
+		
+		if (vid_w > 860) {
+			player_info_.width(Math.floor((w_-vid_w-80)));
+		} else {
+			player_info_.width(420);
+		}
+		
+		
+		if(w_>=1880){
+			conts_.find('h3').css('font-size','50px');
+			conts_.find('p.desc').css('font-size','24px');
+			if( w_ > 1400 ){//大屏
+				if( navigator.userAgent.indexOf('Trident')>-1 || navigator.userAgent.indexOf('Edge')>-1 ){
+					$(".item_c").css({"overflow":"hidden"});
+				}
+			}
+		}else if(w_>= 1440){
+			conts_.find('h3').css('font-size','42px'); 
+			conts_.find('p.desc').css('font-size','20px');
+			$(".item_c").css({"overflow":"hidden"});
+		}else{
+			conts_.find('h3').css('font-size','32px'); 
+			conts_.find('p.desc').css('font-size','20px');
+		}		
+				
+		
+		
+		
+//		if(w_ > 1400){
+//			console.log('22222--'+w_+'---'+pb_w_);
+//			player_info_.width(Math.floor((w_-pb_w_)*0.95));
+//		}else{
+//			console.log('33333--'+w_+'---'+pb_w_);
+//			player_info_.width(Math.floor((w_-pb_w_-5)));
+//		}
+		
+		
+//		$(".item_c_").css({"height":$(".item_c").height() - $(".item_d").height()+"px"});
+		$(".item_c_").css({"height":$(".info_box").height() - 150+"px"});
+		
+		$(".item_c").each(function(){
+			if( $(this).css("display") != "none" ){
+				self_de = $(this).find("a").height();
+//				$(this).find("h3").css({"height":$(".item_c").height() - $(".item_d").height()+"px"});
+				$(this).find("h3").css({"height":$(".info_box").height() - 150+"px"});
+				$(this).find("h3").css({'display':'table-cell'});
+				$(this).find("h3").css({'vertical-align':'middle'});
+			}
+		})
+
+		W = vid_w;
+		H = player_box_.height();
+		w_ = ((w_>1920)?1920:(w_<1280?1280:w_))-180;
+		show_num = Math.floor((w_+11)/item_w_);
+		over_box_.width(show_num*item_w_-11);	
+		
+
+		
+		
+	
+//		if(1800<=(180+w_)){
+//			conts_.find('h3').css('font-size','50px');
+//			conts_.find('p.desc').css('font-size','24px');
+////			player_info_.css({'min-height':'550px'});
+//			if( w_ > 1400 ){//大屏
+//				if( navigator.userAgent.indexOf('Trident')>-1 || navigator.userAgent.indexOf('Edge')>-1 ){
+//					//player_info_.css({"min-height":"450px"});
+//					$(".item_c").css({"overflow":"hidden"});
+//				}
+//			}
+//		}else if(1600<=(180+w_)){
+//			conts_.find('h3').css('font-size','44px');
+//			conts_.find('p.desc').css('font-size','22px');
+//			player_info_.css({"height":Math.floor(vid_w/16*9)+"px"});
+//			$(".item_c").css({"overflow":"hidden"});
+////			player_info_.attr('style','min-height:520px');
+//		}else if(1400<=(180+w_)){
+//			conts_.find('h3').css('font-size','38px'); 
+//			conts_.find('p.desc').css('font-size','20px');
+//			player_info_.css({"height":Math.floor(vid_w/16*9)+"px"});
+//			$(".item_c").css({"overflow":"hidden"});
+////			player_info_.attr('style','min-height:500px');
+//		}else{
+//			conts_.find('h3').css('font-size','32px'); 
+//			conts_.find('p.desc').css('font-size','20px');
+//		}
+	}
+	init();	
+	var scroll_num = 1;
+	var scroll_w = item_w_*scroll_num;
+	if(item_len_ > 8){	
+		$.each(items_.slice(0,8),function(i, _item){
+			scroll_box_.append($(_item).clone(true));
+		});
+	}
+	var new_items = scroll_box_.find('li.item');
+	new_items.click(function(){
+		
+		if (!$(this).hasClass('cur')){
+			index_1_ = new_items.index($(this));
+			new_items.removeClass('cur').filter(function(f_ind){return index_1_%item_len_==f_ind%item_len_}).addClass('cur');
+			conts_.hide();
+			$('#lunbo_listv_cont_'+(1+(index_1_%item_len_))).show();
+			$(".item_c").each(function(){
+				if( $(this).css("display") != "none" ){
+					self_de = $(this).find("a").height();
+//					$(".item_c_").find("a").css({"margin-top":(-self_de/2)+"px"});
+//$(".item_c_").find("a").css({"top":(($('.item_c_').height()-self_de)/2)+"px"});
+					$(this).find("h3").css({"height":$(".item_c").height() - $(".item_d").height()+"px"});
+					$(this).find("h3").css({'display':'table-cell'});
+					$(this).find("h3").css({'vertical-align':'middle'});
+					
+				}
+			})
+			change_vurl($(this).attr('play_pram'));//切换播放信号
+		
+		}
+	});
+	var next_btn = tbox_.find('.next_btn'), prev_btn = tbox_.find('.prev_btn'), scrolling = false;
+	next_btn.click(function(){if(!scrolling){ _next(); return false;}});
+	prev_btn.click(function(){if(!scrolling){ _prev(); return false;}});
+	var scrollpos={};
+	function _next(){
+		var _scroll_w = (parseInt(scroll_box_.css('left')) - scroll_w);
+		scrolling = true;
+		scroll_box_.stop(true,true).animate({'left':_scroll_w +'px'},function(){if(_scroll_w <= -item_len_*item_w_){scroll_box_.css('left','0px');} scrolling = false;});
+	}
+	function _prev(){
+		var _scroll_w = ((parseInt(scroll_box_.css('left'))>=0)&&(scroll_box_.css('left',-item_len_*item_w_+'px'))? (-(item_len_-1)*item_w_) : parseInt(scroll_box_.css('left'))+ scroll_w);
+		scrolling = true;
+		scroll_box_.stop(true,true).animate({'left':_scroll_w +'px'},function(){ scrolling = false;});
+	}
+	
+	videoURL = items_.eq(0).attr('play_pram');
+	imgURL = items_.eq(0).attr('bigimg');	
+	
+//	init_p(items_.eq(0).attr('play_pram'),items_.eq(0).attr('bigimg'));
+//	$(window).resize(function(){
+//		init();
+//	});
+}
+$(function(){
+
+	Srcoll_indfun();
+
+	$('#player_box_2015').append('<video id="player" class="video-js vjs-big-play-centered vjs-fluid"></video>');
+    var player = createVideo(videoURL, imgURL, "player");
+	
+//  player.ready = videoReady($('.mask'), player);
+	
+	//每10分刷新一次
+	setInterval(function(){
+		refresh();
+	},600000);
+	function refresh(){
+		window.location.reload();
+	}		
+
+	function createVideo(src, img, id) {
+	  return videojs(id, {
+	  	poster: img,
+	    controls: true,
+	    preload: true,
+	    width:1000,
+	    height:600,
+	    sources:[src]
+	  });
+	}
+
+	function wf_scroll_fun(obj,s){
+		var r=$('#'+obj), p_w = r.width(), tds=r.find('ul'), tdw=tds.outerWidth();
+		s = s?s:25;
+		if(tdw>=p_w){
+			tds.children().clone().appendTo(tds);
+			function s_(){
+				var l_ = 1+(r.scrollLeft());
+				r.scrollLeft(l_);
+				if(l_ >= tdw){r.scrollLeft(0);}
+			}
+			var timer=setInterval(s_, s);
+			r.hover(function(){
+				clearInterval(timer);
+			},function(){
+				timer=setInterval(s_, s);
+			});
+		}
+	}
+
+//	Srcoll_indfun();
+	$.getJSON('/js/NOTICE.js?'+Math.random(),function(d){
+		 if(d && d.msg!=''){
+			$('#index_meg_box_over ul').html('<li>'+d.msg+'</li>');
+			$('.index_meg_box').show();
+			wf_scroll_fun('index_meg_box_over',20);
+		 }else{
+			$('.index_meg_box').hide();
+		 }
+	});
+
+	$('input').iCheck({
+		radioClass: 'iradio_square',
+		checkboxClass: 'icheckbox_square',
+		increaseArea: '10%'
+	});
+	
+	
+		var videoEl = document.querySelector('video');
+		$(document).keydown(function (e) {
+			var e = e || window.event;
+			var code = e.keyCode;
+			 switch (code) {
+			 	case 32:
+			 	if (videoEl.paused && (document.activeElement.id!="subsearch_val")) {
+			 		videoEl.play();
+			 		e.preventDefault();
+			 	} else if(videoEl.play && (document.activeElement.id!="subsearch_val")){
+			 		videoEl.pause();
+			 		e.preventDefault();
+			 	}
+			 	break;
+			 	default:
+			 	break;
+			 }
+	         
+    	})
+	
+});
+var elementID;
+var rmp;
+function init_p(uu_,img_,is_play){
+	videojs("player").src([{type: "video/mp4", src:uu_ }]);  
+	videojs("player").play();   
+
+	
+}
+
+
+function playerstop(){//play callback
+	index_1_++;
+	scroll_box_.find('li.item').removeClass('cur').filter(function(f_ind){return index_1_%item_len_==f_ind%item_len_}).addClass('cur');
+	conts_.hide();
+	$('#lunbo_listv_cont_'+(1+(index_1_%item_len_))).show();
+	var cur_left_ = $('#lunbo_listv li.item').eq(index_1_).position().left;
+	cur_left_ = -cur_left_;
+	scroll_box_.stop(true,true).animate({'left':cur_left_ +'px'},function(){
+		if(cur_left_ <= -item_len_*item_w_){scroll_box_.css('left','0px'); index_1_ =0;}
+	});
+	change_vurl();
+}
+
+function change_vurl(n){//切换频道 
+	var next_ = $('#lunbo_listv li.item').eq(index_1_);
+	var adre_ = next_.attr('play_pram');
+	init_p(n,'',true);
+	//CKobject.getObjectById('ckplayer_a2').newAddress('{f->'+adre_+'}{html5->'+adre_+'->video/mp4}{i->'+next_.attr('bigimg')+'}{p->'+((CKobject.Platform()=="iPhone"||CKobject.Platform()=="android")?2:1)+'}');
+}
+
+$('#navmain_2015box_1').addClass('cur');
+
+$(".subsearch_btn").click(function(){
+	var ss = $("#custom_sel_val").val();
+	if($('#custom_sel_val').val()=='ord22222'){			
+		window.location.href="/archive/allArchive.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+	}else if($('#custom_sel_val').val()=='ord33333'){
+		window.location.href="/exchange/allExchange.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+	}else{
+		window.location.href="/news/latest.shtml?!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+	}
+	//=========add wjj æç´¢è®°å½
+	var searchType = 'News';
+	if(ss=='ord22222'){
+		searchType = 'archive';
+	}else if(ss=='ord11111'){
+		searchType = 'News';
+	}else if(ss=='ord33333'){
+		searchType = 'exchange';
+	}
+	$.getJSON('https://secure.cctvplus.com/interface/searchRecord.do?callback=?',{"keyword":$.trim($('#subsearch_val').val()),"type":searchType},function(d_){
+	});
+	//=========
+	
+	
+});
+
+
+
+$('#subsearch_val').keypress(function(e){
+	if(e.keyCode==13){$('#subsearch_btn').click();}
+}).blur(function(){
+	var this_ = $(this);
+	if(!$.trim(this_.val())){this_.val(this_.prop('defaultValue'));}
+}).focus(function(){
+	var this_ = $(this);
+	if(this_.val()==this_.prop('defaultValue')){this_.val('');}
+});
+
+$('#subsearch_val_s').keypress(function(e){
+	if(e.keyCode==13){$('#subsearch_val_box_btn').click();}
+}).blur(function(){
+	var this_ = $(this);
+	if(!$.trim(this_.val())){this_.val(this_.prop('defaultValue'));}
+}).focus(function(){
+	var this_ = $(this);
+	if(this_.val()==this_.prop('defaultValue')){this_.val('');}
+});
+
+$("#subsearch_val_box_btn").click(function(){
+	var ss = $(".custom_sel_text_s").attr('ord_id');
+	if($(".custom_sel_text_s").attr('ord_id')=='ord22222'){			
+		window.location.href="/archive/allArchive.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val_s').val()==$('#subsearch_val_s').prop('defaultValue'))?'':$('#subsearch_val_s').val())));
+	}else if($(".custom_sel_text_s").attr('ord_id')=='ord33333'){
+		window.location.href="/exchange/allExchange.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val_s').val()==$('#subsearch_val_s').prop('defaultValue'))?'':$('#subsearch_val_s').val())));
+	}else{
+		window.location.href="/news/latest.shtml?!keyword="+encodeURIComponent($.trim((($('#subsearch_val_s').val()==$('#subsearch_val_s').prop('defaultValue'))?'':$('#subsearch_val_s').val())));
+	}
+	//=========add wjj æç´¢è®°å½
+	var searchType = 'News';
+	if(ss=='ord22222'){
+		searchType = 'archive';
+	}else if(ss=='ord11111'){
+		searchType = 'News';
+	}else if(ss=='ord33333'){
+		searchType = 'exchange';
+	}
+	$.getJSON('https://secure.cctvplus.com/interface/searchRecord.do?callback=?',{"keyword":$.trim($('#subsearch_val_s').val()),"type":searchType},function(d_){
+	});
+})
+
+
+
+function _facebook(url){
+	window.open (url,'','height=300,width=700,top=100,left=400,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+	var mid = $("#mid").val();
+	var dcid = $("#dcid").val();
+	$.getJSON('https://secure.cctvplus.com/interface/topicBrowseRecord.do?callback=?',{"MID":mid,"DCID":dcid,"browse_source":document.referrer,"type":"News"},function(d_){
+	});
+	$.getJSON('https://secure.cctvplus.com/interface/shareRecord.do?callback=?',{"MID":mid,"DCID":dcid,"shareType":"2","type":"News"},function(d_){
+	});
+}
+function _twitter(url){
+	window.open (url,'','height=430,width=700,top=100,left=400,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+	var mid = $("#mid").val();
+	var dcid = $("#dcid").val();
+	$.getJSON('https://secure.cctvplus.com/interface/topicBrowseRecord.do?callback=?',{"MID":mid,"DCID":dcid,"browse_source":document.referrer,"type":"News"},function(d_){
+	});
+	$.getJSON('https://secure.cctvplus.com/interface/shareRecord.do?callback=?',{"MID":mid,"DCID":dcid,"shareType":"1","type":"News"},function(d_){
+	});
+}
+function _linkedin(url){
+	window.open (url,'','height=550,width=750,top=100,left=400,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+	var mid = $("#mid").val();
+	var dcid = $("#dcid").val();
+	$.getJSON('https://secure.cctvplus.com/interface/topicBrowseRecord.do?callback=?',{"MID":mid,"DCID":dcid,"browse_source":document.referrer,"type":"News"},function(d_){
+	});
+	$.getJSON('https://secure.cctvplus.com/interface/shareRecord.do?callback=?',{"MID":mid,"DCID":dcid,"shareType":"3","type":"News"},function(d_){
+	});
+}
+
+
+
+window.onload = function(){
+	changeImgSize();
+	titleRepeatPC();
+    titleRepeatPHONE();
+	
+}
+
+function changeImgSize(){
+	
+	$(".ul_item").each(function(){
+		$(this).find('img').css({'height':($(this).width()/16*9)+'px'});
+	})
+	$(".md_ul_02 li").each(function(){
+		$(this).find('img').css({'height':($(this).width()/16*9)+'px'});
+	})	
+	
+}
+
+$(window).resize(function(){
+	changeImgSize();
+})
+
+$.getJSON('https://secure.cctvplus.com/interface/getTitleNews.do?callback=?',{
+	},function(data){
+		if(!data || !data.varlist || !data.varlist.length){
+			$('.sub_nav_box .slide').html('');
+			$('.page_body_s .slide').html('');
+			return;
+		}
+		var lis=data.varlist;
+		var html_arr = [];
+		var html_arr_ = [];
+		html_arr.push('<div class="pic"><a href="/news/flash.shtml"></a></div>');
+		html_arr_.push('<div class="pic_ span_box bg_box"><span class="words_span"><a href="/news/flash.shtml"></a></span></div>');
+		for(var i = 0;  i< lis.length; i++){
+			html_arr.push('<div class="pic"><a href="/news/flash.shtml">',lis[i].title,'</a></div>');			
+			html_arr_.push('<div class="pic_ span_box bg_box"><span class="words_span"><a href="/news/flash.shtml">',lis[i].title,'</a></span></div>')			
+		}
+		html_arr.push('<div class="pic"><a href="/news/flash.shtml"></a></div>');
+		html_arr_.push('<div class="pic_ span_box bg_box"><span class="words_span"><a href="/news/flash.shtml"></a></span></div>');
+		$('.sub_nav_box .slide').html(html_arr.join(''));			
+		$('.page_body_s .slide').html(html_arr_.join(''));	
+		
+		var lastHTML=  $('.sub_nav_box .slide').children(":first").next().html();				
+	   	var firstHTML= $('.sub_nav_box .slide').children(":last").prev().html();
+
+
+	    $('.sub_nav_box .slide').children(":first").html(firstHTML);
+	    $('.sub_nav_box .slide').children(":last").html(lastHTML);
+	    
+	    $('.page_body_s .slide').children(":first").find('span').html(firstHTML);
+	    $('.page_body_s .slide').children(":last").find('span').html(lastHTML);		
+	    
+
+	  	var size=$('.sub_nav_box .slide').children().size();//图片的张数
+	    var width=$('.sub_nav_box .banner').width();
+	    $('.sub_nav_box .slide').css('width',size*width+'px') //动态设置元素宽度            
+	    $('.sub_nav_box .slide').css('left',-width+'px') //动态设置元素默认位置	                 
+	    $('.sub_nav_box .slide .pic').css('width',width+'px')  //根据不同的机型动态添加div的样式   
+
+	    var size_=$('.page_body_s .slide').children().size();//图片的张数
+	    var pic_wid_=$('.page_body_s .banner').width();
+	   	$('.page_body_s .slide').css('width',size_*pic_wid_+'px') //动态设置元素宽度	  	           	
+	    $('.page_body_s .slide').css('left',-pic_wid_+'px') //动态设置元素默认位置	    
+	    $('.page_body_s .slide .pic_').css('width',pic_wid_+'px')  //根据不同的机型动态添加div的样式
+	});
+
+
+        	
+function titleRepeatPC(){
+	var index=1;//这是记录图片的索引，通过索引来控制图片的切换，
+    var timer=null;//第一个定时器
+    var timer_=null;//第二个定时器
+  	var size=$('.sub_nav_box .slide').children().size();//图片的张数
+    var width=$('.sub_nav_box .banner').width();
+//  $('.sub_nav_box .slide').css('width',size*width+'px') //动态设置元素宽度            
+//  $('.sub_nav_box .slide').css('left',-width+'px') //动态设置元素默认位置	                 
+//  $('.sub_nav_box .slide .pic').css('width',width+'px')  //根据不同的机型动态添加div的样式                       
+    var picWidth=$('.pic').width();//获取图片的宽度
+    //鼠标移上去的时候图片轮播要暂停
+//          $('.sub_nav_box .banner').mouseover(function(){
+//              if(timer!=null){
+//          		clearInterval(timer_);
+//          	}else{
+//          		clearInterval(timer);
+//          	}
+//          });
+    //鼠标移走的时候再次开始
+//          $('.sub_nav_box .banner').mouseleave(function(){
+//      		if(timer!=null){
+//          		autoSlidePC_();
+//          	}else{
+//          		autoSlidePC();
+//          	}                
+//          });
+//          $('.sub_nav_box .slide').mouseleave();
+
+	autoSlidePC();    //自动播放
+    function autoSlidePC(){
+    	timer=setInterval(function(){
+            index++;
+            changeImgPC();
+        },1000);//间隔时间
+    };
+    
+    function changeImgPC(){ 
+    	clearInterval(timer);   //清除第一个定时器；
+    	clearInterval(timer_);   //清除第一个定时器；
+        var slideWidth=-1*picWidth*index;//移动的距离
+        $('.sub_nav_box .slide').animate({
+            'left':slideWidth+'px'//每次滑动一个图片的距离
+        },16000);//500的意思是动画效果要在500ms内完成
+        if(index>=size-1){
+            $('.sub_nav_box .slide').animate({'left':-picWidth+'px'},0);
+            index=1;
+        }
+        if(index<1){
+            $('.sub_nav_box .slide').animate({'left':-(size-2)*picWidth+'px'},0);
+            index=size-2;
+        }
+        
+        autoSlidePC_();   //启动第二个定时器；
+    }
+    function autoSlidePC_(){
+        timer_=setInterval(function(){
+            index++;//通过索引来控制图片嘛，每隔一段时间当然要让图片动起来。
+            changeImgPC();
+        },17300);//每隔1.5S就切换一次图片
+    };
+}
+
+
+               
+function titleRepeatPHONE(){        		
+    var index=1;
+    var timer=null;//第一个定时器
+    var timer_=null;//第二个定时器          
+    var size=$('.page_body_s .slide').children().size();//图片的张数
+    var pic_wid=$('.page_body_s .banner').width();
+// 	$('.page_body_s .slide').css('width',size*pic_wid+'px') //动态设置元素宽度	  	           	
+//  $('.page_body_s .slide').css('left',-pic_wid+'px') //动态设置元素默认位置	    
+//  $('.page_body_s .slide .pic_').css('width',pic_wid+'px')  //根据不同的机型动态添加div的样式
+    var picWidth=$('.pic_').width();//获取图片的宽度	            
+//	           $('.page_body_s .banner').mouseover(function(){
+//	               if(timer!=null){
+//	            		clearInterval(timer_);
+//	            	}else{
+//	            		clearInterval(timer);
+//	            	}
+//	            });
+    //鼠标移走的时候再次开始
+//	            $('.page_body_s .banner').mouseleave(function(){
+//	        		if(timer!=null){
+//	            		autoSlide_();
+//	            	}else{
+//	            		autoSlide();
+//	            	}  
+//	            });
+//	            $('.page_body_s .slide').mouseleave();
+
+	autoSlide(); //自动播放
+   
+    function autoSlide(){
+        timer=setInterval(function(){
+            index++;
+            changeImg();
+        },4000);//间隔时间
+    };
+    function changeImg(){   
+    	clearInterval(timer);   //清除第一个定时器；
+		clearInterval(timer_);   //清除第一个定时器；	
+        var slideWidth=-1*picWidth*index;//移动的距离
+        $('.page_body_s .slide').animate({
+            'left':slideWidth+'px'//每次滑动一个图片的距离
+        },5000);//500的意思是动画效果要在500ms内完成
+        if(index>=size-1){
+            $('.page_body_s .slide').animate({'left':-picWidth+'px'},0);
+            index=1;
+        }
+        if(index<1){
+            $('.page_body_s .slide').animate({'left':-(size-2)*picWidth+'px'},0);
+            index=size-2;
+        }
+        autoSlide_();
+    }    
+    function autoSlide_(){
+        timer_=setInterval(function(){
+            index++;//通过索引来控制图片嘛，每隔一段时间当然要让图片动起来。
+            changeImg();
+        },10000);//每隔1.5S就切换一次图片
+    };
+} 
+
+
+
+
+
+</script>
+</body>
+</html>

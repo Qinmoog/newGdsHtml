@@ -1,0 +1,852 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NEWS-LATEST-CCTVPLUS</title>
+<link href='../style/style_news_06.css' type="text/css" rel="stylesheet" />
+<script src='../js/jquery-1.11.3.min.js' type="text/javascript"></script>
+<script src="../js/index.js?123" type="text/javascript"></script>
+<script type="text/javascript" src="../js/json2.js"></script>
+<script type="text/javascript" src="../js/jquery.ba-hashchange-min.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+<script src="../js/jquery.colorbox-min.js" type="text/javascript"></script>
+<script src="../js/icheck.min.js" type="text/javascript"></script>
+<script src="../js/icheck.min.js" type="text/javascript"></script>
+<script src="../js/prescroll.js"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+    	<ul class="sub_nav">
+            <li ><a href="preview.shtml">Planned Coverage</a></li>
+            <li class="cur"><a href="channel1.shtml">Channel 1</a></li>
+            <li><a href="channel2.shtml">Channel 2</a></li>
+			<li><a href="history.html">History</a></li>
+           
+        </ul>
+       <div class="nav_search_box">
+        	<div class="custom_sel_box" id="subsearch_sel_box">
+                <div class="custom_sel_text">NEWS</div>
+                <span class="custom_sel_icon"></span>
+                <ul class="custom_sel_list">
+                    <li class="option" ord_id="ord11111">NEWS</li>
+                    <li class="option" ord_id="ord22222">ARCHIVE</li>
+                    <li class="option" ord_id="ord33333">EXCHANGE</li>
+                </ul>
+                <input type="hidden" class="custom_sel_val" id="custom_sel_val" value="" />
+            </div>
+            <div class="subsearch_val_box">
+            	<input id="subsearch_val" type="text"  value="Search"/>
+ 		<span class="clear_btn" onclick="$('#subsearch_val').val('');"></span>
+            </div>
+        	<div class="subsearch_btn" id="subsearch_btn"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="lastest_page lastest_page_channel" style="top: 40px;width: 90%;">
+    	<div id="Live_NEW_L">
+    		<div class="vedio-wp" style="position: relative;">
+    			
+	    		  
+	    		<p class="live-status"></p>
+    			<!--<div class="SmallTitle">
+    				<p>Begintime:2017-01-10 08:00:00</p>
+    				<p>Endtime:2017-01-10 08:00:00</p>
+    				<div class="clearfix"></div>
+    			</div>-->
+	    		<div id="rmpPlayer"></div>
+	    		<div id="imgWp" style="display: none;"></div>
+    			
+    		</div>
+           <div style="padding-top:10px;width:708px;text-align:justify;font-size:15px;font-weight:bold;">
+		   Please Note: This is a view-only player. Streamed content cannot be used without prior consent.
+			<span style="display: inline-block /* Opera */; padding-left: 100%;"></span>
+		   </div>
+    		<div class="comment">
+    			<textarea name="text" rows="" cols="" onkeyup="changeSize(this)"></textarea>
+    			<div class="commentBar">
+    				<!--<span class="AllCom">All comments   |   Pick up</span>-->
+    				<p class="counts">
+    					<span class='nums'>0</span>/<span class='count'>300</span>
+    				</p>
+    				<p class="commentBtn" onclick="message_one(this)">Comment</p>
+    			</div>
+    		</div>
+    		<div id="message">
+    		
+    		</div>
+    		<div class="custom_page_box" id="search_list_pagebox" style='margin-top:50px;margin-bottom:65px;'>
+            	  	
+                	<div class="cus_page_btns">
+                		<!--<a class="prev" href="">Prev</a>
+	            	  	<a class="prev_btn" href=""></a>
+	            	  	<a href="">1</a>
+	            	  	<a href="">2</a>
+	            	  	<a href="">3</a>
+	            	  	<a href="">4</a>
+	            	  	<a href="">5</a>
+	            	  	<a href="">...</a>
+	            	  	<a href="">66</a>
+	            	  	<a class="next_btn" href=""></a>
+	            	  	<a class="next" href="">Next</a>-->
+                	</div>
+               
+	                <div class="clear"></div>
+	               
+	            </div>
+    	</div>
+        <div id="Live_NEW_R">
+        	<div class="Live_content">
+        		<!--<p class="fileID">
+               		<span class="fileID_one">ID:</span>
+               		<span class="fileID_two"> 291296</span>
+               	</p>
+               	<p class="Location">
+               		<span class="fileID_one">Duration:</span>
+               		<span class="fileID_two">1'06</span>
+               	</p>
+               	<p class="Location">
+               		<span class="fileID_one">Location:</span>
+               		<span class="fileID_two">East China Sea</span>
+               	</p>
+               	<p>
+               		<span class="fileID_one">Restrictions:</span>
+               		<span class="fileID_two"> No access Chinese mainland</span>
+               	</p>
+               	<p class="Detail">Detail:</p>
+               	<p class="Detail_con">As the U.S. presidential election approaches, some people are concerned that Donald Trump’s policies will escalate the growing racial tensions in the country, especially after he was officially declared the Republican Party's presidential nominee on Tuesday.
+During the week's Republican National Convention (RNC) in Cleveland, anti-Trump protesters have demonstrated against immigration proposals made by the real estate mogul.</p>-->
+        	</div>
+        </div>
+        <div class="clear"></div>
+    </div>
+	
+	<div class="hide_pd">
+		<div class='oversize'>
+			<p class='letter'>No more than 300 letters</p>
+			<p class='shure'>OK</p>
+		</div>
+	</div>
+</div>
+
+<!-- add wjj 2016-02-03 end -->
+<script type="text/javascript" src="../ckplayer/ckplayer1.js"></script>
+<!--<script type="text/javascript">
+	videojs.options.flash.swf = "../js/video-js/video-js.swf";
+</script> -->
+
+<script src="../js/rmp.min.js"></script>
+<script type="text/javascript">
+/////////////////////////add xyt 播放器
+	var liveDCID;
+	var w = $('.comment').width();
+	var h = 9/16*w;
+	var bitrates = {
+//			hls: 'http://origin-live-stream.news.cctvplus.com:1936/live/smil:CHANNEL1.smil/playlist.m3u8'
+//			hls: 'http://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8'
+			hls: 'http://180.149.148.170:1936/live/smil:CHANNEL1.smil/playlist.m3u8'
+		};			
+			var settings = {
+			  licenseKey: 'Kl8leXk3OWdjODAyeWVpP3JvbTVkYXNpczMwZGIwQSVfKg==',
+			  bitrates: bitrates,  
+			  delayToFade: 3000,
+			  width: w,			  
+			  height: h,
+			  autoplay: true,
+//			  isLive: true,
+			  preload: 'auto',
+//			  poster: '../images/pic.jpg'
+			};
+			var elementID = 'rmpPlayer';
+			var rmp = new RadiantMP(elementID);	
+			
+			var rmpContainer = document.getElementById(elementID);
+			//切换状态隐藏
+			rmpContainer.addEventListener('loadedmetadata',function(){
+
+				$('.rmp-quality').on('click',function(){
+					$(this).parent().hide();
+				});
+				
+				$('#rmpPlayer').on('mouseleave',function(){
+					 $('.rmp-quality').parent().hide();					
+				});
+			});
+			
+			showImgOrMovie();
+			
+			function showImgOrMovie(){
+				var url = 'https://secure.cctvplus.com/livenotice/getLiveboard';
+				$.getJSON(url, {'CHANNEL': '01'}, function(data){
+					if( data.isEnabled == '0' ){//todo 调接口进行判断
+//						bitrates.hls = 'http://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8';	
+						bitrates.hls = 'http://180.149.148.170:1936/live/smil:CHANNEL1.smil/playlist.m3u8';	
+						rmp.init(settings);						
+					} else if( data.isEnabled == '1' ){
+						$('#rmpPlayer').hide();	
+						$('#imgWp').show().css({
+							backgroundImage : 'url('+data.imgUrl+')',
+							backgroundSize: '100% 100%',
+							height : h,
+							width : w
+						});
+					} else{
+						alert('Page Error!!!');					
+					}
+				});
+			}
+			
+</script>
+<script type="text/javascript">
+
+function search_fun_LL(curpage){ //return false;
+	var search_list_box = $("#message"),
+	search_list_pagebox = $('.cus_page_btns');
+
+	var pagesize = 3;//每页展示条数
+	
+//	search_list_box.html('<p style="text-align:center; padding:10px;">Loading...</p>');
+
+	search_list_pagebox.html('');
+	
+	dcid=getHref();
+	//console.log(dcid)
+	$.getJSON('https://secure.cctvplus.com/comment/getComment.do',
+	{"DCID":dcid,'pageSize':pagesize,'pageNo':curpage},
+	function(data){
+//		console.log(data)
+//		var lis=data.categorys;	
+//		var itemsum=data.numFound;
+//console.log(data.pd.length)
+// if(data.pd.length==0){
+//	 search_list_box.html('<p style="text-align:center; padding:10px;">No data</p>');return;
+// }
+		var lis = data.pd,
+			itemsum = lis[0].SUM;
+		// if(itemsum<=0){search_list_box.html('<p style="text-align:center; padding:10px;">No data</p>'); return;}
+		pagesum=Math.ceil(itemsum/pagesize);
+		var html_arr = [];
+
+		All_talk(dcid,pagesize,curpage);
+		var textArr = new Array();
+		textArr.push('<div class="cus_page_btns">');		
+		if(curpage>1){
+			textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',curpage-1,');" class="prev">Prev</a>');
+			textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',curpage-1,');" class="prev_btn">&nbsp;</a>');			
+		}else{
+			textArr.push('<a style="cursor:default;" onselectstart="return false;" class="prev">Prev</a>');
+			textArr.push('<a style="cursor:default;" onselectstart="return false;" class="prev_btn">&nbsp;</a>');
+		}
+		
+		var beginpage = beginpage = 1;
+		function set_page_fun(){
+			for(var i=beginpage;i<=endpage;i++){
+				if(i==curpage){
+						textArr.push('<a onselectstart="return false;" class="cur">',i,'</a>');
+				}else{
+						textArr.push('<a onselectstart="return false;" class="" onclick="search_fun_LL(',i,');">',i,'</a>');
+				}
+			}
+		}
+		if(pagesum<=5){
+			beginpage=1;
+			endpage=pagesum;
+			set_page_fun();
+		}else{//如果显示最前面的五页
+			if(curpage<=5&&curpage>0){
+				beginpage=1;
+				endpage=5;
+				set_page_fun();
+				textArr.push('<a onselectstart="return false;" style="cursor:default;">...</a>');
+				textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',pagesum,');">',pagesum,'</a>');			
+			}else if(curpage<=pagesum&&curpage>=(pagesum-4)){//如果显示最后面的五页
+				beginpage=pagesum-4;
+				endpage=pagesum;
+				textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',1,');">1</a>');
+				textArr.push('<a onselectstart="return false;">...</a>');
+				set_page_fun();
+			}else{
+				beginpage=curpage-2;
+				endpage=curpage+2;
+				textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',1,');">1</a>');
+				textArr.push('<a onselectstart="return false;" style="cursor:default;">...</a>');
+				set_page_fun();
+				textArr.push('<a onselectstart="return false;" style="cursor:default;">...</a>');
+				textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',pagesum,');">',pagesum,'</a>');				
+			}
+		}
+		
+		if(curpage<pagesum){
+			textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',1+curpage,')" class="next_btn">&nbsp;</a>');
+			textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',1+curpage,')" class="next">Next</a>');
+		}else{
+			textArr.push('<a style="cursor:default;" onselectstart="return false;" class="next_btn">&nbsp;</a>');
+			textArr.push('<a style="cursor:default;" onselectstart="return false;" class="next">Next</a>');
+		}
+		textArr.push('<div class="clear"></div></div><div class="clear"></div>');
+		search_list_box.html(html_arr.join(''));
+		search_list_pagebox.html(textArr.join(''));
+		$('#search_list_box li').eq(0).trigger('click');
+	});
+}
+
+
+
+
+$(function(){
+	
+
+$('#navmain_2015box_5').addClass('cur');
+//	All_talk(pagesize,curpage);
+	
+	Right_Detail();
+//	search_fun_LL(1);
+	
+});
+function _facebook(){
+	var url = $("#facebook_val").val();
+	window.open (url,'','height=300,width=700,top=100,left=400,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+	var mid = $("#detail_infotab li.cur").attr("mid");
+	var dcid = $("#detail_infotab li.cur").attr("dcid");
+	$.getJSON('http://secure.cctvplus.com/interface/shareRecord.do?callback=?',{"MID":mid,"DCID":dcid,"shareType":"2","type":"News"},function(d_){
+	});
+}
+function _twitter(){
+	var url = $("#twitter_val").val();
+	window.open (url,'','height=430,width=700,top=100,left=400,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+	var mid = $("#detail_infotab li.cur").attr("mid");
+	var dcid = $("#detail_infotab li.cur").attr("dcid");
+	$.getJSON('http://secure.cctvplus.com/interface/shareRecord.do?callback=?',{"MID":mid,"DCID":dcid,"shareType":"1","type":"News"},function(d_){
+	});
+}
+function _linkedin(){
+	var url = $("#linkedin_val").val();
+	window.open (url,'','height=550,width=750,top=100,left=400,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+	var mid = $("#detail_infotab li.cur").attr("mid");
+	var dcid = $("#detail_infotab li.cur").attr("dcid");
+	$.getJSON('http://secure.cctvplus.com/interface/shareRecord.do?callback=?',{"MID":mid,"DCID":dcid,"shareType":"3","type":"News"},function(d_){
+	});
+}
+
+function downloadUrl(url,type,downloadId){
+	var dcid = $("#detail_infotab li.cur").attr("dcid");
+	$.ajax({
+		url:"http://secure.cctvplus.com/interface/downloadMedia.do",
+		dataType:'jsonp',
+		data:{ DCID:dcid,downloadID:downloadId,url:url, urltype :type},
+		success : function (data){
+		}
+	});
+}
+
+//关闭提示文字长度弹框
+$('.shure').click(function(){
+	if( $(this).attr('data-type')=='empty' ){
+		$('.comment').find('textarea').val('');
+		$('.comment').find('.nums').html(0);
+	}
+	$('.hide_pd').css({'display':'none'});
+	
+})
+
+
+//显示所有评论和回复
+function All_talk(dcid,pagesize,curpage){
+	dcid=getHref();
+//	console.log(dcid);
+	$.ajax({
+//		url:'http://192.168.2.8:8080/GDS/comment/getComment.do',
+		url:'https://secure.cctvplus.com/comment/getComment.do',
+		dataType:'json',
+		data:{
+			"DCID":dcid,
+			"pageSize":pagesize,
+			"pageNo":curpage
+		},
+		beforeSend:function(){
+//			console.log("load")
+			$("#message").html("Loading...")
+		},
+		success:function(e){
+//			console.log(e)
+			if(e.pd.length==0){
+				$("#message").html("Test");
+			}
+			var data = e.pd,
+				mess = '',
+				talk = '';
+			for(var i=0; i<data.length; i++){
+				mess += '<div class="message_Con">'+
+							'<span id="partter"><img src="../images/com.png" onclick="talk_box(this)" /></span>'+
+							'<p class="P_one" data-id="'+data[i].COMMENT_ID+'">'+
+								'<span class="name">'+data[i].CUSTNAME+'</span>'+
+								'<span class="Time">'+data[i].CREATETIME+'</span>'+
+							'</p>'+
+							'<p class="P_two">'+data[i].MESSAGE+'</p>'+
+						'</div>';
+				
+					mess += '<div class="BigAnswer">'+
+								'<div class="answer">';		
+					for(var j=0; j<data[i].REPLY.length; j++){
+						var data_ = data[i].REPLY[j];
+						mess += '<div class="message_Con xu">'+
+									'<p class="P_one">'+
+										'<span class="name" data-name="'+data_.RELANAME+'">'+data_.CUSTNAME+'</span>'+
+										'<span class="Time">'+data_.CREATETIME+'</span>'+
+									'</p>'+
+									'<p class="P_two">'+data_.MESSAGE+'</p>'+
+								'</div>';
+					}
+					mess += 	'</div>'+
+							'</div>';
+			}
+			$('#message').html(mess);
+			
+		},
+		error:function(){
+			console.log('error');
+		}
+})
+}
+
+
+//显示回复框
+function talk_box(self){
+	var str = '<div class="comment">'+
+    				'<textarea name="text" rows cols onkeyup="changeSize(this)"></textarea>'+
+					'<div class="commentBar">'+
+//						'<span class="AllCom">All comments   |   Pick up</span>'+
+						'<p class="counts"><span class="nums">0</span>/<span class="count">300</span></p>'+
+						'<p class="commentBtn" onclick="remove_talk(this)">Comment</p>'+
+					'</div>'+
+				'</div>';
+				
+	if(!$(self).hasClass('no')){
+		$(self).parents('.message_Con').append(str);
+		$(self).addClass('no');
+	}else{
+		$(self).parents('.message_Con').find('.comment').remove();
+		$(self).removeClass('no');
+	}
+	
+}
+
+//回复框实时改变字数
+function changeSize(self){
+//	var e = e || window.event; 
+//	var k = e.keyCode;
+
+	var self_ = $(self).val().length;
+	$(self).next().find('.nums').text(self_);
+}
+
+//添加回复
+function remove_talk(self){
+	
+	if($('#uscenter_sel_box .custom_sel_text').text()=='George'){
+		login_bar_fun();
+		$(".colorbox").css({display:"block"});
+	}else{
+		var text_ = $(self).parents('.comment').find('textarea').val(),
+		user = $('#uscenter_sel_box .custom_sel_text').text(),    //当前用户名
+		paname = $(self).parents('.message_Con').find('.name').text(),
+		comment_id = $(self).parents('.message_Con').find('.P_one').attr('data-id'),
+		Now_time = getDateStr(date),
+		talk = '',
+		dcid = getHref();
+		
+		if( text_.replace(/\s/g,"").length<=0 ){
+			$('.letter').html('Comment is empty');
+			$('.hide_pd').css({'display':'block'});
+			$('.shure').attr('data-type','empty');
+			return false;
+		}else if( text_.length >= 300 ){
+			$('.hide_pd').css({'display':'block'});
+			return false;
+		}else{
+//			return;
+		}
+		
+		talk += '<div class="message_Con xu">'+
+					'<p class="P_one">'+
+						'<span class="name" data-name="paname">'+user+'</span>'+
+						'<span class="Time">'+Now_time+'</span>'+
+					'</p>'+
+					'<p class="P_two">'+text_+'</p>'+
+				'</div>';
+		$(self).parents('.message_Con').next('.BigAnswer').find('.answer').append(talk);
+		$(self).parents('.comment').find('textarea').val('');
+		$(self).parents('.comment').hide();
+		$(self).parents('.message_Con').find('#partter img').removeClass('no');
+		//sentData(text_,user,cusname,dcid)
+		sentData(text_,paname,user,dcid,comment_id);
+		
+	}
+	
+}
+
+//获取当前时间
+var date = new Date();
+function getDateStr(date){
+	console.log(date)
+	var year = date.getFullYear();//年
+	var month = date.getMonth() + 1;//月
+	var day = date.getDate();//日
+	var hours = date.getHours();//时
+	var minutes = date.getMinutes();//分
+	var seconds = date.getSeconds();//秒
+	var str =  year + "-" +  month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+	return str;
+ }
+
+//添加评论
+function message_one(self){
+//	$("#message p").remove();
+	if($('#uscenter_sel_box .custom_sel_text').text()=='George'){
+		login_bar_fun();
+		$(".colorbox").css({display:"block"});
+	}else{
+		var text_ = $(self).parents('.comment').find('textarea').val(),
+		user = $('#uscenter_sel_box .custom_sel_text').text(),    //评论的人
+		mess = '',
+		new_arr = [],
+		new_json = {},
+		Now_time = getDateStr(date),
+		dcid = getHref(); 
+		
+		if( text_.replace(/\s/g,"").length<=0 ){
+			$('.letter').html('Comment is empty');
+			$('.hide_pd').css({'display':'block'});
+			$('.shure').attr('data-type','empty');
+			
+			return false;
+		}else if( text_.length >= 300 ){
+			$('.hide_pd').css({'display':'block'});
+			return false;
+		}else{
+			
+		}
+	
+		mess += '<div class="message_Con">'+
+					'<span id="partter"><img src="../images/com.png" onclick="talk_box(this)" /></span>'+
+					'<p class="P_one">'+
+						'<span class="name">'+user+'</span>'+
+						'<span class="Time">'+Now_time+'</span>'+
+					'</p>'+
+					'<p class="P_two">'+text_+'</p>'+
+				'</div>'+
+				'<div class="BigAnswer"><div class="answer"></div></div>';
+		$('#message').append(mess);
+		$(self).parents('.comment').find('textarea').val('');
+		$(self).prev().find('.nums').text(0);
+	
+	//	sentData(text_,user,dcid);
+		sentData(text_,'',user,dcid,'');
+//		search_fun_LL(1);
+	}
+	
+}
+
+//判断直播状态
+function getStatus(startD,startTime,endD,endTime){
+	var BeginYTxt = startD.split('-'),
+		BeginT = startTime.split(':'),
+		endYTxt = endD.split('-'),
+		endT = endTime.split(':'),
+		date = new Date,
+		y =date.getFullYear(),
+		mon = date.getMonth()+1,
+		d = date.getDate(),        
+		h = fill0(date.getHours()),
+		m = fill0(date.getMinutes());
+
+
+//		if(y<=BeginYTxt[0] && mon<=BeginYTxt[1]&& d<=BeginYTxt[2] &&  (h<BeginT[0] || (h==BeginT[0] && m<BeginT[1]) || d<BeginYTxt[2])){
+//						
+//			$('.live-status').text('(Scheduled)');
+//			
+//			return;
+//			
+//		}else if(y>=endYTxt[0] && mon>=endYTxt[1] && d>=endYTxt[2] && (h>endT[0] || ( h==endT[0] && m>endT[1]) || d>endYTxt[2])){
+//			
+//			$('.live-status').text('(Ended)');
+//			
+//		 	return;	
+//		 	
+//		}else{
+//			
+//			$('.live-status').text('(Live In)');			
+//			
+//			return;	
+//		}
+
+
+		if(y<=BeginYTxt[0] && mon<=BeginYTxt[1]&& d<=BeginYTxt[2] &&  (h<BeginT[0] || (h == BeginT[0] && m<BeginT[1]) || d<BeginYTxt[2])){
+						
+			$('.live-status').text('(Scheduled)');
+			
+			return;
+			
+		}else if(y>=endYTxt[0] && mon>=endYTxt[1] && d>=endYTxt[2] && (h>endT[0] || ( h==endT[0] && m>endT[1]) || d>endYTxt[2])){
+			
+			$('.live-status').text('(Ended)');
+			
+		 	return;	
+		 	
+		}else{
+			
+			$('.live-status').text('(Live In)');			
+			
+			return;	
+		}
+
+	
+}
+//时间补0
+function fill0(n){
+	return n = n>9 ? n : '0'+n;			
+}
+//加载右侧数据
+function Right_Detail(){
+	var dcid = getHref();
+	$.ajax({
+		url:'https://secure.cctvplus.com/livenotice/getLiveon.do',
+		data:{
+			CHANNEL:'01'
+		},
+		beforeSend:function(){
+			$(".Live_content").html("Loading...");
+		},
+		dataType:'json',
+		success:function(e){
+//			console.log(e)
+			if(e.PMGGUID == ''){
+				console.log("Dd")
+				$(".Live_content").html("Test");
+				$(".bigTitle").html("Test");
+			}else{
+				var data = e[0].pd,			
+				str_ = '';
+				
+//				getStatus(data.LIVETIME,data.STARTTIME,data.ENDDATE,data.ENDTIME);
+//				var data_time = parseInt(data.LIVELONG/60) +"'"+ data.LIVELONG%60;
+				//smalltitle 时间
+//				$('.SmallTitle>p:eq(0)').html('Begintime:'+data.LIVETIME+'&nbsp'+data.STARTTIME);
+//				$('.SmallTitle>p:eq(1)').html('Endtime:'+data.ENDDATE+'&nbsp'+data.ENDTIME);
+			str = "<div class='Live_content'>";
+			      if(data.TBC == 1){
+					 str = str + 
+					 "<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Start Time:</span>"+
+						"<span class='fileID_two'>TBC</span>"+
+					 "</p>"+
+					 "<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>End Time:</span>"+
+						"<span class='fileID_two'>TBC</span>"+
+					 "</p>";
+				  }else if(data.TBC == 2){
+					str = str + 
+					 "<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Start Time:</span>"+
+						"<span class='fileID_two'>"+data.LIVETIME.split('-').reverse().join('/')+'&nbsp'+'TBC'+"</span>"+
+					 "</p>"+
+					 "<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>End Time:</span>"+
+						"<span class='fileID_two'>"+data.ENDDATE.split('-').reverse().join('/')+'&nbsp'+'TBC'+"</span>"+
+					 "</p>";
+				  }else{
+					 str = str + 
+					 "<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Start Time:</span>"+
+						"<span class='fileID_two'>"+data.LIVETIME.split('-').reverse().join('/')+'&nbsp'+data.STARTTIME+"</span>"+
+					 "</p>"+
+					 "<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>End Time:</span>"+
+						"<span class='fileID_two'>"+data.ENDDATE.split('-').reverse().join('/')+'&nbsp'+data.ENDTIME+"</span>"+
+					 "</p>";
+				  }
+				    str = str +
+					"<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Slug:</span>"+
+						"<span class='fileID_two'>"+data.TITLE+"</span>"+
+					"</p>"+
+					"<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Event:</span>"+
+						"<span class='fileID_two'>"+data.REMARKS+"</span>"+
+					"</p>"+
+					"<p class='fileID' style='display:none;'>"+
+						"<span class='fileID_one'>ID:</span>"+
+						"<span class='fileID_two'>"+data.PMGGUID+"</span>"+
+					"</p>"+
+					"<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Location:</span>"+
+						"<span class='fileID_two'>"+data.LOCATION+"</span>"+
+					"</p>"+
+					"<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Audio/Translation:</span>"+
+						"<span class='fileID_two'>"+data.AUDIO.split('，').join(',&nbsp;').split('：').join(':&nbsp;')+"</span>"+
+					"</p>"+
+					"<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Source:</span>"+
+						"<span class='fileID_two'>"+data.SOURCE+"</span>"+
+					"</p>"+
+					"<p class='Location'>"+
+						"<span class='fileID_one' style='font-weight:bold;'>Restrictions:</span>"+
+						"<span class='fileID_two'>"+data.RESTRICTIONS+"</span>"+
+					"</p>"+
+//					///////////////////////add time
+//					////////////////time
+					//"<h4 class='Detail'>Detail:</h4>"+
+					//"<p class='Detail_con'>"+data.REMARKS+"</p>"+
+				"</div>";
+				$('#Live_NEW_R').html(str);
+				$(".bigTitle").html(data.TITLE);
+			}
+//			getHeight();			
+			
+			liveDCID=data.DCID;
+			search_fun_LL(1);
+			
+			
+			var w_wid = $(window).width(),
+				w_hei = $(window).height(),
+				Live_wid = $('#Live_NEW_R').width(),
+				Live_hei = $('#Live_NEW_R').height();
+			if(w_wid > 1440){
+				if( Live_hei<w_hei ){
+					$('#Live_NEW_R').css({'width':Live_wid+'px','height':(w_hei-160)+'px','overflow-y':'hidden'});
+				}else{
+//					console.log( 'else' )
+					$('#Live_NEW_R').css({'height':(w_hei-90)+'px','width':Live_wid+'px','overflow-y':'scroll','overflow-x':'hidden'});
+					$('#Live_NEW_L').css({'position':'relative','padding-bottom':850+'px'});
+				}
+			}else{
+				if( Live_hei+40<w_hei ){
+//					console.log( 'IF' )
+					$('#Live_NEW_R').css({'width':Live_wid+'px','height':(w_hei-120)+'px','overflow-y':'hidden'});
+				}else{
+//					console.log( 'ELSE' )
+					$('#Live_NEW_R').css({'height':(w_hei-120)+'px','width':Live_wid+'px','overflow-y':'scroll','overflow-x':'hidden'});
+					$('#Live_NEW_L').css({'position':'relative','padding-bottom':450+'px'});
+				}
+			}
+			
+			
+		},
+		error:function(e){
+			console.log('error')
+		}
+	})
+	
+	
+}
+
+//获取路径参数
+function getHref(){
+	//var href = window.location.href.split('?')[1].split('=')[1];
+	return liveDCID;
+}
+
+//后台发送数据
+function sentData(message,relname,cusname,dcid,comment_id){
+var dcid=getHref();
+//console.log(comment_id)
+	console.log(message+'/'+relname+'/'+cusname+'/'+dcid+'/'+comment_id)
+	$.ajax({
+		url:'https://secure.cctvplus.com/review/gdsComment.do',
+		data:{
+			'MESSAGE':message,
+			'RELANAME':relname,
+			'CUSTNAME':cusname,
+			'DCID':dcid,
+			'COMMENT_ID':comment_id
+		},
+		dataType:'json',
+		success:function(data){
+			search_fun_LL(1);
+//			console.log('success')
+		},
+		error:function(){
+//			console.log('error')
+		}
+		
+	})
+}
+
+
+</script>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+
+<script>
+	////////////////add xyt 详情信息高度
+//	function getHeight(){
+////			console.log($('#Live_NEW_R').height())
+//		var h = 9/16*$('.comment').width();
+//		
+//		if(!$('#rmpPlayer>div').length>0){
+//			$('#rmpPlayer').height(h);
+//		}
+//		
+//		if($('#Live_NEW_R').height()<$('.vedio-wp').height()){
+//			$('#Live_NEW_R').height($('.vedio-wp').height());			
+//		}
+//					
+//	}
+	
+	//判断播放器状态 控制生成栏目的显示和隐藏	
+	function makEenterfullscreen(){		
+		$('.page_topbar').hide();
+	}
+		
+	function makeExitfullscreen(){
+		$('.page_topbar').show();
+	}
+	
+	//直播结束显示ended
+	function makePlay() {
+	    $('.rmp-loading-spin').empty()
+	  	.append('<div class="warn">Ended</div>').
+	  	find('.warn').css({	  	
+	  		'line-height':''+($('.warn').height()+'px')+''
+	  	});
+	  
+	}
+//	// Listen to play event
+//	$('#rmpPlayer')[0].addEventListener('ready', makePlay);
+	
+	
+	//改变播放器提示内容
+	function logError() {
+		var val = $('.live-status').text().split('(')[1].split(')')[0];
+		$('.rmp-error>div').text(val);
+//	    $('.rmp-error>div').text('ended');
+	}
+// Listen to error event
+	var rmpPlayer = $('#rmpPlayer')[0];
+	rmpPlayer.addEventListener('enterfullscreen',makEenterfullscreen);
+	rmpPlayer.addEventListener('exitfullscreen',makeExitfullscreen);
+	rmpPlayer.addEventListener('error',logError);
+	
+	//主内容居中显示
+	
+	$(window).on('resize',function(){
+		getMainWidth();
+	});
+	
+	function getMainWidth(){
+		
+		if( $(window).width() > 1440 ){
+			var mainW = ($(window).width() - $('.lastest_page').width()) / 2 + 100;
+		}else{
+			var mainW = ($(window).width() - $('.lastest_page').width()) / 2;
+		}
+		$('.lastest_page').css({'left':mainW+'px'});
+	}
+	getMainWidth();
+	
+</script>
+
+
+</body>
+</html>

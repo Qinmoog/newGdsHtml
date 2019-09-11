@@ -1,0 +1,465 @@
+@charset "UTF-8";
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+
+@-webkit-keyframes myfadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes myfadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.myfadeIn {
+  -webkit-animation-name: myfadeIn;
+  animation-name: myfadeIn;
+}
+@-webkit-keyframes myfadeInUpBig {
+  0% {
+    opacity: 0;
+    /*-webkit-transform: translate3d(0, 500px, 0);
+    transform: translate3d(0, 500px, 0);*/
+   top:2.8rem;
+  }
+	50%{
+		opacity: 1;
+	}
+  100% {
+    opacity: 1;
+    top:2.5rem;
+  }
+}
+
+@keyframes myfadeInUpBig {
+  0% {
+    opacity: 0;
+   
+   top:1.3rem;
+  }
+	50%{
+		opacity: 1;
+	}
+  100% {
+    opacity: 1;
+    top:1.1rem;
+  }
+}
+
+.myfadeInUpBig {
+  -webkit-animation-name: myfadeInUpBig;
+  animation-name: myfadeInUpBig;
+}
+@-webkit-keyframes myfadeInUpOne {
+  0% {
+    opacity: 0;
+   
+   margin-top:.5rem;
+  }
+  100% {
+    opacity: 1;
+    margin-top:.1rem;
+  }
+}
+
+@keyframes myfadeInUpOne {
+  0% {
+    opacity: 0;
+   
+   margin-top:.5rem;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top:10px;
+  }
+}
+.myfadeInUpOne {
+  -webkit-animation-name: myfadeInUpOne;
+  animation-name: myfadeInUpOne;
+  animation-timing-function:linear;	
+}
+@-webkit-keyframes myfadeInDown {
+  0% {
+    opacity: 0;
+   margin-top:-50px;
+  }
+  100% {
+    opacity: 1;
+    margin-top:10px;
+  }
+}
+
+@keyframes myfadeInDown {
+  0% {
+    opacity: 0;
+   margin-top:-50px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top:10px;
+  }
+}
+.myfadeInDown {
+  -webkit-animation-name: myfadeInDown;
+  animation-name: myfadeInDown;
+   animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes mypulse {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  /*50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }*/
+
+  100% {
+     -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes mypulse {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+ 
+  100% {
+     -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.mypulse {
+  -webkit-animation-name: mypulse;
+  animation-name: mypulse;
+}
+@-webkit-keyframes myheight250{
+	0% {
+		height:0px;
+	}
+	100% {
+		height:3.52rem;
+	}
+} 
+@keyframes myheight250 {
+	0% {
+		height:0px;
+	}
+	100% {
+		height:3.52rem;
+	}
+}
+.myheight250 {
+	-webkit-animation-name: myheight250;
+  animation-name: myheight250;
+  animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes myheight3D{
+	0% {
+		height:0px;
+	}
+	100% {
+		height:302px;
+	}
+} 
+@keyframes myheight3D {
+	0% {
+		height:0px;
+	}
+	100% {
+		height:302px;
+	}
+}
+.myheight3D {
+	-webkit-animation-name: myheight3D;
+  animation-name: myheight3D;
+  animation-timing-function:ease-in-out;
+}
+@-webkit-keyframes myheigthshow{
+	0% {
+		height:0px;
+	}
+	100% {
+		height:100px;
+	}
+} 
+@keyframes myheigthshow {
+	0% {
+		height:0px;
+	}
+	100% {
+		height:100px;
+	}
+}
+.myheigthshow {
+	-webkit-animation-name: myheigthshow;
+  animation-name: myheigthshow;
+}
+@-webkit-keyframes myheighthide{
+	0% {
+		height:100px;
+	}
+	100% {
+		height:0px;
+	}
+} 
+@keyframes myheighthide {
+	0% {
+		height:100px;
+	}
+	100% {
+		height:0px;
+	}
+}
+.myheighthide {
+	-webkit-animation-name: myheighthide;
+  animation-name: myheighthide;
+}
+@-webkit-keyframes myWidthLong{
+	0% {
+		width:0px;
+	}
+	100% {
+		width:100%;
+	}
+} 
+@keyframes myWidthLong {
+	0% {
+		width:0px;
+	}
+	100% {
+		width:100%;
+	}
+}
+.myWidthLong {
+	-webkit-animation-name: myWidthLong;
+  animation-name: myWidthLong;
+}
+@-webkit-keyframes myWidth3D{
+	0% {
+		width:0px;
+	}
+	100% {
+		width:150px;
+	}
+} 
+@keyframes myWidth3D {
+	0% {
+		width:0px;
+	}
+	100% {
+		width:282px;
+	}
+}
+.myWidth3D {
+	-webkit-animation-name: myWidth3D;
+  animation-name: myWidth3D;
+}
+@-webkit-keyframes marginTopIn{
+	0% {
+		margin-top:250px;
+	}
+	100% {
+		margin-top:0px;
+	}
+} 
+@keyframes marginTopIn {
+	0% {
+		margin-top:352px;
+	}
+	100% {
+		margin-top:0px;
+	}
+}
+.marginTopIn {
+	-webkit-animation-name: marginTopIn;
+  animation-name: marginTopIn;
+}
+@-webkit-keyframes marginTop3D{
+	0% {
+		margin-top:403px;
+	}
+	100% {
+		margin-top:0px;
+	}
+} 
+@keyframes marginTop3D {
+	0% {
+		margin-top:403px;
+	}
+	100% {
+		margin-top:0px;
+	}
+}
+.marginTop3D {
+	-webkit-animation-name: marginTop3D;
+  animation-name: marginTop3D;
+}
+@-webkit-keyframes marginLeft3D{
+	0% {
+		margin-left:448px;
+	}
+	100% {
+		margin-left:0px;
+	}
+} 
+@keyframes marginLeft3D {
+	0% {
+		margin-left:448px;
+	}
+	100% {
+		margin-left:0px;
+	}
+}
+.marginLeft3D {
+	-webkit-animation-name: marginLeft3D;
+  animation-name: marginLeft3D;
+}
+
+
+
+
+@keyframes topbar{
+	from{
+		padding:0px 1rem;
+	}
+	to{
+		padding:0px 1.6rem;
+	}
+}
+
+@keyframes swiperimg{
+	from{
+		transform:scale(1.2);
+	}
+	to{
+		transform:scale(1);
+	}
+}
+@keyframes imgScale{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
+@keyframes imgmask1{
+	from{
+		background:rgba(255,255,255,.88);
+	}
+	to{
+		background:rgba(255,255,255,0);
+	}
+	
+}
+@keyframes imgmask2{
+	from{
+			opacity:0;
+	    transform: scale(1);
+	  }
+	to{
+			opacity:1;
+	    transform: scale(2.6);
+	  }
+}
+@keyframes imgmask3{
+	from{
+	    opacity:0;
+	  }
+	to{
+	    opacity:1;
+	  }
+}
+@keyframes showdetail{
+	from{
+		opacity:0;
+		top:6.45rem;
+	}
+	to{
+		opacity:1;
+		top:5.45rem;
+	}
+}
+
+@keyframes rotatetitle{
+	from{
+		opacity:0;
+		bottom:0rem;
+	}
+	to{
+		opacity:1;
+		bottom:2rem;
+	}
+}
+
+
+@keyframes hidetxt{
+	from{
+		top:4.45rem;
+	}
+	to{
+		top:5.45rem;
+	}
+}
+
+@keyframes fontcolor{
+	from{
+		color:#333333;
+	}
+	to{
+		color:#FFFFFF;
+	}
+}

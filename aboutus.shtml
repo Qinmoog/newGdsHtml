@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>ABOUTUS-CCTVPLUS</title>
+<link rel="stylesheet" type="text/css" href="video.js/video-js.min.css"/>
+<link href="/style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href="/style/style_news.css" type="text/css" rel="stylesheet" />
+<![if !IE]>
+	<link rel="stylesheet" type="text/css" href="video.js/video_style.css"/>
+<![endif]>
+<style>
+	.aboutus_page>h1{font-size:72px;font-weight:normal;margin:46px 0px;text-align: center;}
+	.video-js{width:100%;max-width:100%;height:0;padding-top:56.25%;}
+	.vjs-poster{background-color:transparent;}
+	.vjs-paused .vjs-big-play-button, .vjs-paused.vjs-has-started .vjs-big-play-button{position:absolute;left:50%;top:50%;margin-top:-.75em;margin-left:-1rem;border:none;background:transparent;}
+</style>
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+	<div class="aboutus_page">
+
+		<div class="about-videos">
+			<video id="myPc-video" class="video-js" controls preload="auto" width="750" height="400" poster="" data-setup="{}">
+				<source src="http://pv.news.cctvplus.com/about/about_us_video.mp4" type="video/mp4">
+				<!--<source src="/<?php echo($row_content["videoUrl"]);?>" type="video/webm">
+				<source src="/<?php echo($row_content["videoUrl"]);?>" type="video/ogg">-->
+				<p class="vjs-no-js"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a> </p>
+			</video>
+		</div>
+		<div class="about_content">
+			<h1>ABOUT US</h1> 
+			<div  class="about_line"><span></span><span></span><span></span></div>
+			<div  class="about_test">
+				<p>CCTV Video News Agency (CCTV+) is China’s leading video news agency and started operation in December 2010. </p>
+				<p>It offers news products and services in line with international standards to global media organizations via its own online Global Distribution System (<a href="www.cctvplus.com">www.cctvplus.com</a>) and cooperation with world-leading distributors of professional news content. </p>
+				<p>The clients of CCTV+ include more than <span>1,800 TV channels</span> and <span>1,000 digital media platforms</span> in more than 130 countries and regions. It is committed to telling China’s story to the rest of the world.</p>
+			</div>	
+			<h1>ENTERPRISE DYNAMICS</h1> 
+			<div  class="about_line"><span class="about_line_f"></span></div>
+			<div class="about_item">
+				<ul>
+					<li>
+						<img  src="style/img/ABOUTUS01_03.jpg"/>
+						<p>CCTV Video News Agency (CCTV+) is China’s leading video news agency and started operation in December 2010. </p>
+					</li>
+					<li>
+						<img  src="style/img/ABOUTUS01_05.jpg"/>
+						<p>It offers news products and services in line with international standards to global media organizations via its</p>
+					</li>
+					<li>
+						<img  src="style/img/ABOUTUS01_07.jpg"/>
+						<p>The clients of CCTV+ include more than 1,800 TV channels and 1,000 digital media platforms in more than 130 </p>
+					</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+<script src="/js/index.js?123" type="text/javascript"></script>
+<script src="/video.js/video.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/about.js?v=new Date()" type="text/javascript"></script>
+<script type="text/javascript">
+	var net_name = 'About Us';
+	var light_num = 0;
+	
+$(function(){
+
+	var myPlayer = videojs('myPc-video');
+	videojs("myPc-video").ready(function(){
+		var myPlayer = this;
+//		myPlayer.play();
+	});
+	
+	
+	var myPlayer_ = videojs('myPhone-video');
+	videojs("myPhone-video").ready(function(){
+		var myPlayer_ = this;
+//		myPlayer.play();
+	});
+
+
+})
+
+</script>
+</body>
+</html>

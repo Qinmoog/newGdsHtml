@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>COLLECTIONS1-CCTVPLUS</title>
+<link href="/style/style_news.css" type="text/css" rel="stylesheet" />
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+    	<ul class="sub_nav">
+        	<li class="cur"><a href="featuredCollections.shtml">Featured Collections</a></li>
+            <li><a href="allCollections.shtml">All Collections</a></li>
+            <li><a href="allArchive.shtml">All Archive</a></li>
+        </ul>
+        <div class="nav_search_box">
+        	<div class="custom_sel_box" id="subsearch_sel_box">
+                <div class="custom_sel_text">ARCHIVE</div>
+                <span class="custom_sel_icon"></span>
+                <ul class="custom_sel_list">
+                    <li class="option" ord_id="ord11111">NEWS</li>
+                    <li class="option" ord_id="ord22222">ARCHIVE</li>
+                    <li class="option" ord_id="ord33333">EXCHANGE</li>
+                </ul>
+                <input type="hidden" class="custom_sel_val" id="custom_sel_val" value="" />
+            </div>
+            <div class="subsearch_val_box">
+            	<input id="subsearch_val" type="text"  value="Search" onFocus="null_val();" onBlur="is_null();"/>
+            </div>
+        	<div class="subsearch_btn"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="collections_page">
+    	<h2 class="page_tit" id="page_tit">THE PRESIDENT GIVES AN UPDATE ON UKRAINE AND GAZA</h2>
+        <ul class="custom_list_box2" id="search_list_box">
+                        
+        </ul>
+        <div class="vspace"></div>
+        <div class="custom_page_box" id="search_list_pagebox">
+            	
+        </div>
+    </div>
+</div>
+
+<div style="display:none">
+    <div class="creat_order_win" id="creat_order_win">
+        <div class="order_win_box">
+            <div class="radio_b">
+                <input type="radio" name="ordertype_win" checked="checked" id="add_to_order_win"/>
+                <label style="padding-right:22px;" for="add_to_order_win">Add to exsiting order</label>
+                <input type="radio" name="ordertype_win" id="cre_new_order_win" />
+                <label for="cre_new_order_win">Create new order</label>
+                <div class="clear"></div>
+            </div>
+            <div class="clearfix">
+                <div class="custom_sel_box" id="order_sel_box">
+                    <div class="custom_sel_text"  id="order_sel_text">please check one order</div>
+                    <span class="custom_sel_icon"></span>
+                    <ul class="custom_sel_list"></ul>
+                    <input type="hidden" class="custom_sel_val" name="" id="orderID" value="" />
+                </div>
+                <div class="form_elemt_box" id="neworder_val_box" style="display:none;"><input class="textinp" type="text" id="neworder_val" name="neworder_val" value="" /></div>      
+                <div class="bug_btn_win" id="addArchive"></div>
+            </div>
+        </div>
+
+        <div class="order_win_info clearfix">data error</div>
+        <div id="order_win_msg" class="order_win_msg"></div>
+    </div>
+</div>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+
+<script type="text/javascript">
+var page_tid_ = Request_url_fun('tid');
+function search_fun_LL(curpage){
+	var search_list_box = $("#search_list_box"), page_tit_ = $('#page_tit');
+	var pagesize = 20;
+	search_list_box.html('<p style="text-align:center; padding:10px;">Loading...</p>');
+	page_tit_.text('');
+	$.getJSON('https://secure.cctvplus.com/searchInterface/archiveByCollection.do?callback=?',{'pageSize':pagesize,'pageNo':curpage,'tid':page_tid_},function(data){
+		if(data && data.title){page_tit_.text(data.title);}
+		if(!data || !data.categorys || !data.categorys.length){search_list_box.html('<p style="text-align:center; padding:10px;">No data</p>'); $('#download_box_').hide(); return;}
+		
+		var lis=data.categorys;	
+		var itemsum=data.numFound;			
+		if(itemsum<=0){search_list_box.html('<p style="text-align:center; padding:10px;">No data</p>'); return;}
+		var pagesum=Math.ceil(itemsum/pagesize);
+		var html_arr = [],len_ = lis.length;
+		for(var i = 0; i<len_; i++){
+			html_arr.push('<li><div class="brg_box">');
+			html_arr.push('<div class="img_box"><a onclick="alink_detail(this)" target="_blank" href="',lis[i].detailBuyPath,'"><img src="',lis[i].spic,'" height="164" width="292" /></a></div>');
+			html_arr.push('<div class="text_box">');
+			html_arr.push('<h3',(lis[i].language==3?' dir="rtl" style="text-align:right;"':''),'><a onclick="alink_detail(this)" target="_blank" href="',lis[i].detailBuyPath,'">',lis[i].pubtitle,'</a></h3>');
+			html_arr.push('<span class="file_id">ID:',lis[i].dcid,'</span>');
+			html_arr.push('<span class="buy_btn" dcid="',lis[i].dcid,'" mid="',lis[i].mid,'"></span>');
+			html_arr.push('</div>');
+			html_arr.push('</div></li>');
+		}
+		var textArr = new Array();	
+		textArr.push('<div class="cus_page_btns">');		
+		if(curpage>1){
+			textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',curpage-1,');" class="prev">Prev</a>');
+			textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',curpage-1,');" class="prev_btn">&nbsp;</a>');			
+		}else{
+			textArr.push('<a style="cursor:default;" onselectstart="return false;" class="prev">Prev</a>');
+			textArr.push('<a style="cursor:default;" onselectstart="return false;" class="prev_btn">&nbsp;</a>');
+		}
+		
+		var beginpage = beginpage = 1;
+		function set_page_fun(){
+			for(var i=beginpage;i<=endpage;i++){
+				if(i==curpage){
+						textArr.push('<a onselectstart="return false;" class="cur">',i,'</a>');
+				}else{
+						textArr.push('<a onselectstart="return false;" class="" onclick="search_fun_LL(',i,');">',i,'</a>');
+				}
+			}
+		}
+		if(pagesum<=5){
+			beginpage=1;
+			endpage=pagesum;
+			set_page_fun();
+		}else{//如果显示最前面的五页
+			if(curpage<5&&curpage>0){
+				beginpage=1;
+				endpage=5;
+				set_page_fun();
+				textArr.push('<a onselectstart="return false;" style="cursor:default;">...</a>');
+				textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',pagesum,');">',pagesum,'</a>');
+			}else if(curpage<=pagesum&&curpage>=(pagesum-4)){//如果显示最后面的五页
+				beginpage=pagesum-4;
+				endpage=pagesum;
+				textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',1,');">1</a>');
+				textArr.push('<a onselectstart="return false;">...</a>');
+				set_page_fun();
+			}else{
+				beginpage=curpage-2;
+				endpage=curpage+2;
+				textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',1,');">1</a>');
+				textArr.push('<a onselectstart="return false;" style="cursor:default;">...</a>');
+				set_page_fun();
+				textArr.push('<a onselectstart="return false;" style="cursor:default;">...</a>');
+				textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',pagesum,');">',pagesum,'</a>');				
+			}
+		}
+		
+		if(curpage<pagesum){
+			textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',1+curpage,')" class="next_btn">&nbsp;</a>');
+			textArr.push('<a onselectstart="return false;" onclick="search_fun_LL(',1+curpage,')" class="next">Next</a>');
+		}else{
+			textArr.push('<a style="cursor:default;" onselectstart="return false;" class="next_btn">&nbsp;</a>');
+			textArr.push('<a style="cursor:default;" onselectstart="return false;" class="next">Next</a>');
+		}
+		textArr.push('<div class="clear"></div></div><div class="clear"></div>');
+		search_list_box.html(html_arr.join(""));	 
+		$("#search_list_pagebox").html(textArr.join(""));
+		$('#download_box_').show();	
+		$('#download_box_ li').removeClass('opened');
+		$('#download_box_ .d_item_s').html('');
+	});
+}
+
+$(function(){
+
+	$('#navmain_2015box_3').addClass('cur');
+
+	cusmot_select_fun('order_sel_box');
+	search_fun_LL(1);
+	
+	$('input[name!="ordertype_win"]').iCheck({
+		radioClass: 'iradio_square',
+		checkboxClass: 'icheckbox_square',
+		increaseArea: '10%'
+	});
+	$('input[name="ordertype_win"]').iCheck({
+		radioClass: 'radio_input_win',
+		increaseArea: '10%' // optional
+	});
+	//$('input').iCheck({
+		//radioClass: 'iradio_square',
+		//checkboxClass: 'icheckbox_square',
+		//increaseArea: '10%'
+	//});
+	//$('input[name="ordertype_win"]').iCheck({
+		//radioClass: 'radio_input_win',
+		//increaseArea: '10%' // optional
+	//});
+	$('#search_list_box').on('click','.buy_btn',function(){
+		$('#order_win_msg').hide().html('');
+		var this_ = $(this).parent('.text_box').parent('.brg_box'),
+		this_h3_ = this_.find('.text_box h3');
+		var img_ = this_.find('.img_box img').prop('src'),
+		txt_ = this_h3_.text(),
+		fid_ = this_.find('.text_box .file_id').text();
+		curpage_dcid_ = $(this).attr('dcid');
+		curpage_mid_ = $(this).attr('mid');
+		var a_yu = '';
+		if(this_h3_.attr('style')){a_yu +=' style="'+this_h3_.attr('style')+'"';}
+		if(this_h3_.attr('dir')){a_yu +=' dir="'+this_h3_.attr('dir')+'"';}
+		$('#creat_order_win .order_win_info').html('<img class="l_timg" src="'+img_+'" height="83" width="150"/><div class="txtbox"><h4'+a_yu+'>'+txt_+'</h4><p>'+fid_+'</p></div>');
+		$('#add_to_order_win').iCheck('check');
+		$.getJSON('https://secure.cctvplus.com/interface/selOrder.do?callback=?',function(d){
+			if(d && d.result==1){
+				var ord_ = [], list = d.list;
+				for(var i = 0; i < list.length ; i++) {
+					ord_.push('<li class="option" ord_id="',list[i].orderID,'">',list[i].ordername,'</li>');  
+				}
+				$.colorbox({innerWidth:"580px", opacity:'0.6', overlayClose:false, inline:true, href:'#creat_order_win'});
+				$("#order_sel_box .custom_sel_list").html(ord_.join(''));
+			}else if(d && d.result==-1){
+				login_bar_fun();
+			}
+		});		
+	});
+	$('#add_to_order_win').on('ifChecked',function(e_){				
+		$('#neworder_val_box').hide();
+		$('#order_sel_box').show();
+	});
+	$('#cre_new_order_win').on('ifChecked',function(e_){				
+		$('#order_sel_box').hide();
+		$('#neworder_val_box').show();
+	});
+	$("#addArchive").click(function(){
+		var dcid = curpage_dcid_;
+		var mid = curpage_mid_;
+		var msg_ = $('#order_win_msg');	
+		if(!dcid || !mid){msg_.show().html('date error'); return;}
+		if($("#add_to_order_win").is(':checked')){
+			var order = $("#orderID").val();
+			if(!order){msg_.show().html('please check one'); return;}
+			$.ajax({
+				url:"https://secure.cctvplus.com/interface/addToOrder.do",
+				dataType:'jsonp',  
+				data:{orderID:order,DCID:dcid,MID:mid},
+				success : function (data){
+					if(data.result=='-1'){
+						msg_.show().html('not login');
+					}
+					else if(data.result=='0'){
+								msg_.show().html('Order Failed. (error code:'+data.errCode+')');//添加订单失败
+						}
+					else if(data.result=='1'){		
+						//$('#order_win_msg').show().html('Add order to success');//添加订单成功
+						$.colorbox.close();
+					}else if(data.result=='-2'){		
+							msg_.show().html('Video already exists. (error code:'+data.errCode+')');			//订单中已有此项
+					}else if(data.result=='-3'){	
+							msg_.show().html('No choice has been available. (error code:'+data.errCode+')');			//没有选择已有订单
+					}
+					else if(data.result=='-4'){		
+							msg_.show().html('You have just encountered a technical failure (#'+data.errCode+'). Please report it to our customer service representative if possible, thank you.');			//mid或者dcid为空
+					}
+					else if(data.result=='-5'){		
+							msg_.show().html('You have just encountered a technical failure (#'+data.errCode+'). Please report it to our customer service representative if possible, thank you.');			//没有这个视频
+					}
+				}
+			});
+		}
+		if($("#cre_new_order_win").is(':checked')){
+			var inp = $.trim($("#neworder_val").val());
+			if(!inp){msg_.show().html('name not null'); return;}
+			$.ajax({
+				url:"https://secure.cctvplus.com/interface/newOrder.do",
+				dataType:'jsonp',  
+				data:{ordername:inp,DCID:dcid,MID:mid},
+				success : function (data){
+					if(data.result=='-1'){
+						msg_.show().html('not login');//未登录
+					}
+					else if(data.result=='0'){
+							msg_.show().html('Order Failed. (error code:'+data.errCode+')');//添加订单失败
+					}
+					else if(data.result=='-2'){
+							msg_.show().html('Please specify an order name. (error code:'+errCode+')');
+					}
+					else if(data.result=='1'){
+						//$('#order_win_msg').show().html('Add order to success');//添加订单成功
+						$.colorbox.close();
+					}else if(data.result=='-3'){
+							msg_.show().html('You have just encountered a technical failure ('+data.errCode+'). Please report it to our customer service representative if possible, thank you.');			//mid或者dcid为空
+					}
+					else if(data.result=='-4'){
+							msg_.show().html('You have just encountered a technical failure ('+data.errCode+'). Please report it to our customer service representative if possible, thank you.');			//没有这个视频
+					}
+				}
+			});
+		}
+	});
+	
+	$(".subsearch_btn").click(function(){
+		var ss = $("#custom_sel_val").val();
+		if(ss=='ord11111'){
+			window.location.href="/news/latest.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}else if(ss=='ord33333'){
+			window.location.href="/exchange/allExchange.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}else{
+			window.location.href="/archive/allArchive.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}
+		//=========add wjj 搜索记录
+		var searchType = 'News';
+		if(ss=='ord22222'){
+			searchType = 'archive';
+		}else if(ss=='ord11111'){
+			searchType = 'News';
+		}else if(ss=='ord33333'){
+			searchType = 'exchange';
+		}
+		$.getJSON('https://secure.cctvplus.com/interface/searchRecord.do?callback=?',{"keyword":$.trim($('#subsearch_val').val()),"type":searchType},function(d_){
+		});
+		//=========
+	});
+	$('#subsearch_val').keypress(function(e){
+		if(e.keyCode==13){
+			if($('#subsearch_val').val()!=''){
+				$(".subsearch_btn").click();
+			}else{
+				$('#subsearch_val').val('Search');
+			}
+		}
+	});
+	
+})
+
+</script>
+</body>
+</html>

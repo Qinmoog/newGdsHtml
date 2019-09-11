@@ -1,0 +1,11 @@
+<div class="sharebtns" id="sharebtns_box">
+
+	<a href="javascript:;" onclick="_facebook();" class='btn01'></a>
+	<a href="javascript:;" onclick="_twitter();" rel='nofollow' class='btn02'></a>
+	<a href="javascript:;" onclick="_linkedin();" class='btn03'></a>
+	
+</div>
+
+<script type="text/javascript">
+
+</script>

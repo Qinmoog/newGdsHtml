@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>ALL-ARCHIVE-CCTVPLUS</title>
+<link href="../style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href="../style/style_news.css" type="text/css" rel="stylesheet" />
+<link class="changeLink" href="../style/archive.css" type="text/css" rel="stylesheet" />
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+<script type="text/javascript" src="/js/json2.js"></script>
+<script type="text/javascript" src="/js/jquery.ba-hashchange-min.js"></script>
+<script src="/js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+       <div class="sub_nav_con">
+	    	<ul class="sub_nav">
+	    		
+	        </ul>
+	        <div class="nav_search_box">
+	        	<input id="subsearch_val" type="text"  value="Search"/>
+	        	<div class="subsearch_btn" id="subsearch_btn"></div>
+	        </div>
+	        <div class="clear"></div>
+	    </div>
+	</div>   
+    <div class="lastest_page" style="margin:.3rem 1.6rem 0px 1.6rem;">
+    	<div class="f_l_fix">
+            <div class="search_item_left opened">
+            	<div class="ser_htit">
+                	Date<span class="icon_btn"></span>
+                </div>
+                <div class="ser_bd" id="Date_data_box">
+                	<ul>
+                		<li><input type="checkbox" class="data_all" name="Date_radio" value="Select_all" id="Date_all"/><label for="Date_all" class="lab">All</label></li>
+                    	<li><input type="checkbox" class="data_item" name="Date_radio" value="1" id="Date_1"/><label class="lab" for="Date_1">Last 1 months</label></li>
+                        <li><input type="checkbox" class="data_item" name="Date_radio" value="2" id="Date_2"/><label class="lab" for="Date_2">Last 1-12 months</label></li>
+                        <li><input type="checkbox" class="data_item" name="Date_radio" value="3" id="Date_3"/><label class="lab" for="Date_3">12 months ago</label></li>
+                        <li><input type="checkbox" class="data_select" name="Date_radio" value="Select_data" id="Date_4"/><label class="lab" for="Date_4">Select</label></li>
+                   </ul>
+                    <!--<div class="date_box">
+                        <div class="in_box clearfix">
+                            <span class="label">from</span><input type="text" class="time_input Wdate" onclick="WdatePicker({maxDate:(($('#endTime_val').val()==$('#endTime_val').attr('default'))?'%y-%M-%d':'#F{$dp.$D(\'endTime_val\')||\'%y-%M-%d\'}'),lang:'en',onpicked:function(dp){change_time_check();}});" id="startTime_val" />
+                        </div>
+                        <div class="in_box clearfix">
+                            <span class="label">to</span><input type="text" class="time_input Wdate" onclick="WdatePicker({minDate:($('#startTime_val').val()==$('#startTime_val').attr('default'))?'1970-01-01':'#F{$dp.$D(\'startTime_val\')}',maxDate:'%y-%M-%d',lang:'en',onpicked:function(dp){change_time_check()}});" id="endTime_val" />
+                        </div>
+                    </div>-->
+                </div>                
+            </div>
+        	<div class="search_item_left">
+            	<div class="ser_htit">
+                	Locations<span class="icon_btn"></span>
+                </div>
+                <div class="ser_bd" id="Locations_data_box">
+                	<ul>
+                    	<li><input type="checkbox" value="0" class="data_all" name="locations_radio" id="Locations_1"/><label for="Locations_1" class="lab">All</label></li>
+                    	<li><input type="checkbox" value="C01" class="data_item" name="locations_radio" id="Locations_2"/><label for="Locations_2" class="lab">China</label></li>
+                        <li><input type="checkbox" value="150" class="data_item" name="locations_radio" id="Locations_3"/><label for="Locations_3" class="lab">Europe</label></li>
+                        <li><input type="checkbox" value="002" class="data_item" name="locations_radio" id="Locations_4"/><label for="Locations_4" class="lab">Africa</label></li>
+                        <li><input type="checkbox" value="B01" class="data_item" name="locations_radio" id="Locations_5"/><label for="Locations_5" class="lab">Middle East</label></li>
+                        <li><input type="checkbox" value="142" class="data_item" name="locations_radio" id="Locations_6"/><label for="Locations_6" class="lab">Asia</label></li>
+                        <li><input type="checkbox" value="021" class="data_item" name="locations_radio" id="Locations_7"/><label for="Locations_7" class="lab">North America</label></li>
+                        <li><input type="checkbox" value="419" class="data_item" name="locations_radio" id="Locations_8"/><label for="Locations_8" class="lab">Latin America</label></li>
+                        <li><input type="checkbox" value="009" class="data_item" name="locations_radio" id="Locations_9"/><label for="Locations_9" class="lab">Oceania</label></li>
+                        <li><input type="checkbox" value="A01" class="data_item" name="locations_radio" id="Locations_10"/><label for="Locations_10" class="lab">Others</label></li> 
+                    </ul>
+                </div>
+            </div>
+        	<div class="search_item_left">
+            	<div class="ser_htit">
+                	Category<span class="icon_btn"></span>
+                </div>
+                <div class="ser_bd" id="Category_data_box">
+                	<ul>
+                    	<li><input type="checkbox" class="data_all" name="category_radio" value="Select_all" id="Category_0"/><label for="Category_0" class="lab">All </label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="1000000" id="Category_1"/><label class="lab" for=""Category_1>arts, culture and entertainment</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="2000000" id="Category_2"/><label class="lab" for=""Category_2>crime, law and justice</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="3000000" id="Category_3"/><label class="lab" for=""Category_3>disaster and accident</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="4000000" id="Category_4"/><label class="lab" for=""Category_4>economy, business and finance</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="5000000" id="Category_5"/><label class="lab" for=""Category_5>education</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="6000000" id="Category_6"/><label class="lab" for=""Category_6>environment</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="7000000" id="Category_7"/><label class="lab" for=""Category_7>health</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="8000000" id="Category_8"/><label class="lab" for=""Category_8>human interest</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="9000000" id="Category_9"/><label class="lab" for=""Category_9>labour</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="10000000" id="Category_10"/><label class="lab" for=""Category_10>lifestyle and leisure</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="11000000" id="Category_11"/><label class="lab" for=""Category_11>politics</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="12000000" id="Category_12"/><label class="lab" for=""Category_12>religion and belief</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="13000000" id="Category_13"/><label class="lab" for=""Category_13>science and technology</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="14000000" id="Category_14"/><label class="lab" for=""Category_14>society</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="15000000" id="Category_15"/><label class="lab" for=""Category_15>sport</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="16000000" id="Category_16"/><label class="lab" for=""Category_16>conflicts, war and peace</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="17000000" id="Category_17"/><label class="lab" for=""Category_17>weather</label></li>
+                   		<li><input type="checkbox" class="data_item" name="category_radio" value="90000000" id="Category_18"/><label class="lab" for=""Category_18>Others</label></li>
+				     </ul>
+                </div>
+            </div>
+            <div class="search_item_left">
+            	<div class="ser_htit">
+                	Resolution<span class="icon_btn"></span>
+                </div>
+                <div class="ser_bd" id="Resolution_data_box">
+                	<ul>
+                    	<li><input type="checkbox" class="data_item" value="1" name="Resolution_radio" /><span class="lab">HD</span></li>
+                        <li><input type="checkbox" class="data_item" value="2" name="Resolution_radio" /><span class="lab">SD</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!--<div class="search_item_left">
+            	<div class="ser_htit">
+                	Frame<span class="icon_btn"></span>
+                </div>
+                <div class="ser_bd" id="Fenbianlv_data_box">
+                	<ul>
+                    	<li><input type="checkbox" class="data_item" value="1"  name="Fenbianlv_radio" /><span class="lab">16:9</span></li>
+                        <li><input type="checkbox" class="data_item" value="2"  name="Fenbianlv_radio" /><span class="lab">4:3</span></li>
+                    </ul>
+                </div>
+            </div>-->
+            <div class="search_right_btn">Advanced Search</div>
+        </div>
+        <div class="content_fix">
+        	<!--<div class="more_ser_box">
+            	<div class="in_hd clearfix">
+                	<div class="tit"><i id="find_num_val"></i> Archives</div>
+                    <div class="btn02" id="more_sear_btn">Advanced Search</div>
+                </div>
+                <div class="more_aer form_elemt_box" id="more_sear_2015">
+                	<div class="input_item">
+                    	<span class="tab">All these words</span><input id="AllTheseWords_val" value="" class="textinp" type="text"/>
+                    </div>
+                    <div class="input_item">
+                    	<span class="tab">Exact words</span><input id="ExactWords_val" value=""  class="textinp" type="text"/>
+                    </div>
+                    <div class="input_item">
+                    	<span class="tab">Any of these words</span><input id="AnyTheseWords_val" value=""  class="textinp" type="text"/>
+                    </div>
+                    <div class="input_item">
+                    	<span class="tab">None of these words</span><input id="NoneTheseWords_val" value=""  class="textinp" type="text"/>
+                    </div>
+                    <div class="input_item" id="SOURCE_data_box">
+                    	<span class="tab">Source</span><input type="checkbox" value="1" /><span class="tab1">Story</span>
+                        <input type="checkbox" value="2" /><span class="tab1">Summary</span>
+                        <input type="checkbox" value="3" /><span class="tab1">Full text</span>
+                        <input type="checkbox" value="4" /><span class="tab1">Location</span>
+                        <input type="checkbox" value="5" /><span class="tab1">File ID</span>
+                    </div>
+                    <div class="btns_box clearfix">
+                    	<div class="col_btn" id="keyword_submit_morebtn">Search</div>
+                        <div class="col_btn1" onclick="reset_fun_sear();">Reset</div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="ser_list_box" id="search_list_box">
+            </div>
+            <div class="custom_page_box" id="search_list_pagebox">
+            </div>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div style="display:none">
+    <div class="creat_order_win" id="creat_order_win">
+        <div class="order_win_box">
+            <div class="radio_b">
+                <input type="radio" name="ordertype_win"  id="add_to_order_win"/>
+                <label style="padding-right:22px;" for="add_to_order_win">Add to exsiting order</label>
+                <input type="radio" name="ordertype_win" id="cre_new_order_win"  />
+                <label for="cre_new_order_win">Create new order</label>
+                <div class="clear"></div>
+            </div>
+            <div class="clearfix">
+                <div class="custom_sel_box" id="order_sel_box">
+                    <div class="custom_sel_text" id="order_sel_text">please check one order</div>
+                    <span class="custom_sel_icon"></span>
+		    <ul class="custom_sel_list"></ul>                    
+                    <input type="hidden" class="custom_sel_val" name="" id="orderID" value="" />
+                </div>
+                <div class="form_elemt_box" id="neworder_val_box" style="display:none;"><input class="textinp" type="text" id="neworder_val" name="neworder_val" value="" /></div>      
+                <div class="bug_btn_win" id="addArchive"></div>
+            </div>
+        </div>
+<div class="order_win_info clearfix">data error</div>
+        <div id="order_win_msg" class="order_win_msg"></div>
+
+    </div>
+</div>
+
+
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->    
+<!--<script src="../js/common.js?v=new Date()" type="text/javascript"></script>
+<script src="../js/FontSize.js?v=new Date()" type="text/javascript"></script>-->
+<script src="../js/archive_allarchive.js?v=new Date()" type="text/javascript"></script>
+<script type="text/javascript">
+	var net_name = 'All Archive';
+	var light_num = 3;
+	var light_num_li = 1;
+
+</script>
+</body>
+</html>

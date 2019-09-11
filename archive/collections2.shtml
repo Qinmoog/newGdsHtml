@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>COLLECTIONS2-CCTVPLUS</title>
+<link href="/style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href="/style/style_news.css" type="text/css" rel="stylesheet" />
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+    	<ul class="sub_nav">
+            <li  class="cur"><a href="allCollections.shtml">All Collections</a></li>
+            <li><a href="allArchive.shtml">All Archive</a></li>
+        </ul>
+        <div class="nav_search_box">
+        	<div class="custom_sel_box" id="subsearch_sel_box">
+                <div class="custom_sel_text">ARCHIVE</div>
+                <span class="custom_sel_icon"></span>
+                <ul class="custom_sel_list">
+                    <li class="option" ord_id="ord11111">NEWS</li>
+                    <li class="option" ord_id="ord22222">ARCHIVE</li>
+                    <li class="option" ord_id="ord33333">EXCHANGE</li>
+                    <li class="option" ord_id="ord44444">COLLECTION</li>
+                </ul>
+                <input type="hidden" class="custom_sel_val" id="custom_sel_val" value="ord22222" />
+            </div>
+            <div class="subsearch_val_box">
+            	<input id="subsearch_val" type="text"  value="" placeholder="Search" onfocus="this.placeholder=''" onBlur="this.placeholder='Search'"/>
+            	<span class="clear_btn" onclick="$('#subsearch_val').val('');"></span>
+            </div>
+        	<div class="subsearch_btn"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="collections_page">
+    	<h2 class="page_tit" id="page_tit">THE PRESIDENT GIVES AN UPDATE ON UKRAINE AND GAZA</h2>
+        <ul class="custom_list_box2" id="search_list_box">
+                        
+        </ul>
+        <div class="vspace"></div>
+        <div class="custom_page_box" id="search_list_pagebox">
+            	
+        </div>
+    </div>
+</div>
+
+
+<div class="page_body_s">
+	<p class="md_01_title">Xi's Visit to Zimbabwe</p>
+	<div class="md_01_s" style="padding:0 15px 15px 15px;">
+		<div class="video_list_box_s">
+			<ul id="video_list_main">
+				<!--<li><a href="">
+					<dl>
+						<dt><img src="http://cd-img.news.cctvplus.com/2018/0716/8085550_1531708980131_s.jpg" /></dt>
+						<dd>
+							<p>Chinese shares close mixed Thursday</p>
+							<span>15/03/2018 15:31</span>
+						</dd>
+					</dl>
+				</a></li>
+				<li><a href="">
+					<dl>
+						<dt><img src="http://cd-img.news.cctvplus.com/2018/0716/8085550_1531708980131_s.jpg" /></dt>
+						<dd>
+							<p>Chinese shares close mixed Thursday</p>
+							<span>15/03/2018 15:31</span>
+						</dd>
+					</dl>
+				</a></li>
+				<li><a href="">
+					<dl>
+						<dt><img src="http://cd-img.news.cctvplus.com/2018/0716/8085550_1531708980131_s.jpg" /></dt>
+						<dd>
+							<p>Chinese shares close mixed Thursday</p>
+							<span>15/03/2018 15:31</span>
+						</dd>
+					</dl>
+				</a></li>
+				<li><a href="">
+					<dl>
+						<dt><img src="http://cd-img.news.cctvplus.com/2018/0716/8085550_1531708980131_s.jpg" /></dt>
+						<dd>
+							<p>Chinese shares close mixed Thursday</p>
+							<span>15/03/2018 15:31</span>
+						</dd>
+					</dl>
+				</a></li>
+				<li><a href="">
+					<dl>
+						<dt><img src="http://cd-img.news.cctvplus.com/2018/0716/8085550_1531708980131_s.jpg" /></dt>
+						<dd>
+							<p>Chinese shares close mixed Thursday</p>
+							<span>15/03/2018 15:31</span>
+						</dd>
+					</dl>
+				</a></li>-->
+			</ul>
+		</div>
+		<div class="fresh_box" style="margin-top:20px;">
+			<span class="loadMore_btn">More</span>
+		</div>
+	</div>
+</div>
+
+
+
+<div style="display:none">
+    <div class="creat_order_win" id="creat_order_win">
+        <div class="order_win_box">
+            <div class="radio_b">
+                <input type="radio" name="ordertype_win" checked="checked" id="add_to_order_win"/>
+                <label style="padding-right:22px;" for="add_to_order_win">Add to exsiting order</label>
+                <input type="radio" name="ordertype_win" id="cre_new_order_win" />
+                <label for="cre_new_order_win">Create new order</label>
+                <div class="clear"></div>
+            </div>
+            <div class="clearfix">
+                <div class="custom_sel_box" id="order_sel_box">
+                    <div class="custom_sel_text"  id="order_sel_text">please check one order</div>
+                    <span class="custom_sel_icon"></span>
+                    <ul class="custom_sel_list"></ul>
+                    <input type="hidden" class="custom_sel_val" name="" id="orderID" value="" />
+                </div>
+                <div class="form_elemt_box" id="neworder_val_box" style="display:none;"><input class="textinp" type="text" id="neworder_val" name="neworder_val" value="" /></div>      
+                <div class="bug_btn_win" id="addArchive"></div>
+            </div>
+        </div>
+
+        <div class="order_win_info clearfix">data error</div>
+        <div id="order_win_msg" class="order_win_msg"></div>
+    </div>
+</div>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+<script src="/js/common.js?v=new Date()" type="text/javascript"></script>
+<script src="/js/FontSize.js?v=new Date()" type="text/javascript"></script>
+<script src="/js/archive_collectionDetails.js?v=new Date()" type="text/javascript"></script>
+<script type="text/javascript">
+	var net_name = 'All Collections';
+	var light_num = 3;
+	var light_num_li = 0;	
+
+</script>
+</body>
+</html>

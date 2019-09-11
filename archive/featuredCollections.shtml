@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FEATUREDCOLLECTIONS-CCTVPLUS</title>
+<link href="/style/style_news.css" type="text/css" rel="stylesheet" />
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+    	<ul class="sub_nav">
+            <li><a href="allCollections.shtml">All Collections</a></li>
+            <li><a href="allArchive.shtml">All Archive</a></li>
+        </ul>
+        <div class="nav_search_box">
+        	<div class="custom_sel_box" id="subsearch_sel_box">
+                <div class="custom_sel_text">ARCHIVE</div>
+                <span class="custom_sel_icon"></span>
+                <ul class="custom_sel_list">
+                    <li class="option" ord_id="ord11111">NEWS</li>
+                    <li class="option" ord_id="ord22222">ARCHIVE</li>
+                    <li class="option" ord_id="ord33333">EXCHANGE</li>
+                </ul>
+                <input type="hidden" class="custom_sel_val" id="custom_sel_val" value="ord22222" />
+            </div>
+            <div class="subsearch_val_box">
+            	<input id="subsearch_val" type="text" value="Search" onFocus="null_val();" onBlur="is_null();"/>
+            </div>
+        	<div class="subsearch_btn"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+   <!--   提示信息:如果有新的提示信息可复用此代码 -->
+   <!--  <div class="index_meg_box" style="display:block;">
+		<div id="index_meg_box_over" class="overflow_box">
+		    <div class="cont_box clearfix">
+			    <ul class="clearfix">
+			    	<li>We are still working on moving all our data to the "Archive" section, please visit <a href="http://www.cctvplus.tv" target="_blank">www.cctvplus.tv</a>  to access all the archive footage. </li>
+			    </ul>
+		    </div>
+	    </div>
+	</div> -->
+
+    <div class="archive_page">
+    	<div class="big_img_bg">
+            	        	<div class="big_img">
+	            	<a href="/archive/collections1.shtml#!tId=461"><img src="http://img.news.cctvplus.com/2019/0728/d90e192ba21f4ae8a5c2848335eba937.png" height="691" width="1228" /></a>
+	                <h3><a href="/archive/collections1.shtml#!tId=461">Update on Syria</a></h3>
+	                <p><a href="/archive/collections1.shtml#!tId=461">Agricultural production getting back on track in Syria's Eastern Ghouta</a></p>
+	            </div>
+        </div>
+        <div class="vspace" style="height:41px;"></div>
+        <div class="cont_p">
+            <div class="img_list01">
+                <div class="f_l">
+                	<a href="/archive/collections1.shtml#!tId=469"><img src="http://img.news.cctvplus.com/2019/0727/2de485eb43b849b2a958cbe06f5ab325.png" height="349" width="604" /></a>
+                    <h3><a href="/archive/collections1.shtml#!tId=469">Yemen Situation</a></h3>
+                    <p class="desc"><a href="/archive/collections1.shtml#!tId=469">UN Special Envoy optimistic about peace prospect in Yemen</a></p>
+                </div>
+                <div class="f_r">
+                	<ul class="list_box02">
+                        <li>
+                            <a href="/archive/collections1.shtml#!tId=473"><img src="http://img.news.cctvplus.com/2019/0727/437296a8e27d4628a487c20a53f948db.png" height="164" width="292" /></a>
+                            <h3><a href="/archive/collections1.shtml#!tId=473">Stories on Pandas</a></h3>
+                            <p class="desc"><a href="/archive/collections1.shtml#!tId=473">18 panda cubs have birthday party in Sichuan</a></p>
+                        </li>
+                        <li>
+                            <a href="/archive/collections1.shtml#!tId=501"><img src="http://img.news.cctvplus.com/2019/0728/6abfc84644c64d3ab2e9675a9d0a2f0f.png" height="164" width="292" /></a>
+                            <h3><a href="/archive/collections1.shtml#!tId=501">Iraq Situation</a></h3>
+                            <p class="desc"><a href="/archive/collections1.shtml#!tId=501">Returnee in war-torn Mosul beset with difficulties, loneliness, risks</a></p>
+                        </li>
+                    </ul>
+                	<ul class="list_box02">
+                        <li>
+                            <a href="/archive/collections1.shtml#!tId=517"><img src="http://img.news.cctvplus.com/2017/0513/b60070db9fad40f9abe374f7ea2d587b.jpg" height="164" width="292" /></a>
+                            <h3><a href="/archive/collections1.shtml#!tId=517">Update on Ukraine</a></h3>
+                            <p class="desc"><a href="/archive/collections1.shtml#!tId=517">Eurovision Song Contest 2017 kicks off in Kiev</a></p>
+                        </li>
+                        <li>
+                            <a href="/archive/collections1.shtml#!tId=545"><img src="http://img.news.cctvplus.com/2015/1110/78965bea1b994af7b688c61e2751ecb6.jpg" height="164" width="292" /></a>
+                            <h3><a href="/archive/collections1.shtml#!tId=545">Grassroots Stories</a></h3>
+                            <p class="desc"><a href="/archive/collections1.shtml#!tId=545">CCTV is covering grassroots stories in Chinese society.</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="vspace" style="height:18px;"></div>
+            </div>
+            
+            <ul class="list_box02">
+                <li>
+                    <a href="/archive/collections1.shtml#!tId=549"><img src="http://img.news.cctvplus.com/2018/1013/fa1206b31b3d491b8b3993791b663f58.png" height="164" width="292" /></a>
+                    <h3><a href="/archive/collections1.shtml#!tId=549">Global Extreme Weather</a></h3>
+                    <p class="desc"><a href="/archive/collections1.shtml#!tId=549">At least 6 killed as Hurricane Michael lashes southeastern U.S.</a></p>
+                </li>
+                <li>
+                    <a href="/archive/collections1.shtml#!tId=651"><img src="http://img.news.cctvplus.com/2017/1010/0cc4476c5f03465da67bd6531cb3b28b.jpg" height="164" width="292" /></a>
+                    <h3><a href="/archive/collections1.shtml#!tId=651">Fight Against Terrorism</a></h3>
+                    <p class="desc"><a href="/archive/collections1.shtml#!tId=651">First China-U.S. law enforcement, cybersecurity dialogue of great significance to global security</a></p>
+                </li>
+                <li>
+                    <a href="/archive/collections1.shtml#!tId=643"><img src="http://img.news.cctvplus.com/2018/0907/4400112efc9245e28548c08ba0fbe7a4.png" height="164" width="292" /></a>
+                    <h3><a href="/archive/collections1.shtml#!tId=643">Forum on China-Africa Cooperation</a></h3>
+                    <p class="desc"><a href="/archive/collections1.shtml#!tId=643">1st China-Africa Private Sector Cooperation Summit held in east China</a></p>
+                </li>
+                <li>
+                    <a href="/archive/collections1.shtml#!tId=663"><img src="http://img.news.cctvplus.com/2019/0728/8c7abb7e13124032bcaf2a3037b1f7e3.png" height="164" width="292" /></a>
+                    <h3><a href="/archive/collections1.shtml#!tId=663">Chinese Economy</a></h3>
+                    <p class="desc"><a href="/archive/collections1.shtml#!tId=663">Beijing stepping up efforts to boost evening economy</a></p>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</div>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+
+<script type="text/javascript">
+
+$(function(){
+	$('#navmain_2015box_3').addClass('cur');
+		$('input').iCheck({
+			radioClass: 'iradio_square',
+			checkboxClass: 'icheckbox_square',
+			increaseArea: '10%'
+		});
+		
+	$(".subsearch_btn").click(function(){
+		var ss = $("#custom_sel_val").val();
+		if(ss=='ord11111'){
+			window.location.href="/news/latest.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}else if(ss=='ord33333'){
+			window.location.href="/exchange/allExchange.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}else{
+			window.location.href="/archive/allArchive.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}
+		//=========add wjj æç´¢è®°å½
+		var searchType = 'News';
+		if(ss=='ord22222'){
+			searchType = 'archive';
+		}else if(ss=='ord11111'){
+			searchType = 'News';
+		}else if(ss=='ord33333'){
+			searchType = 'exchange';
+		}
+		//=========add wjj æç´¢è®°å½
+		var searchType;
+		if(ss=='ord22222'){
+			searchType = 'archive';
+		}else{
+			searchType = 'News';
+		}
+		$.getJSON('https://secure.cctvplus.com/interface/searchRecord.do?callback=?',{"keyword":$.trim($('#subsearch_val').val()),"type":searchType},function(d_){
+		});
+		//=========
+	});
+	$('#subsearch_val').keypress(function(e){
+		if(e.keyCode==13){
+			if($('#subsearch_val').val()!=''){
+				$(".subsearch_btn").click();
+			}else{
+				$('#subsearch_val').val('Search');
+			}
+		}
+	});
+})
+</script>
+</body>
+</html>

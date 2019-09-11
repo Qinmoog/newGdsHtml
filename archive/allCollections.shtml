@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>ALLCOLLECTION-CCTVPLUS</title>
+<link href="/style/style_common.css?123" type="text/css" rel="stylesheet" />
+<link class="lnkLarge" href="/style/style_news.css" type="text/css" rel="stylesheet" />
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+    	<ul class="sub_nav">
+            <li class="cur"><a href="allCollections.shtml">All Collections</a></li>
+            <li><a href="allArchive.shtml">All Archive</a></li>
+        </ul>
+        <div class="nav_search_box">
+        	<div class="custom_sel_box" id="subsearch_sel_box">
+                <div class="custom_sel_text">COLLECTION</div>
+                <span class="custom_sel_icon"></span>
+                <ul class="custom_sel_list">
+                    <li class="option" ord_id="ord11111">NEWS</li>
+                    <li class="option" ord_id="ord22222">ARCHIVE</li>
+                    <li class="option" ord_id="ord33333">EXCHANGE</li>
+                    <li class="option" ord_id="ord44444">COLLECTION</li>
+                </ul>
+                <input type="hidden" class="custom_sel_val" id="custom_sel_val" value="ord44444" />
+            </div>
+            <div class="subsearch_val_box">
+            	<input id="subsearch_val" type="text"  value="" placeholder="Search" onfocus="this.placeholder=''" onBlur="this.placeholder='Search'"/>
+            	<span class="clear_btn" onclick="$('#subsearch_val').val('');"></span>
+            </div>
+        	<div class="subsearch_btn" id="subsearch_btn"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+   <!--   提示信息:如果有新的提示信息可复用此代码 -->
+   <!--  <div class="index_meg_box" style="display:block;">
+		<div id="index_meg_box_over" class="overflow_box">
+		    <div class="cont_box clearfix">
+			    <ul class="clearfix">
+			    	<li>We are still working on moving all our data to the "Archive" section, please visit <a href="http://www.cctvplus.tv" target="_blank">www.cctvplus.tv</a>  to access all the archive footage. </li>
+			    </ul>
+		    </div>
+	    </div>
+	</div> -->
+    
+    <div class="allcollections_page" id="search_list_box"><p style="text-align:center; padding:10px;">Loading...</p></div>
+</div>
+
+<div class="page_topbar_nav_s">
+	<div class="custom_sel_box_s">
+		<div class="custom_sel_text_s" ord_id="ord44444">COLLECTION</div>
+		<span class="custom_sel_icon_s"></span>
+		<ul class="custom_sel_list_s">
+			<li ord_id="ord11111">NEWS</li>
+			<li ord_id="ord22222">ARCHIVE</li>
+			<li ord_id="ord33333">EXCHANGE</li>
+			<li ord_id="ord44444">COLLECTION</li>
+		</ul>
+	</div>
+	<div class="subsearch_val_box_s">
+		<input type="text" value="" placeholder="Search" id="subsearch_val_s"/>
+	</div>
+	<div class="subsearch_val_box_btn" id="subsearch_val_box_btn"></div>
+	<div class="clear"></div>
+</div>
+<div class="page_body_s pd">
+	<p class="md_01_title pad">Collections</p>
+	<!--<p class="md_01_title pad">COLLECTIONS</p>-->
+	<div class="archive_sch_page_s">
+		<div class="video_big_list" id="search_list_big">
+		
+		</div>
+		<ul class="video_small_list" id="search_list_small">
+			
+		</ul>
+		<div class="fresh_box">
+			<span class="loadMore_btn">More</span>
+		</div>
+	</div>
+</div>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+<script src="/js/common.js?v=new Date()" type="text/javascript"></script>
+<script src="/js/FontSize.js?v=new Date()" type="text/javascript"></script>
+<script src="/js/archive_allcollection.js" type="text/javascript"></script>
+<script type="text/javascript">
+<script type="text/javascript">
+	var net_name = 'All Collections';
+	var light_num = 3;
+	var light_num_li = 0;	
+
+</script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NEWS-TOPICS-CCTVPLUS</title>
+<link href="/style/style_news.css" type="text/css" rel="stylesheet" />
+<script src="/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="/js/index.js?123" type="text/javascript"></script>
+</head>
+<body>
+<!--#include virtual="/publicTopAndBottom/staticHead.shtml"-->
+<div class="page_body">
+    <div class="sub_nav_box">
+    	<ul class="sub_nav">
+        	<li><a href="topstorise.shtml">Top Stories</a></li>
+            <li><a href="lastest.shtml">Latest</a></li>
+             <li><a href="economicWatch.shtml">Economic Watch</a></li>
+            <li class="cur"><a href="topices.shtml">Topics</a></li>
+           <li><a href="advisoriesAll.shtml">Advisories</a></li>
+        </ul>
+        <div class="nav_search_box">
+        	<div class="custom_sel_box" id="subsearch_sel_box">
+                <div class="custom_sel_text">NEWS</div>
+                <span class="custom_sel_icon"></span>
+                <ul class="custom_sel_list">
+                    <li class="option" ord_id="ord11111">NEWS</li>
+                    <li class="option" ord_id="ord22222">ARCHIVE</li>
+                </ul>
+                <input type="hidden" class="custom_sel_val" id="custom_sel_val" value="" />
+            </div>
+            <div class="subsearch_val_box">
+            	<input id="subsearch_val" type="text"  value="Search" onFocus="null_val();" onBlur="is_null();"/>
+            </div>
+        	<div class="subsearch_btn"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="column_wrapper">
+        <div class="news_topic_page">
+        	<ul class="list_box01">
+        	            	<li>
+                	<a href="/news/topicDetails.shtml#!tid=615"><img src="http://img.news.cctvplus.com/2015/1121/3dbe70079068419485497a7da5f98b6e.jpg" height="340" width="604" /></a>
+                    <h3><a href="/news/topicDetails.shtml#!tid=615">27th ASEAN Summit and Related Summits</a>
+                    </h3>
+                    <p><a href="/news/topicDetails.shtml#!tid=615">Malaysian PM condemns terrorist attacks at opening ceremony of ASEAN Summit</a></p>
+                </li>
+            	<li>
+                	<a href="/news/topicDetails.shtml#!tid=619"><img src="http://img.news.cctvplus.com/2015/1121/48d9a09ba64f47248bad7b94194fcf1d.jpg" height="340" width="604" /></a>
+                    <h3><a href="/news/topicDetails.shtml#!tid=619">10th G20 Summit</a>
+                    </h3>
+                    <p><a href="/news/topicDetails.shtml#!tid=619">Xi offers solutions to global growth, Asia-Pacific development at G20, APEC summits: Chinese FM</a></p>
+                </li>
+            </ul>
+            <div class="vspace" style="height:20px;"></div>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=623"><img src="http://img.news.cctvplus.com/2015/1121/89e214ff65fa4572b476d2457be33a91.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=623">France Attacks</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=623">China calls for international cooperation to counter terrorism</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=627"><img src="http://img.news.cctvplus.com/2015/1121/dc81ce6545944d3ba8da4cd801c6ab80.png" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=627">23rd APEC Economic Leaders' Meeting</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=627">Russian scholars praise Chinese President Xi's APEC speech</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=607"><img src="http://img.news.cctvplus.com/2015/1110/82b96158e1724594b548ea8094771da1.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=607">Xi-Ma Meeting</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=607">Singapore-Xi-Ma Meeting/Speech</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=535"><img src="http://img.news.cctvplus.com/2015/1112/c8af968c81d9494fa0d290c493e3df20.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=535">Update on Libya</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=535">Turkey to receive more Syrian refugees despite EU's pressure</a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=499"><img src="http://img.news.cctvplus.com/2015/1112/d8cc3fd031d447118343235864bbd4b0.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=499">Iraq Situation</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=499">Hundreds of thousands of families leaving Iraq to escape war</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=471"><img src="http://img.news.cctvplus.com/2015/1108/acccbcbfc8e642dca6047dc5046eb0fa.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=471">Stories on Pandas</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=471">Giant pandas, their cubs become attracting super stars in China's National Day holidays
+</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=475"><img src="http://img.news.cctvplus.com/2015/1108/8efcfe1c2fac468ca14d8c1545a6340b.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=475">Xi's Visit to the United States</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=475">International community speaks highly of Chinese president's visit to U.S., UN
+</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=503"><img src="http://img.news.cctvplus.com/2015/1108/6ca4fd5c40f64496aefd9560360f5b14.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=503">Malaysia Airlines Flight 370</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=503">France confirms MH370 wing part found on Reunion Island</a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=463"><img src="http://img.news.cctvplus.com/2015/1108/88aca5d46c05451eb68e95d9921d8f40.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=463">Gaza’s Situation </a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=463">Gaza tension escalates after Israeli troops shoot dead Palestinians near border fence
+</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=467"><img src="http://img.news.cctvplus.com/2015/1110/d433bcbd0c554c1caf9c75f6f87873af.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=467">Yemen Situation</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=467">Yemen's capital hit by airstrikes
+</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=563"><img src="http://img.news.cctvplus.com/2015/1108/eb47336c3f3e47d3b2f8f9f35985b4a2.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=563">50th Anniversary of Tibet Autonomous Region</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=563">China’s Tibet holds function to mark 50th anniversary of airway operation</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=603"><img src="http://img.news.cctvplus.com/2015/1110/341cfc7244de43c6bf25839820eb2b80.JPG" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=603">Myanmar Elections</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=603">NLD estimates to win sweeping victory in Myanmar's historic election</a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=495"><img src="http://img.news.cctvplus.com/2015/1108/3de64c91ebe443b1b480a8cb90ce49cd.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=495">60th Anniversary of Xinjiang Uygur Autonomous</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=495">Xinjiang students in Shanghai boosting development back home</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=459"><img src="http://img.news.cctvplus.com/2015/1108/4ec14dc9f00c4287bfc9bca129ca133f.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=459">Update on Syria</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=459">Syrian refugee in Scotland offers help to asylum seekers
+</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=507"><img src="http://img.news.cctvplus.com/2015/1108/41e7b057636b40c3ad2511a6f03d4da2.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=507">Tianjin Blasts</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=507">China takes compulsory measures against 11 officials, detains 12 suspects over Tianjin warehouse blasts</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=511"><img src="http://img.news.cctvplus.com/2015/1108/5c53a160d59a459ca2690d94bfc41adc.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=511">Ebola Virus</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=511">Hotel owner struggles to keep business alive throughout Ebola crisis</a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=515"><img src="http://img.news.cctvplus.com/2015/1108/303e42811a514a9a822a8b682d9e5ddb.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=515">Update on Ukraine</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=515">Minsk Protocol not completely observed in Ukraine: OSCE monitor</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=519"><img src="http://img.news.cctvplus.com/2015/1108/addb85aac71343578f0d4fe0fdcd6024.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=519">Egypt's Situation</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=519">Safety always threatened in Libya, says returned Egyptian worker</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=523"><img src="http://img.news.cctvplus.com/2015/1108/9a59a4c3368f41b8b56389c2f89a56e7.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=523">MERS </a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=523">China's first-found MERS infected person leaves hospital</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=527"><img src="http://img.news.cctvplus.com/2015/1108/d7d42a1989584afdb74281c724edee24.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=527">High-level Talks</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=527">Ambassador recalls Switzerland as protecting power between US, Cuba</a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=531"><img src="http://img.news.cctvplus.com/2015/1108/7efdc4f7585c4992bacf9dfbc264049e.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=531">Nepal Earthquake</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=531">Life for Nepalese merchant in Tibet going well thank to local government's assistance after quake</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=539"><img src="http://img.news.cctvplus.com/2015/1108/d71fc211c1c74ab78d1343f86c334614.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=539">Chinese Dreams</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=539">Chinese dream, a phrase that went viral in cyberspace overnight after Xi Jinping used it to describe the "great renewal" of the Chinese nation. </a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=543"><img src="http://img.news.cctvplus.com/2015/1110/78965bea1b994af7b688c61e2751ecb6.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=543">Grassroots Stories</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=543">CCTV is covering grassroots stories in Chinese society.</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=547"><img src="http://img.news.cctvplus.com/2015/1108/1dce315cff184a55b42b9f017371e678.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=547">Global Extreme Weather</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=547">Keeping a close watch on extreme weather events worldwide.</a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=551"><img src="http://img.news.cctvplus.com/2015/1108/7a0deee2f2c5413f99fa675da53a01d7.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=551">Culture and Nature</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=551">"A commercial feature contains natural spectacles & cultural heritages. For more information, contact nclivenews@sina.com or marketing@newscontent
+.cctv.com."</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=555"><img src="http://img.news.cctvplus.com/2015/1108/0eea8ade0bd5454ab4b35d03236c2851.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=555">Other</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=555">China's inflation up 2 pct in August </a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=559"><img src="http://img.news.cctvplus.com/2015/1108/7c9e0ff0da864c188ad8fceee264404d.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=559">2015 Summer Davos Forum</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=559">Chinese premier meets political representatives at Summer Davos</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=567"><img src="http://img.news.cctvplus.com/2015/1108/0c2186fa9f814294903144d06c522114.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=567">Capsized Ship in Yangtze River</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=567">Small river county does utmost to assist capsized ship rescue work </a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=571"><img src="http://img.news.cctvplus.com/2015/1108/c983b68d9da24f9b8baba3257833d172.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=571">2022 Winter Games Bids</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=571">Beijing's Yanqing County creates warm atmosphere to welcome 2022 Winter Olympics</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=575"><img src="http://img.news.cctvplus.com/2015/1108/b2b71ee566764bc38389769a6ff811c5.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=575">Xi's Russia Tour</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=575">Just-concluded BRICS, SCO summits in Ufa highlight China's constructive role, says FM</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=579"><img src="http://img.news.cctvplus.com/2015/1108/29d247e35c50423cb7f546d2e41776f3.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=579">Shanghai Pilot Free Trade Zone</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=579">Shanghai FTZ’s RMB cross-border services benefit business from home, overseas</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=583"><img src="http://img.news.cctvplus.com/2015/1108/fafb0bdfb57b4594bdabee49a758f7dc.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=583">China's Moon Probe Project</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=583">Service module of China's lunar orbiter succeeds in entering moon's orbit</a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=587"><img src="http://img.news.cctvplus.com/2015/1108/18244f07d94a4990b3bcd11b88a526c7.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=587">World Economic Forum </a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=587">Falling oil prices at center of discussions at World Economic Forum</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=591"><img src="http://img.news.cctvplus.com/2015/1108/6347b37968144940865d327534cc1b67.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=591">The National Memorial Day of Nanjing Massacre</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=591">Peace bell rings on Nanjing Massacre memorial day</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=595"><img src="http://img.news.cctvplus.com/2015/1108/6d75b87da9a348f684393fdcd8631b13.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=595">Japanese Criminal's Confession</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=595">China publishes archives of Chinese soldiers counterattacking Japanese aggressors in north China</a></p>
+				</li>
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=451"><img src="http://img.news.cctvplus.com/2015/1108/f7b950d426274c788147361b1803298a.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=451">China's National Day</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=451">Travel rush across China as holiday ends
+</a></p>
+				</li>
+			</ul>
+				<ul class="list_box02">
+				<li>
+					<a href="/news/topicDetails.shtml#!tid=447"><img src="http://img.news.cctvplus.com/2015/1108/684e4c395513437fa8e9f0f96d04cd2f.jpg" height="164" width="292" /></a>
+					<h3><a href="/news/topicDetails.shtml#!tid=447">Qiantang Tidal Bores</a></h3>
+					<p class="desc"><a href="/news/topicDetails.shtml#!tid=447">Tens of thousands watch Qiantang river tidal bores </a></p>
+				</li>
+			</ul>
+        </div>
+    </div>
+</div>
+<!--#include virtual="/publicTopAndBottom/staticBotton.shtml"-->
+
+<script type="text/javascript">
+
+$(function(){
+	$('input').iCheck({
+		radioClass: 'iradio_square',
+		checkboxClass: 'icheckbox_square',
+		increaseArea: '10%'
+	});
+	
+	$('#navmain_2015box_2').addClass('cur');
+	
+	$(".subsearch_btn").click(function(){
+		var ss = $("#custom_sel_val").val();
+		if(ss=='ord11111'){
+			window.location.href="/news/lastest.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}
+		if(ss=='ord22222'){
+			window.location.href="/archive/allArchive.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}
+		if(ss==''){
+			window.location.href="/news/lastest.shtml#!keyword="+encodeURIComponent($.trim((($('#subsearch_val').val()==$('#subsearch_val').prop('defaultValue'))?'':$('#subsearch_val').val())));
+		}
+	});
+	$('#subsearch_val').keypress(function(e){
+		if(e.keyCode==13){
+			if($('#subsearch_val').val()!=''){
+				$(".subsearch_btn").click();
+			}else{
+				$('#subsearch_val').val('Search');
+			}
+		}
+	});
+})
+
+</script>
+</body>
+</html>
